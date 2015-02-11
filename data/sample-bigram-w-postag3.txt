@@ -1,0 +1,6417 @@
+$ "$"	90
+$ "NZ$"	1
+$ "US$"	1
+$-R CD	3
+$-R CD CD-R	89
+-LRB- "-LCB-"	5
+-LRB- "-LRB-"	43
+-LRB--R $ $-R	9
+-LRB--R CC CC-R	1
+-LRB--R DT DT-R	6
+-LRB--R IN IN-R	3
+-LRB--R NN NN-R	4
+-LRB--R NNP NNP-R	17
+-LRB--R NNS NNS-R	1
+-LRB--R PRP PRP-R	1
+-LRB--R RB RB-R	2
+-LRB--R VB VB-R	2
+-LRB--R VBN VBN-R	2
+-RRB- "-RCB-"	5
+-RRB- "-RRB-"	43
+-RRB--R CC CC-R	5
+-RRB--R CD CD-R	2
+-RRB--R DT	1
+-RRB--R DT DT-R	4
+-RRB--R IN IN-R	3
+-RRB--R MD MD-R	1
+-RRB--R NN NN-R	5
+-RRB--R NNP	1
+-RRB--R PRP PRP-R	2
+-RRB--R PRP$ PRP$-R	1
+-RRB--R TO TO-R	2
+-RRB--R VBD VBD-R	3
+-RRB--R VBG VBG-R	1
+-RRB--R VBN VBN-R	2
+-RRB--R VBP VBP-R	1
+-RRB--R VBZ VBZ-R	2
+-RRB--R WP WP-R	1
+CC "&"	20
+CC "And"	13
+CC "But"	30
+CC "Or"	1
+CC "and"	396
+CC "but"	32
+CC "either"	2
+CC "neither"	1
+CC "nor"	3
+CC "or"	58
+CC-R CD CD-R	14
+CC-R DT DT-R	63
+CC-R EX EX-R	4
+CC-R IN IN-R	29
+CC-R JJ	2
+CC-R JJ JJ-R	70
+CC-R JJR	2
+CC-R JJR JJR-R	9
+CC-R JJS JJS-R	2
+CC-R MD MD-R	5
+CC-R NN	10
+CC-R NN NN-R	58
+CC-R NNP	9
+CC-R NNP NNP-R	66
+CC-R NNPS NNPS-R	2
+CC-R NNS	2
+CC-R NNS NNS-R	32
+CC-R PDT PDT-R	1
+CC-R PRP	1
+CC-R PRP PRP-R	23
+CC-R PRP$ PRP$-R	9
+CC-R RB RB-R	41
+CC-R RBR	1
+CC-R RBR RBR-R	1
+CC-R TO TO-R	2
+CC-R VB VB-R	28
+CC-R VBD VBD-R	27
+CC-R VBG	1
+CC-R VBG VBG-R	8
+CC-R VBN VBN-R	4
+CC-R VBP VBP-R	7
+CC-R VBZ VBZ-R	17
+CC-R WP$ WP$-R	2
+CC-R WRB WRB-R	4
+CD "0.02"	1
+CD "0.05"	1
+CD "0.1"	1
+CD "0.19"	1
+CD "0.2"	5
+CD "0.3"	1
+CD "0.4"	1
+CD "0.5"	2
+CD "0.6"	2
+CD "1"	9
+CD "1,000"	1
+CD "1,001"	1
+CD "1,200"	1
+CD "1,214"	1
+CD "1,250"	1
+CD "1,800"	1
+CD "1.1"	1
+CD "1.11"	1
+CD "1.18"	1
+CD "1.2"	1
+CD "1.3"	1
+CD "1.34"	1
+CD "1.5"	1
+CD "1.6"	1
+CD "1.75"	1
+CD "1.76"	1
+CD "1.9"	1
+CD "1.93"	1
+CD "1/2"	3
+CD "10"	13
+CD "10,000"	3
+CD "10.2"	1
+CD "100"	5
+CD "100,000"	2
+CD "101"	1
+CD "109.85"	1
+CD "11"	3
+CD "11.8"	1
+CD "11/16"	2
+CD "119"	1
+CD "12"	2
+CD "12.5"	1
+CD "120"	2
+CD "122"	2
+CD "13"	3
+CD "13.1"	1
+CD "13.2"	1
+CD "13.3"	1
+CD "13.5"	2
+CD "13.625"	1
+CD "13/16"	1
+CD "132.0"	1
+CD "136,800"	1
+CD "14"	3
+CD "14.25"	1
+CD "143,800"	1
+CD "1466.29"	1
+CD "1472.76"	1
+CD "149"	1
+CD "15"	10
+CD "15,000"	2
+CD "15/16"	1
+CD "150"	4
+CD "150,000"	1
+CD "156"	1
+CD "159.7"	1
+CD "16"	1
+CD "16.05"	1
+CD "16.3"	1
+CD "17"	2
+CD "172.5"	1
+CD "1721.4"	1
+CD "173.1"	1
+CD "178.5"	1
+CD "178.9"	1
+CD "179"	1
+CD "18"	3
+CD "180"	2
+CD "189.8"	1
+CD "19"	6
+CD "19.7"	1
+CD "19.95"	1
+CD "1955"	1
+CD "1967"	1
+CD "1969"	1
+CD "1971"	1
+CD "1975"	3
+CD "1976"	1
+CD "1978"	1
+CD "1980"	1
+CD "1982"	1
+CD "1984"	1
+CD "1986"	1
+CD "1987"	2
+CD "1988"	3
+CD "1989"	4
+CD "1990"	4
+CD "1991"	7
+CD "1992"	1
+CD "2"	3
+CD "2,000"	1
+CD "2,750"	1
+CD "2.25"	1
+CD "2.4"	3
+CD "2.53"	1
+CD "2.6"	2
+CD "2.68"	1
+CD "2.7"	1
+CD "20"	4
+CD "204.3"	1
+CD "208"	1
+CD "21"	2
+CD "21.44"	1
+CD "2120.5"	1
+CD "2142.6"	1
+CD "2170"	1
+CD "2210"	1
+CD "225"	1
+CD "23"	3
+CD "23.4"	1
+CD "230"	1
+CD "232.4"	1
+CD "24"	2
+CD "25"	5
+CD "250"	2
+CD "257.8"	1
+CD "26"	3
+CD "26.125"	1
+CD "267"	1
+CD "2680"	1
+CD "2692.65"	1
+CD "27,500"	1
+CD "27.4"	1
+CD "270"	1
+CD "273"	1
+CD "288"	1
+CD "29"	2
+CD "3"	6
+CD "3.2"	1
+CD "3.35"	1
+CD "3.4"	1
+CD "3.6"	1
+CD "3.9"	1
+CD "3/4"	4
+CD "3/8"	1
+CD "30"	17
+CD "30.4"	1
+CD "300"	2
+CD "31"	1
+CD "31.25"	1
+CD "32"	2
+CD "32.5"	1
+CD "326"	1
+CD "333"	1
+CD "334.5"	1
+CD "34"	1
+CD "35"	1
+CD "352"	1
+CD "35549.44"	1
+CD "36.6"	1
+CD "362"	1
+CD "3642.9"	1
+CD "368.3"	1
+CD "37"	3
+CD "38.2"	1
+CD "39"	1
+CD "39.125"	1
+CD "4"	1
+CD "4,000"	1
+CD "4,300"	1
+CD "4.2"	3
+CD "4.25"	4
+CD "4.5"	1
+CD "4.55"	1
+CD "4.67"	1
+CD "4.875"	1
+CD "40"	4
+CD "40,800"	1
+CD "400"	1
+CD "400,000"	1
+CD "410,000"	1
+CD "42"	1
+CD "42.9"	1
+CD "425,000"	1
+CD "44"	3
+CD "45"	4
+CD "46"	1
+CD "47"	1
+CD "475"	1
+CD "49.4"	1
+CD "5"	6
+CD "5,600"	1
+CD "5.16"	1
+CD "5.4"	1
+CD "5.9"	1
+CD "5/16"	1
+CD "5/8"	2
+CD "50"	10
+CD "50,000"	1
+CD "50.1"	1
+CD "50.46"	1
+CD "500"	4
+CD "500,000"	1
+CD "51"	2
+CD "515"	1
+CD "52.4"	1
+CD "53"	3
+CD "534,000"	1
+CD "54"	2
+CD "542"	1
+CD "55"	3
+CD "550"	1
+CD "550,000"	1
+CD "582"	1
+CD "59"	2
+CD "6"	1
+CD "6,000"	1
+CD "6.25"	1
+CD "6.5"	2
+CD "6.84"	1
+CD "6/2"	1
+CD "60"	7
+CD "61"	3
+CD "618,000"	1
+CD "63.6"	1
+CD "65,200"	1
+CD "66"	1
+CD "68"	2
+CD "7"	1
+CD "7,400"	1
+CD "7.14"	1
+CD "7.16"	1
+CD "7.45"	1
+CD "7.55"	1
+CD "7.62"	1
+CD "7.77"	1
+CD "7.78"	1
+CD "7.8"	1
+CD "7.875"	1
+CD "7.9"	4
+CD "7.91"	1
+CD "7.92"	1
+CD "7.93"	1
+CD "7.94"	1
+CD "7.96"	2
+CD "7.962"	1
+CD "7.98"	1
+CD "7.99"	1
+CD "7/16"	4
+CD "7/8"	1
+CD "70"	1
+CD "700"	1
+CD "719,000"	1
+CD "72"	2
+CD "730"	1
+CD "746"	1
+CD "75"	2
+CD "779.8"	1
+CD "78,600"	1
+CD "78.64"	1
+CD "79.18"	1
+CD "8"	21
+CD "8.0087"	1
+CD "8.01"	1
+CD "8.019"	1
+CD "8.03"	1
+CD "8.04"	2
+CD "8.05"	2
+CD "8.09"	1
+CD "8.12"	1
+CD "8.25"	1
+CD "8.27"	1
+CD "8.3"	1
+CD "8.32"	1
+CD "8.33"	1
+CD "8.337"	1
+CD "8.35"	1
+CD "8.38"	1
+CD "8.3875"	1
+CD "8.395"	1
+CD "8.4"	1
+CD "8.44"	1
+CD "8.45"	1
+CD "8.49"	1
+CD "8.5"	2
+CD "8.53"	1
+CD "8.55"	2
+CD "8.61"	1
+CD "8.62"	1
+CD "8.63"	1
+CD "8.75"	1
+CD "80"	1
+CD "800,000"	1
+CD "85"	1
+CD "869"	2
+CD "889,000"	1
+CD "89"	1
+CD "9"	5
+CD "9.7"	2
+CD "9.75"	1
+CD "9.78"	1
+CD "9.85"	1
+CD "9/16"	2
+CD "90"	7
+CD "90,000"	1
+CD "900"	3
+CD "911,606"	1
+CD "92"	2
+CD "93"	1
+CD "94"	1
+CD "95.2"	1
+CD "Five"	2
+CD "Four"	1
+CD "One"	7
+CD "Sixty"	1
+CD "Two"	2
+CD "billion"	23
+CD "five"	9
+CD "four"	7
+CD "fourteen"	1
+CD "hundred"	2
+CD "million"	60
+CD "nine"	5
+CD "ninety"	1
+CD "one"	38
+CD "seven"	2
+CD "six"	11
+CD "thousand"	1
+CD "three"	14
+CD "trillion"	1
+CD "two"	28
+CD-R -LRB- -LRB--R	1
+CD-R -RRB-	2
+CD-R -RRB- -RRB--R	8
+CD-R CC CC-R	21
+CD-R CD	13
+CD-R CD CD-R	99
+CD-R DT DT-R	20
+CD-R EX EX-R	1
+CD-R IN IN-R	60
+CD-R JJ JJ-R	27
+CD-R JJR	1
+CD-R JJR JJR-R	8
+CD-R NN	21
+CD-R NN NN-R	193
+CD-R NNP	1
+CD-R NNP NNP-R	13
+CD-R NNPS NNPS-R	1
+CD-R NNS	27
+CD-R NNS NNS-R	129
+CD-R PRP PRP-R	4
+CD-R RB	1
+CD-R RB RB-R	13
+CD-R RBS RBS-R	1
+CD-R TO TO-R	22
+CD-R VBD	1
+CD-R VBD VBD-R	5
+CD-R VBG VBG-R	3
+CD-R VBN	1
+CD-R VBN VBN-R	3
+CD-R VBP VBP-R	1
+CD-R VBZ VBZ-R	6
+CD-R WP WP-R	2
+CD-R WRB WRB-R	2
+DT "A"	16
+DT "An"	5
+DT "Another"	2
+DT "Both"	4
+DT "Either"	1
+DT "No"	4
+DT "Some"	8
+DT "That"	4
+DT "The"	186
+DT "These"	3
+DT "This"	10
+DT "Those"	1
+DT "a"	473
+DT "all"	15
+DT "an"	74
+DT "another"	15
+DT "any"	12
+DT "both"	6
+DT "each"	13
+DT "every"	3
+DT "no"	13
+DT "some"	38
+DT "that"	21
+DT "the"	1030
+DT "these"	13
+DT "this"	54
+DT "those"	11
+DT-R $ $-R	6
+DT-R -LRB- -LRB--R	3
+DT-R CD CD-R	35
+DT-R DT DT-R	3
+DT-R FW	1
+DT-R FW FW-R	1
+DT-R IN IN-R	22
+DT-R JJ	4
+DT-R JJ JJ-R	517
+DT-R JJR JJR-R	5
+DT-R JJS	1
+DT-R JJS JJS-R	16
+DT-R MD MD-R	3
+DT-R NN	69
+DT-R NN NN-R	858
+DT-R NNP	8
+DT-R NNP NNP-R	212
+DT-R NNPS	1
+DT-R NNPS NNPS-R	19
+DT-R NNS	21
+DT-R NNS NNS-R	136
+DT-R PRP PRP-R	1
+DT-R PRP$ PRP$-R	4
+DT-R RB RB-R	26
+DT-R RBR RBR-R	5
+DT-R RBS RBS-R	5
+DT-R TO TO-R	1
+DT-R VBD	1
+DT-R VBD VBD-R	2
+DT-R VBG VBG-R	15
+DT-R VBN VBN-R	12
+DT-R VBP VBP-R	6
+DT-R VBZ VBZ-R	11
+DT-R WP WP-R	2
+DT-R WRB WRB-R	1
+EX "There"	4
+EX "there"	8
+EX-R MD MD-R	1
+EX-R RB RB-R	1
+EX-R VBD VBD-R	2
+EX-R VBP VBP-R	2
+EX-R VBZ VBZ-R	6
+FW "Glasnost"	1
+FW "a"	1
+FW "avec"	1
+FW "belle"	1
+FW "de"	3
+FW "etc"	1
+FW "la"	1
+FW "les"	1
+FW "montgolfiere"	1
+FW "neige"	1
+FW "oeufs"	1
+FW "pilote"	1
+FW "rapidement"	1
+FW "rigueur"	1
+FW "sportif"	1
+FW "trop"	1
+FW-R FW	1
+FW-R FW FW-R	5
+FW-R IN IN-R	2
+FW-R MD MD-R	1
+FW-R NN NN-R	2
+FW-R NNP NNP-R	2
+FW-R PRP PRP-R	1
+FW-R VBZ VBZ-R	1
+IN "After"	6
+IN "Although"	3
+IN "Among"	1
+IN "As"	11
+IN "At"	8
+IN "Because"	3
+IN "By"	1
+IN "Despite"	1
+IN "During"	1
+IN "For"	15
+IN "If"	2
+IN "In"	35
+IN "OF"	1
+IN "Of"	2
+IN "On"	5
+IN "That"	2
+IN "Under"	6
+IN "Until"	1
+IN "While"	2
+IN "With"	4
+IN "about"	41
+IN "above"	6
+IN "across"	3
+IN "after"	16
+IN "against"	18
+IN "along"	1
+IN "although"	3
+IN "amid"	1
+IN "among"	8
+IN "around"	3
+IN "as"	85
+IN "at"	101
+IN "atop"	1
+IN "because"	21
+IN "before"	10
+IN "behind"	1
+IN "below"	1
+IN "between"	14
+IN "beyond"	2
+IN "but"	1
+IN "by"	121
+IN "despite"	3
+IN "down"	1
+IN "during"	7
+IN "except"	1
+IN "for"	186
+IN "from"	123
+IN "if"	18
+IN "in"	361
+IN "into"	29
+IN "like"	8
+IN "near"	3
+IN "next"	3
+IN "of"	547
+IN "off"	2
+IN "on"	116
+IN "once"	1
+IN "out"	9
+IN "outside"	1
+IN "over"	16
+IN "per"	1
+IN "since"	11
+IN "so"	5
+IN "than"	46
+IN "that"	104
+IN "though"	3
+IN "through"	10
+IN "throughout"	1
+IN "toward"	2
+IN "under"	14
+IN "unless"	3
+IN "unlike"	2
+IN "until"	5
+IN "up"	3
+IN "whether"	5
+IN "while"	15
+IN "with"	95
+IN "within"	5
+IN "without"	7
+IN-R $ $-R	34
+IN-R -LRB- -LRB--R	1
+IN-R CC CC-R	2
+IN-R CD	8
+IN-R CD CD-R	138
+IN-R DT	1
+IN-R DT DT-R	835
+IN-R FW FW-R	1
+IN-R IN IN-R	43
+IN-R JJ	3
+IN-R JJ JJ-R	235
+IN-R JJR JJR-R	16
+IN-R JJS JJS-R	4
+IN-R NN	23
+IN-R NN NN-R	195
+IN-R NNP	40
+IN-R NNP NNP-R	317
+IN-R NNPS NNPS-R	4
+IN-R NNS	11
+IN-R NNS NNS-R	113
+IN-R PDT PDT-R	3
+IN-R PRP	4
+IN-R PRP PRP-R	60
+IN-R PRP$ PRP$-R	94
+IN-R RB	2
+IN-R RB RB-R	27
+IN-R RBR RBR-R	2
+IN-R RBS RBS-R	1
+IN-R TO TO-R	9
+IN-R VB VB-R	1
+IN-R VBD VBD-R	3
+IN-R VBG	1
+IN-R VBG VBG-R	76
+IN-R VBN VBN-R	7
+IN-R VBP VBP-R	1
+IN-R VBZ VBZ-R	3
+IN-R WDT WDT-R	6
+IN-R WP WP-R	6
+IN-R WRB WRB-R	5
+IN-R |#| |#-R|	1
+JJ "%"	1
+JJ "100-share"	1
+JJ "12-story-high"	1
+JJ "120-day"	2
+JJ "16th-century"	1
+JJ "182-day"	1
+JJ "18th"	1
+JJ "190-point"	1
+JJ "19th-century"	1
+JJ "2-for-1"	1
+JJ "20th"	1
+JJ "25-year-old"	1
+JJ "30-share"	1
+JJ "30-year"	1
+JJ "352-mile"	1
+JJ "36-year-old"	1
+JJ "38-year-old"	1
+JJ "39-year-old"	1
+JJ "45-year-old"	2
+JJ "47-year-old"	1
+JJ "48-year-old"	1
+JJ "5-10"	1
+JJ "67-year-old"	1
+JJ "72-game"	1
+JJ "75-cent"	1
+JJ "80%-owned"	1
+JJ "80-page"	1
+JJ "80-plus"	1
+JJ "91-day"	1
+JJ "Accepted"	2
+JJ "African"	1
+JJ "Agnelli-related"	1
+JJ "Amateur"	1
+JJ "Amazing"	1
+JJ "American"	3
+JJ "Average"	1
+JJ "Baa-1"	1
+JJ "Big"	1
+JJ "British"	9
+JJ "British-owned"	1
+JJ "CALL"	1
+JJ "COMMERCIAL"	2
+JJ "Congressional"	1
+JJ "Conn.-based"	1
+JJ "Conservative"	1
+JJ "Deep"	2
+JJ "Democratic"	2
+JJ "Different"	1
+JJ "Eastern"	1
+JJ "Economic"	1
+JJ "English-speaking"	1
+JJ "European"	5
+JJ "FEDERAL"	1
+JJ "FOREIGN"	1
+JJ "Far"	1
+JJ "First"	2
+JJ "Free"	1
+JJ "French"	9
+JJ "French-speaking"	1
+JJ "GM-Jaguar"	1
+JJ "Gaelic"	1
+JJ "German"	2
+JJ "Glamorous"	1
+JJ "Golden"	1
+JJ "Great"	1
+JJ "High-grade"	1
+JJ "Indian"	1
+JJ "Inner"	2
+JJ "Institutional"	1
+JJ "International"	1
+JJ "Japanese"	5
+JJ "Korean"	2
+JJ "LATE"	1
+JJ "Last"	2
+JJ "Luxembourg-based"	1
+JJ "Many"	5
+JJ "Million-dollar"	1
+JJ "Musical"	1
+JJ "Nautilus"	1
+JJ "Negotiable"	1
+JJ "New"	2
+JJ "Old-time"	1
+JJ "Other"	2
+JJ "PRIME"	2
+JJ "Polish"	1
+JJ "Prime-1"	1
+JJ "Prime-2"	1
+JJ "Quarterly"	1
+JJ "Red"	1
+JJ "Republican"	1
+JJ "Russian"	1
+JJ "Second"	2
+JJ "Several"	2
+JJ "Slovenian"	1
+JJ "Small-lot"	1
+JJ "Solo"	1
+JJ "South"	2
+JJ "Soviet"	6
+JJ "Spanish"	1
+JJ "Such"	3
+JJ "Swiss"	1
+JJ "Toronto-based"	1
+JJ "Typical"	1
+JJ "Unwilling"	1
+JJ "Vivaldi-at-brunch"	1
+JJ "West"	1
+JJ "Western"	1
+JJ "White-haired"	1
+JJ "Yankee-come-lately"	1
+JJ "York-based"	1
+JJ "Zen-like"	1
+JJ "able"	9
+JJ "abused"	1
+JJ "abusive"	2
+JJ "accessible"	1
+JJ "accomplished"	1
+JJ "accountable"	1
+JJ "active"	5
+JJ "actual"	2
+JJ "added"	1
+JJ "additional"	2
+JJ "adequate"	2
+JJ "adjacent"	1
+JJ "adjustable"	2
+JJ "administrative"	1
+JJ "after-tax"	1
+JJ "aggressive"	3
+JJ "agricultural"	2
+JJ "airborne"	2
+JJ "alcoholic"	1
+JJ "alleged"	1
+JJ "amateur"	1
+JJ "amenable"	1
+JJ "ample"	1
+JJ "angry"	1
+JJ "announced"	1
+JJ "annual"	4
+JJ "anti-Western"	1
+JJ "anti-takeover"	1
+JJ "appalling"	1
+JJ "applicable"	1
+JJ "armored"	2
+JJ "arms-control"	1
+JJ "arms-reduction"	1
+JJ "arrogant"	1
+JJ "as"	1
+JJ "asset-backed"	1
+JJ "athletic"	1
+JJ "atrun"	1
+JJ "attendant"	1
+JJ "attractive"	1
+JJ "audience-friendly"	1
+JJ "automated"	1
+JJ "available"	2
+JJ "average"	12
+JJ "awesome"	1
+JJ "baby-faced"	1
+JJ "back-on-terra-firma"	1
+JJ "bad"	1
+JJ "bank-backed"	1
+JJ "base"	1
+JJ "baseball-loving"	1
+JJ "basic"	1
+JJ "befitting"	1
+JJ "beneficial"	3
+JJ "bidding"	3
+JJ "biennial"	1
+JJ "big"	1
+JJ "big-name"	1
+JJ "big-time"	1
+JJ "billion-yen"	1
+JJ "bird's-eye"	1
+JJ "bite-sized"	1
+JJ "bitter"	1
+JJ "bizarre"	1
+JJ "black"	3
+JJ "blase"	1
+JJ "bogus"	1
+JJ "boom-or-bust"	1
+JJ "bottom"	1
+JJ "bovine"	1
+JJ "broad-based"	1
+JJ "broker-dealer"	1
+JJ "buttoned-up"	1
+JJ "calculated"	1
+JJ "capable"	1
+JJ "cash-flush"	1
+JJ "cavalier"	1
+JJ "cellular"	1
+JJ "center"	2
+JJ "central"	2
+JJ "ceramic"	1
+JJ "certain"	3
+JJ "chase"	2
+JJ "chi-chi"	1
+JJ "chief"	17
+JJ "cigar-chomping"	1
+JJ "civil"	1
+JJ "civil-service"	1
+JJ "classical"	2
+JJ "clear"	2
+JJ "close"	1
+JJ "closed"	1
+JJ "collateralized"	1
+JJ "commercial"	11
+JJ "common"	2
+JJ "comparable"	2
+JJ "competitive"	3
+JJ "complementary"	1
+JJ "complete"	3
+JJ "complex"	2
+JJ "composite"	1
+JJ "compositional"	1
+JJ "computer-market"	1
+JJ "conciliatory"	1
+JJ "confident"	1
+JJ "congenial"	1
+JJ "congressional"	5
+JJ "consecutive"	2
+JJ "constant"	2
+JJ "contemporary"	3
+JJ "continued"	2
+JJ "conventional"	5
+JJ "conventional-arms"	2
+JJ "convinced"	1
+JJ "cooking"	1
+JJ "cooperative"	1
+JJ "core"	1
+JJ "corporate"	5
+JJ "corrective"	1
+JJ "corrupt"	1
+JJ "costly"	1
+JJ "countercultural"	1
+JJ "couple"	1
+JJ "covetous"	1
+JJ "creamy"	1
+JJ "creative"	1
+JJ "crippling"	1
+JJ "crowning"	1
+JJ "crushed"	1
+JJ "cubic"	1
+JJ "current"	7
+JJ "daily"	2
+JJ "dangerous"	1
+JJ "deep"	1
+JJ "defensive"	1
+JJ "deficit-reduction"	1
+JJ "definitive"	1
+JJ "defunct"	1
+JJ "delighted"	1
+JJ "demographic"	1
+JJ "depressed"	1
+JJ "deputy"	1
+JJ "desperate"	1
+JJ "destabilizing"	1
+JJ "dew-sodden"	1
+JJ "die-hard"	1
+JJ "different"	2
+JJ "difficult"	4
+JJ "disappointing"	1
+JJ "disorderly"	1
+JJ "disposable"	1
+JJ "disquieting"	1
+JJ "distilled"	1
+JJ "domestic"	7
+JJ "domineering"	1
+JJ "dormant"	1
+JJ "dramatic"	1
+JJ "dreaded"	1
+JJ "dreadful"	1
+JJ "driving"	1
+JJ "dry"	1
+JJ "due"	2
+JJ "dull"	1
+JJ "dummy"	1
+JJ "durable"	1
+JJ "early"	6
+JJ "easy"	3
+JJ "eating"	1
+JJ "economic"	5
+JJ "economic-forecasting"	1
+JJ "editing/electronic"	1
+JJ "effective"	4
+JJ "eight-team"	1
+JJ "eight-time"	1
+JJ "electronic"	2
+JJ "elegant"	2
+JJ "eligible"	2
+JJ "embarrassed"	1
+JJ "enjoyable"	1
+JJ "enormous"	1
+JJ "enough"	2
+JJ "entertaining"	1
+JJ "entire"	3
+JJ "ersatz"	1
+JJ "essential"	1
+JJ "established"	1
+JJ "ethical"	1
+JJ "even"	1
+JJ "eventual"	1
+JJ "ever-changing"	1
+JJ "ever-growing"	1
+JJ "evident"	2
+JJ "exaggerated"	2
+JJ "executive"	1
+JJ "expected"	1
+JJ "expensive"	2
+JJ "exquisite"	1
+JJ "external"	1
+JJ "extraordinary"	2
+JJ "extreme"	2
+JJ "face"	1
+JJ "familiar"	1
+JJ "fancy"	1
+JJ "fascinating"	1
+JJ "fat"	1
+JJ "favorable"	2
+JJ "favorite"	2
+JJ "fearsome"	1
+JJ "federal"	9
+JJ "fellow"	1
+JJ "female"	2
+JJ "fertile"	1
+JJ "few"	8
+JJ "fifth-largest"	1
+JJ "final"	2
+JJ "financial"	13
+JJ "first"	19
+JJ "first-mortgage"	1
+JJ "first-quarter"	1
+JJ "first-year"	1
+JJ "fiscal"	2
+JJ "fit"	1
+JJ "five-by-eight-inch"	1
+JJ "five-course"	1
+JJ "five-year"	1
+JJ "five-year-old"	1
+JJ "fixed-rate"	2
+JJ "flat"	2
+JJ "fleet"	1
+JJ "flip"	1
+JJ "floating-point"	1
+JJ "flourishing"	1
+JJ "forbidding-looking"	1
+JJ "foreign"	3
+JJ "foreign-exchange"	1
+JJ "foreseeable"	1
+JJ "forgettable"	1
+JJ "formal"	1
+JJ "former"	11
+JJ "founding"	1
+JJ "four-month"	1
+JJ "fourth"	4
+JJ "fractional"	1
+JJ "free"	3
+JJ "free-lance"	2
+JJ "friendly"	1
+JJ "frivolous"	1
+JJ "full"	4
+JJ "fundamental"	1
+JJ "further"	1
+JJ "future"	3
+JJ "fuzzy"	1
+JJ "gallant"	1
+JJ "gas-turbine"	1
+JJ "general"	4
+JJ "general-purpose"	2
+JJ "genetic"	5
+JJ "genial"	1
+JJ "gentle"	1
+JJ "geometric"	1
+JJ "gleeful"	1
+JJ "global"	2
+JJ "glossy"	1
+JJ "golden"	10
+JJ "good"	8
+JJ "goods-producing"	1
+JJ "grand"	3
+JJ "gray"	1
+JJ "great"	5
+JJ "greenhouse-produced"	1
+JJ "gripping"	1
+JJ "gross"	1
+JJ "grown"	1
+JJ "grudging"	1
+JJ "gun-carrying"	1
+JJ "half"	3
+JJ "halfhearted"	1
+JJ "hard"	5
+JJ "hard-line"	1
+JJ "harsh"	1
+JJ "heady"	1
+JJ "healthy"	1
+JJ "heavy"	1
+JJ "hefty"	1
+JJ "held"	4
+JJ "hidden"	1
+JJ "high"	9
+JJ "high-grade"	1
+JJ "high-performing"	1
+JJ "high-production"	1
+JJ "high-ranking"	1
+JJ "high-security"	1
+JJ "high-technology"	1
+JJ "hostile"	4
+JJ "hot"	1
+JJ "hot-air"	2
+JJ "house-painting"	1
+JJ "huge"	1
+JJ "human-rights"	1
+JJ "hungry"	1
+JJ "hybrid"	10
+JJ "ideological"	1
+JJ "illegal"	2
+JJ "imaginative"	2
+JJ "immigrant"	1
+JJ "imminent"	1
+JJ "imperial"	1
+JJ "impossible"	1
+JJ "impressive"	1
+JJ "improvisational"	1
+JJ "incentive-backed"	1
+JJ "increased"	1
+JJ "incumbent"	1
+JJ "independent"	1
+JJ "indirect"	1
+JJ "individual"	3
+JJ "industrial"	3
+JJ "inflation-adjusted"	1
+JJ "initial"	2
+JJ "injured"	1
+JJ "innovative"	1
+JJ "inside"	1
+JJ "insolvent"	1
+JJ "instruction-set"	1
+JJ "integrated-circuit"	1
+JJ "intensive"	1
+JJ "interested"	2
+JJ "interesting"	1
+JJ "internal"	2
+JJ "international"	7
+JJ "interstate"	1
+JJ "intraday"	1
+JJ "intricate"	1
+JJ "intrinsic"	1
+JJ "investment-banking"	1
+JJ "irresponsible"	2
+JJ "isolated"	1
+JJ "jazzy"	1
+JJ "jobless"	1
+JJ "joint"	4
+JJ "jumbo"	2
+JJ "key"	4
+JJ "kitschy"	1
+JJ "knotty"	1
+JJ "labor-intensive"	1
+JJ "laid-back"	1
+JJ "large"	9
+JJ "last"	16
+JJ "last-minute"	1
+JJ "lasting"	1
+JJ "late"	6
+JJ "lead"	1
+JJ "leading"	1
+JJ "lean"	1
+JJ "left-wing"	1
+JJ "legal"	2
+JJ "legendary"	1
+JJ "legitimate"	1
+JJ "leisurely"	1
+JJ "lending"	1
+JJ "lengthy"	1
+JJ "level"	2
+JJ "leveraged"	1
+JJ "light"	9
+JJ "lighter-than-air"	1
+JJ "lightweight"	1
+JJ "like"	1
+JJ "likely"	3
+JJ "lilting"	1
+JJ "limited"	5
+JJ "little"	9
+JJ "live"	1
+JJ "loan-loss"	1
+JJ "loath"	1
+JJ "local"	7
+JJ "long"	7
+JJ "long-term"	2
+JJ "longstanding"	1
+JJ "longtime"	1
+JJ "lovely"	3
+JJ "low"	2
+JJ "low-paid"	1
+JJ "lucid"	1
+JJ "ludicrous"	1
+JJ "lush"	1
+JJ "maiden"	1
+JJ "main"	1
+JJ "major"	17
+JJ "male"	5
+JJ "male-fertile"	2
+JJ "male-sterile"	4
+JJ "mandatory"	1
+JJ "manufactured"	1
+JJ "many"	15
+JJ "marble-columned"	1
+JJ "margin"	1
+JJ "market-research"	1
+JJ "massive"	1
+JJ "maximum"	1
+JJ "mechanical"	2
+JJ "medical"	1
+JJ "medium-grade"	1
+JJ "mellow"	2
+JJ "middle-aged"	1
+JJ "middle-management"	1
+JJ "military"	1
+JJ "minimum"	1
+JJ "minor"	2
+JJ "missionary"	1
+JJ "mixed"	2
+JJ "modest"	2
+JJ "monetary"	1
+JJ "monthly"	3
+JJ "moral"	1
+JJ "much"	7
+JJ "municipal"	1
+JJ "murderous"	1
+JJ "musical"	1
+JJ "mutual"	1
+JJ "mysterious"	1
+JJ "nagging"	1
+JJ "national"	3
+JJ "natural"	1
+JJ "near"	1
+JJ "necessary"	3
+JJ "negotiable"	1
+JJ "net"	4
+JJ "new"	46
+JJ "new-home"	1
+JJ "next"	10
+JJ "nine-day"	1
+JJ "non-Japanese"	1
+JJ "non-communist"	1
+JJ "non-family"	1
+JJ "non-flight"	1
+JJ "nondemocratic"	1
+JJ "nonvoting"	1
+JJ "notable"	1
+JJ "novel"	1
+JJ "now-defunct"	1
+JJ "nuclear"	4
+JJ "obligatory"	1
+JJ "obvious"	1
+JJ "oceanographic"	1
+JJ "off-budget"	1
+JJ "off-speed"	1
+JJ "offensive"	1
+JJ "offered"	1
+JJ "official"	2
+JJ "oil-producing"	1
+JJ "old"	11
+JJ "once-cozy"	1
+JJ "one-time"	1
+JJ "one-year"	4
+JJ "only"	1
+JJ "open"	1
+JJ "opposite"	1
+JJ "orange-and-blue"	1
+JJ "ordinary"	2
+JJ "other"	40
+JJ "out-and-out"	1
+JJ "outstanding"	5
+JJ "over-the-counter"	2
+JJ "overall"	1
+JJ "overdue"	2
+JJ "overnight"	1
+JJ "overseas"	1
+JJ "overwhelming"	1
+JJ "own"	11
+JJ "page-one"	1
+JJ "par"	1
+JJ "parliamentary"	1
+JJ "past"	10
+JJ "payable"	3
+JJ "paying"	1
+JJ "peerless"	1
+JJ "per-capita"	2
+JJ "permanent"	1
+JJ "permissible"	1
+JJ "pershare"	1
+JJ "persistent"	1
+JJ "personal"	2
+JJ "pervasive"	1
+JJ "pest-control"	1
+JJ "pixie-like"	1
+JJ "planned"	1
+JJ "plant-sciences"	1
+JJ "playing"	1
+JJ "pleased"	1
+JJ "polished"	1
+JJ "political"	3
+JJ "pollen-inhibiting"	2
+JJ "pollution-control"	1
+JJ "popular"	1
+JJ "porous"	1
+JJ "portable"	1
+JJ "positive"	1
+JJ "possible"	4
+JJ "postal"	1
+JJ "potential"	1
+JJ "potted"	1
+JJ "powerful"	1
+JJ "precocious"	1
+JJ "predictable"	1
+JJ "preferred"	4
+JJ "preliminary"	4
+JJ "prepared"	2
+JJ "present"	1
+JJ "pretax"	1
+JJ "previous"	5
+JJ "priceless"	1
+JJ "primary"	2
+JJ "principal"	1
+JJ "prior"	1
+JJ "privatized"	1
+JJ "pro"	1
+JJ "professional"	1
+JJ "programmatic"	1
+JJ "promised"	1
+JJ "protected"	1
+JJ "public"	4
+JJ "puckish"	1
+JJ "pure-voiced"	1
+JJ "quality"	1
+JJ "quarterly"	3
+JJ "quick"	5
+JJ "ragged"	1
+JJ "rapid"	1
+JJ "real"	6
+JJ "reassuring"	1
+JJ "recent"	8
+JJ "recorded"	1
+JJ "recreational"	1
+JJ "red"	1
+JJ "reduced"	1
+JJ "regulatory"	1
+JJ "reliable"	1
+JJ "reluctant"	1
+JJ "remarkable"	1
+JJ "repeating"	1
+JJ "reported"	1
+JJ "reproductive"	1
+JJ "required"	3
+JJ "research-based"	1
+JJ "reserved"	1
+JJ "resident"	1
+JJ "residual"	1
+JJ "resistant"	1
+JJ "responsible"	3
+JJ "restrictive"	1
+JJ "retail"	1
+JJ "retired"	1
+JJ "revised"	1
+JJ "ridiculous"	1
+JJ "rival"	1
+JJ "robotic"	1
+JJ "rough"	1
+JJ "rural"	3
+JJ "same"	7
+JJ "savings-type"	2
+JJ "seasonal"	1
+JJ "second"	7
+JJ "secondary"	1
+JJ "secret"	1
+JJ "secure"	1
+JJ "secured"	1
+JJ "selective"	1
+JJ "senior"	6
+JJ "sensitive"	2
+JJ "separate"	2
+JJ "several"	8
+JJ "severe"	1
+JJ "sharp"	2
+JJ "short"	3
+JJ "short-range"	1
+JJ "short-term"	7
+JJ "sick"	2
+JJ "significant"	4
+JJ "silly"	2
+JJ "similar"	3
+JJ "simple"	1
+JJ "single"	2
+JJ "single-A-2"	4
+JJ "single-A-3"	5
+JJ "single-family"	1
+JJ "six-month"	6
+JJ "sketchy"	1
+JJ "slight"	1
+JJ "sloppy"	1
+JJ "sluggish"	2
+JJ "small"	6
+JJ "smoke-filled"	1
+JJ "so-called"	4
+JJ "social"	1
+JJ "soft"	2
+JJ "soft-spoken"	1
+JJ "softened"	1
+JJ "soggy"	3
+JJ "southern"	2
+JJ "special"	4
+JJ "specific"	1
+JJ "stain-resistant"	1
+JJ "standard"	2
+JJ "standing-room-only"	1
+JJ "standstill"	1
+JJ "starting"	1
+JJ "state-funded"	1
+JJ "static"	1
+JJ "statist"	1
+JJ "steady"	2
+JJ "steep"	1
+JJ "stepping"	1
+JJ "sterile"	2
+JJ "stern"	1
+JJ "stewed"	1
+JJ "stimulative"	1
+JJ "stock-picking"	1
+JJ "straight"	1
+JJ "street-corner"	1
+JJ "strict"	2
+JJ "strong"	3
+JJ "stronger-than-expected"	1
+JJ "stupid"	1
+JJ "subject"	5
+JJ "subminimum"	3
+JJ "substantial"	1
+JJ "successful"	2
+JJ "such"	23
+JJ "sure"	3
+JJ "surreal"	1
+JJ "surrogate"	1
+JJ "susceptible"	1
+JJ "sweeping"	1
+JJ "sweet"	1
+JJ "sympathetic"	1
+JJ "tattered"	1
+JJ "telltale"	1
+JJ "temporary"	3
+JJ "then-21"	1
+JJ "thin"	1
+JJ "third"	5
+JJ "third-quarter"	2
+JJ "threatening"	1
+JJ "three-month"	3
+JJ "three-year"	3
+JJ "tight"	1
+JJ "timely"	1
+JJ "tiny"	1
+JJ "top"	6
+JJ "top-secret"	1
+JJ "total"	4
+JJ "tough"	1
+JJ "traditional"	2
+JJ "transnational"	1
+JJ "transportable"	1
+JJ "tricky"	1
+JJ "trim"	1
+JJ "troubled"	3
+JJ "two-part"	1
+JJ "two-year"	1
+JJ "unable"	3
+JJ "unamended"	1
+JJ "unchanged"	5
+JJ "uncombed"	1
+JJ "undisclosed"	1
+JJ "unencumbered"	1
+JJ "uneventful"	1
+JJ "unfettered"	1
+JJ "unlikely"	2
+JJ "unnecessary"	1
+JJ "unpleasant"	1
+JJ "unprecedented"	1
+JJ "unraveled"	1
+JJ "unsecured"	2
+JJ "unsurprising"	1
+JJ "untapped"	1
+JJ "unwelcome"	1
+JJ "uptempo"	1
+JJ "urban"	1
+JJ "used"	1
+JJ "useful"	1
+JJ "usual"	1
+JJ "valid"	1
+JJ "valuable"	2
+JJ "various"	5
+JJ "vast"	1
+JJ "visible"	1
+JJ "wage-floor"	1
+JJ "warm"	1
+JJ "wary"	1
+JJ "weatherbeaten"	1
+JJ "weekly"	1
+JJ "well-hit"	1
+JJ "western"	1
+JJ "wet"	1
+JJ "whimsical"	1
+JJ "white"	2
+JJ "whole"	2
+JJ "wholesale"	2
+JJ "whopping"	1
+JJ "wide"	1
+JJ "willing"	2
+JJ "wily"	1
+JJ "wiry"	1
+JJ "working"	5
+JJ "worried"	1
+JJ "wrong"	1
+JJ "year-ago"	1
+JJ "year-earlier"	2
+JJ "young"	3
+JJ-R $ $-R	3
+JJ-R -LRB- -LRB--R	2
+JJ-R -RRB-	1
+JJ-R -RRB- -RRB--R	2
+JJ-R CC CC-R	34
+JJ-R CD	1
+JJ-R CD CD-R	23
+JJ-R DT DT-R	10
+JJ-R IN IN-R	85
+JJ-R JJ	1
+JJ-R JJ JJ-R	170
+JJ-R MD MD-R	1
+JJ-R NN	88
+JJ-R NN NN-R	633
+JJ-R NNP	2
+JJ-R NNP NNP-R	71
+JJ-R NNPS NNPS-R	3
+JJ-R NNS	66
+JJ-R NNS NNS-R	308
+JJ-R PRP PRP-R	6
+JJ-R RB RB-R	12
+JJ-R TO TO-R	54
+JJ-R VBD VBD-R	5
+JJ-R VBG VBG-R	14
+JJ-R VBN VBN-R	1
+JJ-R VBP VBP-R	2
+JJ-R VBZ VBZ-R	6
+JJ-R WRB WRB-R	2
+JJR "Moreover"	1
+JJR "Worse"	1
+JJR "better"	2
+JJR "bigger"	1
+JJR "easier"	1
+JJR "fewer"	2
+JJR "gentler"	1
+JJR "higher"	9
+JJR "less"	4
+JJR "lighter"	1
+JJR "longer"	1
+JJR "longer-term"	1
+JJR "lower"	5
+JJR "more"	39
+JJR "narrower"	1
+JJR "older"	2
+JJR "shorter"	1
+JJR "slower"	2
+JJR "smaller"	3
+JJR "stickier"	1
+JJR "stronger"	3
+JJR "tougher"	3
+JJR "wealthier"	1
+JJR-R IN IN-R	36
+JJR-R JJ JJ-R	5
+JJR-R NN	2
+JJR-R NN NN-R	18
+JJR-R NNP NNP-R	1
+JJR-R NNPS NNPS-R	1
+JJR-R NNS	3
+JJR-R NNS NNS-R	6
+JJR-R PDT PDT-R	1
+JJR-R RB RB-R	1
+JJR-R RBR RBR-R	2
+JJR-R TO TO-R	1
+JJR-R VBD VBD-R	2
+JJR-R VBN VBN-R	1
+JJR-R VBZ VBZ-R	1
+JJS "Most"	3
+JJS "best"	2
+JJS "biggest"	3
+JJS "heaviest"	1
+JJS "highest"	3
+JJS "largest"	8
+JJS "latest"	3
+JJS "least"	2
+JJS "lightest"	1
+JJS "most"	8
+JJS "nearest"	1
+JJS "oldest"	1
+JJS "safest"	1
+JJS "worst"	1
+JJS-R -RRB-	1
+JJS-R IN IN-R	4
+JJS-R JJ JJ-R	3
+JJS-R NN NN-R	15
+JJS-R NNS NNS-R	9
+JJS-R RB RB-R	1
+JJS-R VB VB-R	1
+JJS-R VBP VBP-R	3
+LS "First"	1
+LS "Second"	1
+LS "Third"	1
+LS-R DT DT-R	1
+LS-R NN NN-R	1
+LS-R PRP PRP-R	1
+MD "'d"	2
+MD "'ll"	2
+MD "ca"	6
+MD "can"	24
+MD "could"	22
+MD "may"	16
+MD "might"	18
+MD "must"	5
+MD "ought"	3
+MD "should"	6
+MD "will"	76
+MD "wo"	4
+MD "would"	63
+MD-R NNS NNS-R	1
+MD-R PRP PRP-R	1
+MD-R PRP$ PRP$-R	1
+MD-R RB RB-R	38
+MD-R TO TO-R	3
+MD-R VB	1
+MD-R VB VB-R	201
+MD-R VBN VBN-R	1
+NN "%"	164
+NN "A."	6
+NN "Accounting"	1
+NN "Air"	1
+NN "Anxiety"	1
+NN "Arm"	1
+NN "Balloon"	1
+NN "Ballooning"	1
+NN "CD"	9
+NN "Capital"	1
+NN "Carnival"	1
+NN "Clarinet"	1
+NN "Coke"	1
+NN "Counterpoint"	2
+NN "Cuckoo"	1
+NN "DEPOSIT"	1
+NN "DISCOUNT"	1
+NN "Delivery"	1
+NN "Egg"	1
+NN "End"	1
+NN "Eurobond"	1
+NN "Fear"	1
+NN "Grace"	1
+NN "Information"	1
+NN "Intervention"	1
+NN "Investor"	1
+NN "Leisure"	1
+NN "MONEY"	1
+NN "Machine"	1
+NN "Man"	2
+NN "Midmorning"	1
+NN "Misanthrope"	1
+NN "Nothing"	1
+NN "Odyssey"	1
+NN "Order"	2
+NN "Output"	1
+NN "PAPER"	2
+NN "Peace"	2
+NN "President"	1
+NN "Quartet"	1
+NN "RATE"	2
+NN "RC6280"	2
+NN "Rain"	1
+NN "S&L"	4
+NN "Section"	4
+NN "Sky"	1
+NN "Someone"	2
+NN "Sonata"	1
+NN "Source"	3
+NN "Speculation"	1
+NN "Stage"	1
+NN "Swan"	1
+NN "TREASURY"	1
+NN "Time"	1
+NN "Today"	3
+NN "U.S.A."	1
+NN "VAX9000"	1
+NN "Volume"	3
+NN "World"	1
+NN "Yesterday"	3
+NN "ability"	1
+NN "access"	3
+NN "account"	3
+NN "acquisition"	2
+NN "action"	5
+NN "activity"	5
+NN "addition"	1
+NN "address"	1
+NN "adjustment"	1
+NN "administration"	6
+NN "advance"	3
+NN "affiliate"	1
+NN "afternoon"	3
+NN "age"	3
+NN "agency"	16
+NN "agreement"	12
+NN "aid"	1
+NN "air"	3
+NN "aircraft"	3
+NN "airline"	1
+NN "aisle"	1
+NN "alarm"	1
+NN "album"	1
+NN "alfalfa"	1
+NN "alligator"	1
+NN "allure"	1
+NN "ally"	2
+NN "alternative"	2
+NN "altitude"	1
+NN "amount"	3
+NN "analyst"	8
+NN "anger"	1
+NN "announcement"	4
+NN "annuity"	1
+NN "anticipation"	1
+NN "anybody"	1
+NN "anyone"	1
+NN "anything"	1
+NN "appeal"	2
+NN "appearance"	3
+NN "application"	1
+NN "appreciation"	1
+NN "approach"	6
+NN "approval"	5
+NN "architecture"	1
+NN "area"	1
+NN "argument"	2
+NN "arms-control"	1
+NN "arrangement"	1
+NN "array"	1
+NN "arrest"	1
+NN "article"	3
+NN "asset"	1
+NN "assistant"	3
+NN "association"	1
+NN "astronomer"	1
+NN "at-bat"	1
+NN "attack"	2
+NN "attempt"	3
+NN "attendee"	1
+NN "attention"	4
+NN "attitude"	1
+NN "attorney"	3
+NN "attraction"	1
+NN "auction"	4
+NN "audience"	5
+NN "author"	1
+NN "authority"	1
+NN "auto"	10
+NN "average"	5
+NN "background"	1
+NN "bailiff"	1
+NN "bailout"	6
+NN "balance"	2
+NN "ball"	1
+NN "balloon"	8
+NN "ballooning"	6
+NN "bank"	8
+NN "banking"	1
+NN "bargaining"	1
+NN "base"	1
+NN "baseball"	6
+NN "baseman"	1
+NN "basis"	2
+NN "basket"	6
+NN "bass"	1
+NN "bassist"	1
+NN "bassoon"	1
+NN "beach"	1
+NN "beef"	1
+NN "beeper"	1
+NN "beer"	4
+NN "beginning"	2
+NN "behalf"	1
+NN "bench"	2
+NN "beret"	1
+NN "bid"	8
+NN "bidder"	1
+NN "bidding"	1
+NN "bikini"	1
+NN "bill"	10
+NN "billing"	1
+NN "bind"	2
+NN "binder"	1
+NN "biochemist"	1
+NN "biotechnology"	2
+NN "birthday"	1
+NN "bit"	2
+NN "bite"	1
+NN "blase"	1
+NN "blast"	1
+NN "blessing"	2
+NN "board"	7
+NN "bond"	6
+NN "book"	2
+NN "boon"	1
+NN "boost"	2
+NN "borough"	1
+NN "borrowing"	3
+NN "boss"	1
+NN "brainchild"	1
+NN "breakdown"	1
+NN "bribe"	1
+NN "bribery"	1
+NN "bridge"	1
+NN "brokerage"	2
+NN "brow"	1
+NN "brunt"	1
+NN "buddy"	1
+NN "budget"	8
+NN "building"	2
+NN "bunt"	1
+NN "bureaucracy"	2
+NN "burner"	2
+NN "business"	11
+NN "butter"	2
+NN "buying"	5
+NN "cabal"	1
+NN "cabinet"	1
+NN "cable"	1
+NN "camaraderie"	1
+NN "camp"	2
+NN "campus"	1
+NN "canal"	3
+NN "capability"	1
+NN "capacity"	1
+NN "capital"	9
+NN "car"	10
+NN "career"	1
+NN "carpet"	7
+NN "carrier"	3
+NN "case"	5
+NN "cash"	8
+NN "category"	1
+NN "cell"	2
+NN "censorship"	1
+NN "center"	1
+NN "centerfielder"	1
+NN "century"	3
+NN "ceremony"	1
+NN "chain"	2
+NN "chairman"	8
+NN "chamber"	3
+NN "champagne"	1
+NN "chance"	2
+NN "change"	2
+NN "charge"	7
+NN "charter"	2
+NN "chase"	2
+NN "chateau"	1
+NN "cheek"	1
+NN "chef"	2
+NN "chemical"	5
+NN "chip"	2
+NN "choice"	1
+NN "chunk"	1
+NN "circuit"	1
+NN "city"	1
+NN "claptrap"	1
+NN "clarinet"	2
+NN "clarinetist"	3
+NN "clash"	2
+NN "class"	1
+NN "clearing"	1
+NN "climate"	1
+NN "clipboard"	2
+NN "close"	3
+NN "closing"	1
+NN "clout"	1
+NN "club"	1
+NN "clue"	1
+NN "clutch"	1
+NN "code"	1
+NN "coercion"	1
+NN "coffee"	2
+NN "cogeneration-plant"	1
+NN "collaboration"	1
+NN "collateral"	1
+NN "college"	2
+NN "color"	2
+NN "combat"	1
+NN "comment"	1
+NN "commission"	1
+NN "commissioner"	1
+NN "communist"	1
+NN "community"	3
+NN "companion"	2
+NN "company"	51
+NN "competition"	1
+NN "compliance"	1
+NN "component"	1
+NN "composer"	2
+NN "compromise"	9
+NN "computer"	13
+NN "computing"	1
+NN "concept"	3
+NN "concern"	12
+NN "concert"	2
+NN "condom"	2
+NN "conducting"	1
+NN "confidence"	1
+NN "conflict"	2
+NN "confrontation"	1
+NN "consensus"	1
+NN "construction"	3
+NN "consultant"	1
+NN "consumer"	10
+NN "consumption"	3
+NN "contest"	1
+NN "contract"	5
+NN "contraction"	1
+NN "contractor"	1
+NN "control"	4
+NN "convention"	2
+NN "convocation"	1
+NN "cookbook"	1
+NN "copy"	1
+NN "core"	1
+NN "corn"	9
+NN "corporation"	1
+NN "correspondent"	1
+NN "corruption"	1
+NN "cost"	1
+NN "cotton"	6
+NN "counsel"	1
+NN "counterespionage"	1
+NN "countermove"	1
+NN "country"	6
+NN "course"	3
+NN "court"	1
+NN "courthouse"	2
+NN "courtroom"	1
+NN "coverage"	1
+NN "craft"	1
+NN "crash"	1
+NN "cream"	1
+NN "creation"	1
+NN "credit"	1
+NN "credit-card"	2
+NN "crime"	1
+NN "crisis"	1
+NN "crop"	4
+NN "crowd"	1
+NN "cuckoo"	2
+NN "cuisine"	1
+NN "culprit"	1
+NN "culture"	3
+NN "cup"	2
+NN "currency"	2
+NN "cut"	1
+NN "dairy"	1
+NN "damage"	1
+NN "danger"	1
+NN "date"	2
+NN "dawn"	2
+NN "day"	4
+NN "deadline"	1
+NN "deal"	3
+NN "dealer"	1
+NN "debate"	2
+NN "debt"	7
+NN "debut"	1
+NN "decade"	1
+NN "decision"	7
+NN "decline"	3
+NN "decrease"	1
+NN "defense"	1
+NN "deficit"	2
+NN "degree"	1
+NN "deja"	1
+NN "delivery"	2
+NN "demagoguery"	1
+NN "demand"	1
+NN "department"	5
+NN "deposit"	1
+NN "depository"	1
+NN "derring-do"	1
+NN "descent"	1
+NN "desire"	1
+NN "desk"	1
+NN "dessert"	1
+NN "dessert-menu"	1
+NN "destruction"	1
+NN "detail"	1
+NN "developer"	1
+NN "development"	2
+NN "dictation"	1
+NN "diesel"	1
+NN "dilution"	1
+NN "dinner"	1
+NN "direction"	4
+NN "director"	13
+NN "dirt"	1
+NN "disarmament"	1
+NN "disbelief"	1
+NN "disclosure"	1
+NN "discount"	1
+NN "discrepancy"	1
+NN "dish"	1
+NN "dispute"	2
+NN "disservice"	1
+NN "distance"	1
+NN "distributorship"	1
+NN "ditch"	2
+NN "dividend"	3
+NN "division"	7
+NN "divisiveness"	1
+NN "docket"	1
+NN "dollar"	7
+NN "downturn"	1
+NN "drenching"	1
+NN "drink"	1
+NN "drinking"	3
+NN "drive"	1
+NN "driver"	1
+NN "drop"	4
+NN "drought"	1
+NN "dusk"	1
+NN "eagerness"	1
+NN "ear"	1
+NN "eating"	1
+NN "economist"	1
+NN "economy"	12
+NN "edge"	1
+NN "edition"	1
+NN "editor"	1
+NN "education"	2
+NN "effect"	3
+NN "efficiency"	1
+NN "effort"	2
+NN "egg"	1
+NN "ego"	1
+NN "election"	1
+NN "electronics"	1
+NN "elimination"	1
+NN "elixir"	1
+NN "emasculation"	1
+NN "emeritus"	2
+NN "employee"	1
+NN "employer"	1
+NN "employment"	1
+NN "encore"	1
+NN "encounter"	1
+NN "end"	8
+NN "energy"	1
+NN "engineering"	4
+NN "entertainment"	2
+NN "entry"	1
+NN "envy-quotient"	1
+NN "equipment"	3
+NN "equity"	2
+NN "espresso"	1
+NN "estate"	6
+NN "evening"	3
+NN "event"	2
+NN "everyone"	2
+NN "everything"	1
+NN "ex-dividend"	1
+NN "example"	4
+NN "excess"	1
+NN "exchange"	3
+NN "execution"	1
+NN "executive"	10
+NN "exercise"	1
+NN "exile"	1
+NN "expansion"	2
+NN "export"	1
+NN "exporter"	1
+NN "exposure"	1
+NN "fact"	1
+NN "factor"	1
+NN "failure"	2
+NN "fairway"	1
+NN "fall"	2
+NN "family"	6
+NN "fanfare"	1
+NN "farm"	1
+NN "farmer"	1
+NN "fashion"	2
+NN "fastball"	2
+NN "fate"	1
+NN "feat"	1
+NN "feed"	1
+NN "feel"	1
+NN "fellow"	1
+NN "female"	2
+NN "feuding"	1
+NN "field"	8
+NN "fight"	2
+NN "figure"	2
+NN "file"	1
+NN "finance"	5
+NN "financing"	3
+NN "fire"	3
+NN "fireproofing"	1
+NN "firm"	2
+NN "fixture"	1
+NN "flagship"	1
+NN "flame"	1
+NN "flashpoint"	1
+NN "floor"	2
+NN "flooring"	1
+NN "flower"	1
+NN "fly"	1
+NN "focus"	1
+NN "food"	2
+NN "fool"	1
+NN "force"	2
+NN "forecast"	1
+NN "form"	2
+NN "formation"	1
+NN "formula"	1
+NN "founder"	3
+NN "founding"	1
+NN "fraction"	1
+NN "franchise"	3
+NN "franchisee"	1
+NN "freedom"	2
+NN "friend"	2
+NN "front"	1
+NN "fun"	2
+NN "fund"	16
+NN "funding"	1
+NN "furniture"	1
+NN "future"	5
+NN "gain"	4
+NN "game"	3
+NN "gametocide"	1
+NN "garment"	1
+NN "gas"	2
+NN "gauge"	1
+NN "gendarme"	1
+NN "gene"	10
+NN "general"	2
+NN "generation"	2
+NN "genius"	1
+NN "girlfriend"	1
+NN "gold"	1
+NN "golf"	2
+NN "golfing"	1
+NN "gooseberry"	1
+NN "government"	29
+NN "governor"	1
+NN "grand-jury"	1
+NN "grant"	1
+NN "greenhouse"	1
+NN "ground"	3
+NN "groundball"	1
+NN "group"	14
+NN "growth"	7
+NN "guard"	1
+NN "guide"	1
+NN "guile"	1
+NN "guy"	1
+NN "habit"	1
+NN "hacker"	7
+NN "hair"	1
+NN "half"	7
+NN "half-an-hour"	2
+NN "hand"	2
+NN "hatred"	1
+NN "hazardous-waste-site"	1
+NN "hazelnut"	1
+NN "head"	3
+NN "health"	2
+NN "health-care"	1
+NN "hearing"	2
+NN "heart"	1
+NN "heat"	1
+NN "heaven"	1
+NN "help"	1
+NN "herbicide"	4
+NN "heredity"	1
+NN "history"	1
+NN "hit"	1
+NN "hitch"	1
+NN "holding"	3
+NN "hole"	1
+NN "holiday"	1
+NN "home"	4
+NN "hope"	1
+NN "horizon"	1
+NN "hour"	9
+NN "house"	2
+NN "housing"	1
+NN "howl"	1
+NN "humor"	1
+NN "hunt"	1
+NN "hybrid"	3
+NN "ice"	1
+NN "idea"	3
+NN "ideal"	2
+NN "ideology"	1
+NN "image"	1
+NN "impact"	1
+NN "impasse"	1
+NN "imperative"	1
+NN "import"	1
+NN "importance"	1
+NN "impression"	2
+NN "improvisation"	1
+NN "improviser"	1
+NN "inadvertence"	1
+NN "inch"	1
+NN "income"	2
+NN "increase"	6
+NN "independence"	1
+NN "index"	22
+NN "indicator"	1
+NN "indictment"	2
+NN "indifference"	1
+NN "industrial-product"	1
+NN "industry"	5
+NN "inflation"	2
+NN "inflation-fighting"	1
+NN "influence"	1
+NN "information"	7
+NN "innings"	1
+NN "insider"	2
+NN "insider-trading"	2
+NN "insistence"	1
+NN "instance"	1
+NN "institutes"	1
+NN "instrument"	1
+NN "instrumentation"	1
+NN "insulation"	1
+NN "insurance"	3
+NN "integrity"	1
+NN "interbank"	1
+NN "interest"	20
+NN "intermission"	1
+NN "intervention"	3
+NN "intruder"	1
+NN "inventor"	1
+NN "investment"	10
+NN "investor"	2
+NN "invitation"	1
+NN "issue"	12
+NN "item"	1
+NN "itinerary"	1
+NN "jam"	1
+NN "jazz"	4
+NN "job"	3
+NN "joint"	1
+NN "joint-venture"	1
+NN "journalism"	1
+NN "judge"	14
+NN "jury"	3
+NN "justice"	2
+NN "keychain"	1
+NN "kid"	1
+NN "kind"	2
+NN "king"	2
+NN "kiwi"	1
+NN "knight"	1
+NN "lab"	2
+NN "label"	1
+NN "labor"	2
+NN "lady"	1
+NN "landing"	1
+NN "law"	7
+NN "lawn"	1
+NN "lawyer"	2
+NN "lead"	2
+NN "leader"	2
+NN "leadership"	1
+NN "league"	7
+NN "leasing"	1
+NN "leave"	1
+NN "legislation"	1
+NN "length"	2
+NN "letter"	1
+NN "level"	6
+NN "lewdness"	1
+NN "liberty"	1
+NN "license"	1
+NN "licensing"	1
+NN "life"	2
+NN "life-insurance"	1
+NN "line"	7
+NN "liquidity"	1
+NN "listener"	1
+NN "listening"	1
+NN "literacy"	1
+NN "loan"	2
+NN "location"	1
+NN "long-distance"	1
+NN "looseleaf"	1
+NN "loss"	2
+NN "lot"	3
+NN "lumber"	1
+NN "lure"	1
+NN "luxury"	3
+NN "luxury-car"	1
+NN "machine"	14
+NN "machinery"	3
+NN "magazine"	2
+NN "mail"	3
+NN "mainframe"	1
+NN "majority"	2
+NN "maker"	10
+NN "male"	4
+NN "malice"	1
+NN "man"	4
+NN "management"	7
+NN "manager"	5
+NN "manipulation"	2
+NN "manufacture"	1
+NN "market"	26
+NN "marketing"	2
+NN "marriage"	1
+NN "master"	3
+NN "material"	1
+NN "maturity"	2
+NN "meal"	1
+NN "meantime"	1
+NN "measure"	4
+NN "meeting"	4
+NN "member"	4
+NN "membership"	2
+NN "memory"	2
+NN "menu"	1
+NN "midday"	1
+NN "midnight"	1
+NN "military"	1
+NN "milk"	1
+NN "mine"	1
+NN "minimum"	4
+NN "minimum-wage"	4
+NN "mining"	1
+NN "minister"	1
+NN "minor-leaguer"	1
+NN "minority"	5
+NN "mirroring"	1
+NN "missile"	1
+NN "moment"	2
+NN "money"	12
+NN "money-fund"	2
+NN "money-market"	1
+NN "monsieur"	1
+NN "montgolfing"	1
+NN "month"	19
+NN "mood"	1
+NN "morning"	4
+NN "morning-session"	1
+NN "mortgage"	8
+NN "mother"	1
+NN "motion"	1
+NN "motive"	1
+NN "motor"	1
+NN "mound"	1
+NN "mountain"	1
+NN "move"	8
+NN "movement"	1
+NN "mph"	2
+NN "mud"	1
+NN "music"	6
+NN "name"	1
+NN "nation"	3
+NN "neck"	1
+NN "need"	2
+NN "neglect"	1
+NN "negotiation"	1
+NN "negotiator"	1
+NN "network"	4
+NN "news"	3
+NN "none"	6
+NN "noon"	1
+NN "note"	2
+NN "notebook"	1
+NN "nothing"	2
+NN "novelist"	1
+NN "number"	8
+NN "obeisance"	1
+NN "obfuscation"	1
+NN "obligatto"	1
+NN "oboist"	1
+NN "observatory"	1
+NN "obsession"	1
+NN "obstacle"	1
+NN "offer"	4
+NN "offering"	1
+NN "office"	4
+NN "officer"	15
+NN "official"	5
+NN "oil"	1
+NN "one"	6
+NN "one-third"	2
+NN "operating"	2
+NN "operation"	5
+NN "operator"	2
+NN "opportunity"	1
+NN "opposition"	1
+NN "oppression"	1
+NN "order"	4
+NN "organ"	1
+NN "outfield"	1
+NN "output"	3
+NN "oversight"	1
+NN "owner"	2
+NN "ownership"	2
+NN "pace"	2
+NN "packaging"	1
+NN "packet"	1
+NN "painting"	1
+NN "paper"	3
+NN "parent"	1
+NN "parity"	2
+NN "part"	9
+NN "participation"	2
+NN "partner"	3
+NN "partnership"	2
+NN "party"	3
+NN "passenger"	1
+NN "passion"	1
+NN "past"	3
+NN "pastry"	3
+NN "patch"	1
+NN "payment"	1
+NN "peace"	1
+NN "pence"	7
+NN "pension"	5
+NN "percent"	1
+NN "percentage"	3
+NN "performance"	6
+NN "performer"	1
+NN "period"	5
+NN "permission"	1
+NN "person"	4
+NN "personality"	1
+NN "phase"	1
+NN "phrasing"	1
+NN "pianist/bassoonist/composer"	1
+NN "piano"	1
+NN "pickup"	1
+NN "picnic"	1
+NN "picture"	1
+NN "piece"	2
+NN "pilot"	5
+NN "pipeline"	3
+NN "pistol"	1
+NN "pitcher-coach"	1
+NN "pity"	1
+NN "plaid"	1
+NN "plan"	6
+NN "plane"	1
+NN "plant"	18
+NN "plate"	2
+NN "player"	3
+NN "playing"	3
+NN "pleasure"	1
+NN "plunge"	1
+NN "point"	3
+NN "police"	1
+NN "policy"	4
+NN "poll"	1
+NN "pollen"	5
+NN "pollination"	1
+NN "pollution-control"	1
+NN "pop"	2
+NN "pork"	1
+NN "portfolio"	1
+NN "position"	5
+NN "position-squaring"	1
+NN "possibility"	2
+NN "post"	1
+NN "potential"	1
+NN "potpourri"	1
+NN "power"	8
+NN "practice"	2
+NN "precision"	1
+NN "president"	26
+NN "press"	2
+NN "pressure"	4
+NN "price"	13
+NN "pricing"	1
+NN "pride"	2
+NN "principle"	1
+NN "printing"	1
+NN "priority"	2
+NN "private-sector"	1
+NN "problem"	2
+NN "process"	2
+NN "processor"	1
+NN "producer"	1
+NN "product"	3
+NN "production"	3
+NN "professor"	1
+NN "profit"	1
+NN "profitability"	1
+NN "program"	3
+NN "progress"	1
+NN "promise"	1
+NN "promoter"	1
+NN "propane"	2
+NN "proposal"	5
+NN "protection"	1
+NN "provider"	1
+NN "prowess"	1
+NN "proxy"	1
+NN "public"	2
+NN "purchase"	2
+NN "purse"	1
+NN "push"	1
+NN "quarry"	1
+NN "quarter"	10
+NN "quarterly"	1
+NN "quartet"	1
+NN "question"	1
+NN "railroad"	1
+NN "range"	3
+NN "rapeseed"	1
+NN "rate"	14
+NN "rating"	5
+NN "raw-material"	1
+NN "re-election"	2
+NN "real-estate"	1
+NN "reason"	1
+NN "recession"	2
+NN "record"	7
+NN "redefinition"	1
+NN "redistributionism"	1
+NN "reduction"	1
+NN "reform"	1
+NN "refusal"	1
+NN "region"	1
+NN "register"	1
+NN "registration"	1
+NN "rejection"	1
+NN "relationship"	1
+NN "release"	1
+NN "reliever"	1
+NN "remainder"	1
+NN "remediation"	1
+NN "rent"	5
+NN "repertoire"	2
+NN "replacement"	3
+NN "report"	6
+NN "reporting"	1
+NN "requisition"	1
+NN "research"	5
+NN "resistance"	1
+NN "rest"	4
+NN "restaurant"	2
+NN "result"	7
+NN "retirement"	1
+NN "return"	5
+NN "revenue"	4
+NN "review"	3
+NN "reward"	1
+NN "rice"	3
+NN "ride"	1
+NN "right"	2
+NN "righthander"	1
+NN "rise"	7
+NN "risk"	2
+NN "rivalry"	1
+NN "river"	2
+NN "road"	2
+NN "robe"	1
+NN "role"	4
+NN "roll"	1
+NN "root-canal"	1
+NN "routine"	1
+NN "row"	2
+NN "rubber"	1
+NN "rule"	4
+NN "ruling"	1
+NN "run"	2
+NN "safety"	1
+NN "sage"	1
+NN "sailing"	1
+NN "sale"	8
+NN "salesman"	1
+NN "sample"	1
+NN "satisfaction"	1
+NN "savings-and-loan"	1
+NN "scale"	2
+NN "scheme"	1
+NN "school"	1
+NN "science"	1
+NN "scratch"	1
+NN "scruff"	1
+NN "scrutiny"	1
+NN "season"	6
+NN "seat"	3
+NN "second"	3
+NN "secretary"	4
+NN "section"	1
+NN "sector"	1
+NN "security"	4
+NN "seed"	9
+NN "sell"	1
+NN "selling"	1
+NN "sense"	2
+NN "series"	2
+NN "service"	4
+NN "service-industry"	2
+NN "session"	3
+NN "set"	1
+NN "setting"	1
+NN "settlement"	2
+NN "shake-up"	1
+NN "share"	27
+NN "shareholder"	2
+NN "shelf"	2
+NN "sherbet"	1
+NN "shootout"	1
+NN "shortstop"	1
+NN "shoulder"	1
+NN "show"	2
+NN "side"	3
+NN "sign"	1
+NN "signature"	1
+NN "silver"	1
+NN "sincerity"	1
+NN "singer"	1
+NN "sister"	1
+NN "situation"	1
+NN "size"	1
+NN "skirmish"	1
+NN "slate"	1
+NN "sleeping"	1
+NN "slide"	2
+NN "slowball"	1
+NN "slowdown"	1
+NN "smoking"	1
+NN "soda"	1
+NN "soft-drink"	3
+NN "software"	4
+NN "soil"	1
+NN "solution"	1
+NN "something"	2
+NN "son"	1
+NN "sorghum"	1
+NN "soul"	1
+NN "sound"	1
+NN "source"	1
+NN "speed"	1
+NN "spending"	1
+NN "split"	6
+NN "spokesman"	7
+NN "spokeswoman"	1
+NN "sport"	1
+NN "spray"	3
+NN "spring"	3
+NN "spring-training"	1
+NN "spy"	3
+NN "spy-chaser"	1
+NN "spy-chasing"	1
+NN "stadium"	1
+NN "staff"	3
+NN "stake"	12
+NN "stance"	1
+NN "standstill"	1
+NN "state"	10
+NN "statement"	4
+NN "statism"	1
+NN "status"	2
+NN "steel"	1
+NN "sterility"	1
+NN "sterilization"	1
+NN "stock"	25
+NN "stock-market"	1
+NN "stone"	1
+NN "stonemason"	1
+NN "stopper"	2
+NN "store"	2
+NN "story"	1
+NN "strain"	1
+NN "strength"	2
+NN "strike"	1
+NN "string"	1
+NN "structure"	1
+NN "stuff"	2
+NN "style"	1
+NN "subcommittee"	2
+NN "subsidiary"	4
+NN "substitute"	2
+NN "success"	4
+NN "suggestion"	1
+NN "suit"	1
+NN "summer"	4
+NN "sun"	1
+NN "sunrise"	1
+NN "super-user"	1
+NN "superiority"	1
+NN "supplier"	1
+NN "supply"	2
+NN "support"	3
+NN "surge"	1
+NN "surplus"	1
+NN "surprise"	1
+NN "suspension"	1
+NN "suspicion"	1
+NN "swap"	1
+NN "swearing"	1
+NN "swearing-in"	1
+NN "sweat"	1
+NN "sweetheart"	1
+NN "swig"	1
+NN "syndicate"	1
+NN "system"	8
+NN "table"	2
+NN "tag"	1
+NN "takeover"	8
+NN "tale"	2
+NN "tank"	1
+NN "tape"	1
+NN "tapestry"	1
+NN "target"	1
+NN "tassel"	1
+NN "tax"	1
+NN "team"	4
+NN "technique"	6
+NN "technology"	5
+NN "tee"	1
+NN "telecommunications"	3
+NN "telephone"	3
+NN "television"	1
+NN "tender"	1
+NN "tennis"	1
+NN "tension"	1
+NN "terminal"	1
+NN "test"	1
+NN "testimony"	4
+NN "texture"	1
+NN "theft"	3
+NN "thicket"	1
+NN "thief"	1
+NN "thing"	6
+NN "third"	1
+NN "threat"	1
+NN "thriller"	1
+NN "thumb"	1
+NN "tidbit"	1
+NN "tile"	1
+NN "timber"	1
+NN "timberland"	1
+NN "time"	23
+NN "timetable"	1
+NN "timing"	2
+NN "title"	2
+NN "toast"	1
+NN "tobacco"	2
+NN "today"	5
+NN "tolerance"	1
+NN "tone"	1
+NN "tool"	2
+NN "top"	2
+NN "topic"	1
+NN "total"	1
+NN "touch"	1
+NN "toughness"	1
+NN "town"	2
+NN "toxicity"	1
+NN "tracking"	1
+NN "trade"	1
+NN "trademark"	1
+NN "trading"	10
+NN "tradition"	1
+NN "trailer"	2
+NN "training"	13
+NN "trait"	1
+NN "transaction"	11
+NN "treasurer"	1
+NN "treaty"	3
+NN "tree"	1
+NN "trend"	2
+NN "trial"	1
+NN "tribunal"	1
+NN "trick"	1
+NN "trip"	1
+NN "trumpet"	1
+NN "trust"	1
+NN "tune"	2
+NN "turf"	1
+NN "turn"	2
+NN "turnover"	1
+NN "type"	1
+NN "uncertainty"	2
+NN "underwear"	1
+NN "unemployment"	1
+NN "unhappiness"	1
+NN "uniform"	1
+NN "unit"	9
+NN "use"	1
+NN "usefulness"	2
+NN "user"	2
+NN "utility"	2
+NN "vacancy"	1
+NN "value"	8
+NN "vanilla"	1
+NN "variety"	1
+NN "velocity"	1
+NN "velvet"	1
+NN "vendetta"	1
+NN "vendor"	1
+NN "venture"	8
+NN "version"	2
+NN "veto"	1
+NN "vice"	14
+NN "victim"	1
+NN "view"	2
+NN "vigor"	1
+NN "virtue"	1
+NN "virus"	1
+NN "volume"	3
+NN "voyage"	1
+NN "vu"	1
+NN "vulnerability"	1
+NN "wad"	1
+NN "wage"	15
+NN "walkie-talkie"	1
+NN "wall"	1
+NN "wallet"	1
+NN "war"	3
+NN "watch"	1
+NN "water"	1
+NN "watering"	1
+NN "way"	10
+NN "weakness"	1
+NN "week"	16
+NN "weekend"	1
+NN "whole"	1
+NN "wicker"	2
+NN "wife"	1
+NN "wind"	1
+NN "winner"	1
+NN "wit"	1
+NN "wonder"	1
+NN "wood"	1
+NN "woodwind"	1
+NN "wordplay"	1
+NN "work"	7
+NN "worker"	1
+NN "workout"	1
+NN "world"	12
+NN "worth"	1
+NN "wrath"	1
+NN "writer"	3
+NN "year"	38
+NN "year-end"	1
+NN "yesterday"	8
+NN "yield"	7
+NN "youth"	2
+NN "yuppie"	1
+NN "zip"	2
+NN-R $ $-R	1
+NN-R -LRB- -LRB--R	11
+NN-R -RRB-	1
+NN-R -RRB- -RRB--R	4
+NN-R CC CC-R	173
+NN-R CD CD-R	62
+NN-R DT DT-R	58
+NN-R EX EX-R	2
+NN-R FW FW-R	2
+NN-R IN	1
+NN-R IN IN-R	843
+NN-R JJ	3
+NN-R JJ JJ-R	52
+NN-R JJR	1
+NN-R JJR JJR-R	6
+NN-R MD MD-R	69
+NN-R NN	59
+NN-R NN NN-R	364
+NN-R NNP	4
+NN-R NNP NNP-R	76
+NN-R NNPS NNPS-R	2
+NN-R NNS	27
+NN-R NNS NNS-R	164
+NN-R POS POS-R	69
+NN-R PRP PRP-R	46
+NN-R PRP$ PRP$-R	3
+NN-R RB	11
+NN-R RB RB-R	78
+NN-R RBR RBR-R	2
+NN-R RP RP-R	4
+NN-R TO TO-R	131
+NN-R UH UH-R	1
+NN-R VB VB-R	8
+NN-R VBD	6
+NN-R VBD VBD-R	167
+NN-R VBG VBG-R	46
+NN-R VBN	2
+NN-R VBN VBN-R	53
+NN-R VBP VBP-R	20
+NN-R VBZ VBZ-R	135
+NN-R WDT WDT-R	67
+NN-R WP WP-R	10
+NN-R WP$ WP$-R	1
+NN-R WRB WRB-R	9
+NNP "A."	3
+NNP "A.G."	1
+NNP "AFL-CIO"	1
+NNP "AG"	1
+NNP "AMERICAN"	1
+NNP "ASSOCIATION"	1
+NNP "AT&T"	1
+NNP "Aberdeen"	1
+NNP "Acceptance"	1
+NNP "Accounting"	1
+NNP "Acquisition"	1
+NNP "Africa"	1
+NNP "Aga"	6
+NNP "Age"	1
+NNP "Agency"	2
+NNP "Agnelli"	15
+NNP "Aiken"	1
+NNP "Air"	2
+NNP "Alan"	1
+NNP "Albuquerque"	1
+NNP "Alex"	1
+NNP "Alexander"	1
+NNP "Alice"	1
+NNP "Alisarda"	1
+NNP "Allegheny"	1
+NNP "Alltel"	3
+NNP "Amadou-Mahtar"	1
+NNP "America"	2
+NNP "American"	8
+NNP "Amsterdam"	1
+NNP "Amtran"	1
+NNP "Angeles"	2
+NNP "Angell"	1
+NNP "Annuity"	1
+NNP "Applied"	1
+NNP "April"	3
+NNP "Arcata"	1
+NNP "Area"	1
+NNP "Ark."	1
+NNP "Arkoma"	1
+NNP "Armstrong"	13
+NNP "Army"	1
+NNP "Arthur"	1
+NNP "Association"	3
+NNP "Association-College"	1
+NNP "Atlantic"	1
+NNP "Attorney"	1
+NNP "Aug."	2
+NNP "August"	12
+NNP "Augusta"	1
+NNP "Austin"	1
+NNP "Australia"	2
+NNP "Authority"	1
+NNP "Autry"	1
+NNP "Aviation"	1
+NNP "B."	3
+NNP "BELL"	1
+NNP "Bach"	2
+NNP "Baker"	1
+NNP "Balloon"	1
+NNP "Bancorp"	1
+NNP "Bank"	8
+NNP "BankAmerica"	2
+NNP "Banxquote"	5
+NNP "Bar"	1
+NNP "Barber"	1
+NNP "Barrett"	1
+NNP "Baseball"	1
+NNP "Basin"	3
+NNP "Bay"	2
+NNP "Beach"	2
+NNP "Bebop"	1
+NNP "Belgium"	1
+NNP "Bell"	1
+NNP "Belzberg"	1
+NNP "Berkeley"	7
+NNP "Berlin"	1
+NNP "Berra"	1
+NNP "Bert"	1
+NNP "Bewkes"	1
+NNP "Big"	1
+NNP "Bill"	2
+NNP "Biosource"	2
+NNP "Blair"	2
+NNP "Board"	2
+NNP "Bob"	1
+NNP "Boeing"	1
+NNP "Bolton"	1
+NNP "Boston"	2
+NNP "Bradley"	1
+NNP "Brahms"	1
+NNP "Branch"	1
+NNP "Brauerei"	1
+NNP "Brezinski"	1
+NNP "Brian"	1
+NNP "Brissette"	2
+NNP "Britain"	5
+NNP "Broberg"	3
+NNP "Brown"	1
+NNP "Brunei"	1
+NNP "Brunswick"	1
+NNP "Brussels"	1
+NNP "Budget"	3
+NNP "Bull"	2
+NNP "Burnham"	1
+NNP "Bush"	15
+NNP "C."	1
+NNP "CDC"	1
+NNP "CIA"	4
+NNP "CORP"	1
+NNP "CORP."	1
+NNP "Calif."	5
+NNP "California"	5
+NNP "Cambria"	4
+NNP "Campaneris"	4
+NNP "Canada"	8
+NNP "Canonie"	2
+NNP "Capel"	1
+NNP "Capital"	1
+NNP "Cardiff"	1
+NNP "Carl"	2
+NNP "Carmen"	1
+NNP "Castro"	2
+NNP "Cattrall"	1
+NNP "Caygill"	1
+NNP "Celimene"	1
+NNP "Centennial"	1
+NNP "Center"	2
+NNP "Chairman"	2
+NNP "Chancellor"	1
+NNP "Charlie"	1
+NNP "Chemical"	1
+NNP "Chevy"	1
+NNP "Chez"	4
+NNP "Chicago"	3
+NNP "China"	1
+NNP "Christina"	1
+NNP "Cincinnati"	1
+NNP "Cinzano"	1
+NNP "Citicorp"	2
+NNP "City"	1
+NNP "Clifford"	2
+NNP "Clyde"	1
+NNP "Co"	6
+NNP "Co."	22
+NNP "Coast"	2
+NNP "Coca-Cola"	4
+NNP "Coke"	12
+NNP "Coleman"	1
+NNP "Collins"	4
+NNP "Color"	1
+NNP "Colorado"	1
+NNP "Columbia"	2
+NNP "Commerce"	3
+NNP "Commission"	4
+NNP "Committee"	4
+NNP "Company"	1
+NNP "Computer"	2
+NNP "Congress"	9
+NNP "Congressional"	2
+NNP "Conlon"	2
+NNP "Conn."	1
+NNP "Connoisseur"	1
+NNP "Conrail"	1
+NNP "Control"	6
+NNP "Corp"	1
+NNP "Corp."	22
+NNP "County"	5
+NNP "Crescott"	1
+NNP "Crozier"	1
+NNP "Curt"	1
+NNP "D."	6
+NNP "DAX"	1
+NNP "DFC"	1
+NNP "DPC"	1
+NNP "Dabney"	1
+NNP "Daignault"	1
+NNP "Dalton"	1
+NNP "Daniel"	1
+NNP "Data"	6
+NNP "Dave"	1
+NNP "David"	4
+NNP "Dean"	1
+NNP "Debt"	1
+NNP "Dec."	1
+NNP "December"	4
+NNP "Delta"	2
+NNP "Democrats"	1
+NNP "Department"	5
+NNP "Deposit"	2
+NNP "Depositary"	1
+NNP "Detroit"	1
+NNP "Development"	1
+NNP "Dicks"	1
+NNP "Digital"	4
+NNP "Director"	1
+NNP "Directorate"	2
+NNP "Dirk"	1
+NNP "Distance"	2
+NNP "Dixie"	1
+NNP "Domenici"	1
+NNP "Don"	1
+NNP "Donovan"	2
+NNP "Doubleday"	1
+NNP "Douglas"	9
+NNP "Dow"	6
+NNP "Dozen"	1
+NNP "Dr."	1
+NNP "Drew"	1
+NNP "Drexel"	1
+NNP "E."	2
+NNP "Earl"	1
+NNP "East"	1
+NNP "Eastern"	5
+NNP "Ebensburg"	1
+NNP "Economic"	2
+NNP "Ed"	1
+NNP "Eddie"	2
+NNP "Edison"	1
+NNP "Eduard"	1
+NNP "Edward"	1
+NNP "Eichof"	1
+NNP "El"	1
+NNP "Elanco"	2
+NNP "Eli"	3
+NNP "Elianti"	1
+NNP "Energy"	1
+NNP "Engineering"	1
+NNP "England"	1
+NNP "English"	1
+NNP "Entertainment"	1
+NNP "Entrekin"	1
+NNP "Epinal"	1
+NNP "Equipment"	2
+NNP "Equity"	1
+NNP "Erwin"	2
+NNP "Estate"	3
+NNP "Etudes"	1
+NNP "Europe"	12
+NNP "Evans-Black"	1
+NNP "Exchange"	7
+NNP "Exchequer"	1
+NNP "Express"	1
+NNP "F."	3
+NNP "FBI"	1
+NNP "FEDERAL"	2
+NNP "Fannie"	1
+NNP "Fargo"	1
+NNP "Feb."	1
+NNP "Fed"	5
+NNP "Federal"	5
+NNP "Federico"	1
+NNP "Fiat"	5
+NNP "Fibreboard"	1
+NNP "Fiesta"	1
+NNP "Finance"	1
+NNP "Financial"	2
+NNP "Finanziario"	1
+NNP "Fingers"	2
+NNP "Fla."	1
+NNP "Flood"	1
+NNP "Florence"	3
+NNP "Florida"	3
+NNP "Foggs"	1
+NNP "Forbes"	1
+NNP "Ford"	16
+NNP "Foreign"	1
+NNP "Fortney"	1
+NNP "France"	6
+NNP "Francisco"	1
+NNP "Frank"	1
+NNP "Frankfurt"	2
+NNP "Fraser"	3
+NNP "Fred"	1
+NNP "Freddie"	1
+NNP "French"	1
+NNP "Friday"	1
+NNP "Fulton"	1
+NNP "Fund"	4
+NNP "GAO"	1
+NNP "GDP"	2
+NNP "GM"	11
+NNP "GOP"	1
+NNP "Ga"	1
+NNP "Ga."	1
+NNP "Gabele"	1
+NNP "Galbani"	1
+NNP "Gant"	2
+NNP "Garfield"	1
+NNP "Garrett"	1
+NNP "Gas"	2
+NNP "Geiger"	2
+NNP "Gene"	1
+NNP "General"	6
+NNP "Genetic"	5
+NNP "Genetics"	1
+NNP "Geneva"	1
+NNP "Gerald"	1
+NNP "German"	1
+NNP "Germany"	10
+NNP "Gideon"	2
+NNP "Giovanni"	8
+NNP "Glove"	1
+NNP "Gnu-Emacs"	2
+NNP "God"	1
+NNP "Gold"	2
+NNP "Goldberg"	1
+NNP "Gomez"	3
+NNP "Goodman"	1
+NNP "Gorbachev"	1
+NNP "Gramm-Rudman"	2
+NNP "Greece"	1
+NNP "Greenery"	2
+NNP "Greenwich"	1
+NNP "Grinevsky"	1
+NNP "Group"	2
+NNP "Groupe"	1
+NNP "H."	1
+NNP "HOME"	1
+NNP "Haag"	2
+NNP "Hani"	1
+NNP "Hannover"	1
+NNP "Hanover"	1
+NNP "Harriton"	1
+NNP "Harry"	1
+NNP "HealthVest"	12
+NNP "Healthcare"	14
+NNP "Heinz"	1
+NNP "Heiwa"	1
+NNP "Hess"	3
+NNP "Hewlett-Packard"	1
+NNP "High"	1
+NNP "Hime"	1
+NNP "Hindemith"	1
+NNP "Hippie"	1
+NNP "Holding"	1
+NNP "Hollander"	5
+NNP "Holliger"	1
+NNP "Hong"	1
+NNP "House"	16
+NNP "Houston"	7
+NNP "Howard"	1
+NNP "Hudson"	1
+NNP "Hugo"	1
+NNP "Hunter"	1
+NNP "Hurricane"	1
+NNP "Husky"	1
+NNP "IFI"	6
+NNP "III"	1
+NNP "INDUSTRIES"	1
+NNP "INTERBANK"	1
+NNP "ITEL"	1
+NNP "ITT"	1
+NNP "Ifint"	3
+NNP "Ill."	1
+NNP "Inc"	6
+NNP "Inc."	24
+NNP "Independence"	1
+NNP "Index"	2
+NNP "Indianapolis"	2
+NNP "Industrial"	4
+NNP "Industriale"	1
+NNP "Industry"	2
+NNP "InfoCorp"	2
+NNP "Institute"	2
+NNP "Insurance"	2
+NNP "Intel"	1
+NNP "International"	5
+NNP "Invest/Net"	1
+NNP "Ireland"	1
+NNP "Ismaili"	1
+NNP "Istituto"	1
+NNP "Italy"	3
+NNP "Itel"	1
+NNP "J."	2
+NNP "Jaguar"	34
+NNP "Jahn"	2
+NNP "James"	3
+NNP "Jan"	1
+NNP "Jan."	1
+NNP "January"	4
+NNP "Japan"	16
+NNP "Jerome"	1
+NNP "Jim"	1
+NNP "Joe"	1
+NNP "Johanson"	1
+NNP "John"	9
+NNP "Johnson"	3
+NNP "Jones"	2
+NNP "Joni"	1
+NNP "Joseph"	1
+NNP "Journal"	3
+NNP "Jr."	1
+NNP "Judge"	4
+NNP "Judy"	1
+NNP "July"	6
+NNP "June"	3
+NNP "Justice"	1
+NNP "KGB"	3
+NNP "Karim"	1
+NNP "Keck"	1
+NNP "Kennedy"	2
+NNP "Khan"	6
+NNP "Kim"	1
+NNP "Kingman"	1
+NNP "Kluge"	1
+NNP "Kong"	1
+NNP "Korea"	2
+NNP "Kuehn"	3
+NNP "Ky."	1
+NNP "LIBOR"	1
+NNP "LOAN"	1
+NNP "LONDON"	2
+NNP "LYNCH"	1
+NNP "LaFalce"	2
+NNP "Labor"	3
+NNP "Laboratory"	1
+NNP "Lambert"	1
+NNP "Lancaster"	1
+NNP "Land"	1
+NNP "Lane"	6
+NNP "Law"	1
+NNP "Lawrence"	2
+NNP "Lawson"	1
+NNP "Lease"	2
+NNP "Leemans"	3
+NNP "Lees"	1
+NNP "Legion"	1
+NNP "Liberty"	3
+NNP "Light"	1
+NNP "Lighting"	4
+NNP "Lilly"	3
+NNP "Lindsey"	1
+NNP "Logan"	1
+NNP "London"	7
+NNP "Long"	2
+NNP "Los"	2
+NNP "Louis"	1
+NNP "Lower"	1
+NNP "Ltd"	1
+NNP "Ltd."	2
+NNP "Luis"	1
+NNP "M'Bow"	3
+NNP "MCI"	1
+NNP "MERRILL"	1
+NNP "MIPS"	1
+NNP "MORTGAGE"	2
+NNP "Mac"	1
+NNP "Mae"	1
+NNP "Major"	1
+NNP "Malaysia"	1
+NNP "Malcolm"	1
+NNP "Management"	1
+NNP "Manila"	1
+NNP "Manuel"	1
+NNP "March"	4
+NNP "Maria"	1
+NNP "Marietta"	2
+NNP "Market"	1
+NNP "Markets"	1
+NNP "Markus"	2
+NNP "Marston"	2
+NNP "Martha"	1
+NNP "Martin"	2
+NNP "Mass."	2
+NNP "Massachusetts"	1
+NNP "Matthews"	1
+NNP "Maurice"	1
+NNP "May"	1
+NNP "Mayor"	2
+NNP "Mazzera"	1
+NNP "McEnaney"	2
+NNP "McGregor"	1
+NNP "Mediobanca"	2
+NNP "Mehl"	2
+NNP "Melloan"	1
+NNP "Mercantile"	1
+NNP "Messiaen"	1
+NNP "Metromedia"	5
+NNP "Metromedia-ITT"	1
+NNP "Metropolitan"	1
+NNP "Miami"	1
+NNP "Mich."	1
+NNP "Michael"	2
+NNP "Michigan"	1
+NNP "Midland"	1
+NNP "Mikhail"	1
+NNP "Milan"	2
+NNP "Miller"	1
+NNP "Milton"	1
+NNP "Minikes"	1
+NNP "Minister"	1
+NNP "Minn."	1
+NNP "Minneapolis"	1
+NNP "Mips"	18
+NNP "Miranda"	1
+NNP "Miss"	1
+NNP "Miss."	1
+NNP "Mitchell"	1
+NNP "Mitre"	1
+NNP "Mitsubishi"	2
+NNP "Monday"	10
+NNP "Money"	1
+NNP "Monsanto"	2
+NNP "Montgolfier"	1
+NNP "Montgoris"	1
+NNP "Montpelier"	1
+NNP "Moody"	4
+NNP "Morgan"	1
+NNP "Morley"	1
+NNP "Mosher"	1
+NNP "Motor"	3
+NNP "Motorola"	1
+NNP "Mozart"	1
+NNP "Mr."	99
+NNP "Mrs."	1
+NNP "Ms."	12
+NNP "Mulford"	8
+NNP "Mullins"	1
+NNP "Murphy"	1
+NNP "Murray"	1
+NNP "Museum"	1
+NNP "N.M"	1
+NNP "N.V."	1
+NNP "N.Y"	1
+NNP "NATIONAL"	1
+NNP "NATO"	7
+NNP "NEC"	1
+NNP "NSA"	1
+NNP "National"	7
+NNP "Natural"	1
+NNP "Neave"	3
+NNP "New"	25
+NNP "Newport"	3
+NNP "Nicholas"	2
+NNP "Nikkei"	2
+NNP "Nikko"	1
+NNP "Nixdorf"	2
+NNP "Nomura"	8
+NNP "Norberto"	1
+NNP "Norman"	1
+NNP "North"	3
+NNP "Northeast"	1
+NNP "Northern"	1
+NNP "Norway"	1
+NNP "Nov."	4
+NNP "November"	2
+NNP "Nuclear"	1
+NNP "O'Kicki"	4
+NNP "OFFERED"	1
+NNP "Oakland"	2
+NNP "Oct"	1
+NNP "Oct."	4
+NNP "October"	9
+NNP "Office"	4
+NNP "Oil"	1
+NNP "Okla."	1
+NNP "Old"	1
+NNP "Oleg"	1
+NNP "Omega"	1
+NNP "Organization"	1
+NNP "Oriole"	1
+NNP "Orioles"	1
+NNP "Ornette"	1
+NNP "Orwellian"	1
+NNP "P."	1
+NNP "PLC"	1
+NNP "PSE"	1
+NNP "Pa."	2
+NNP "Pacific"	5
+NNP "Pact"	2
+NNP "Palm"	1
+NNP "Panhandle"	2
+NNP "Panisse"	4
+NNP "Paragould"	2
+NNP "Paris"	3
+NNP "Parker"	1
+NNP "Parliament"	1
+NNP "Party"	1
+NNP "Paso"	1
+NNP "Paul"	2
+NNP "Pearson"	1
+NNP "Pedro"	1
+NNP "Pennsylvania"	2
+NNP "Pentagon"	2
+NNP "Perspective"	1
+NNP "Pete"	2
+NNP "Peter"	2
+NNP "Petty"	1
+NNP "Phineas"	1
+NNP "Pilgrim"	2
+NNP "Pine"	2
+NNP "Pirate"	1
+NNP "Pittsburg"	1
+NNP "Pittsburgh"	2
+NNP "Planning"	2
+NNP "Plant"	5
+NNP "Pompano"	1
+NNP "Pond"	1
+NNP "Porter"	1
+NNP "Postal"	1
+NNP "Power"	2
+NNP "Prebon"	1
+NNP "President"	11
+NNP "Price"	1
+NNP "Prince"	1
+NNP "Professional"	1
+NNP "Project"	1
+NNP "Provident"	1
+NNP "Public"	2
+NNP "Q."	1
+NNP "R."	3
+NNP "READY"	1
+NNP "RISC"	5
+NNP "RTC"	7
+NNP "Radio"	1
+NNP "Ramos"	1
+NNP "Random"	1
+NNP "Raymond"	1
+NNP "Reagan"	3
+NNP "Real"	1
+NNP "Realty"	1
+NNP "Red"	3
+NNP "Regulation"	1
+NNP "Regulatory"	1
+NNP "Rehabilitation"	1
+NNP "Reich"	4
+NNP "Reitman"	1
+NNP "Rennie"	1
+NNP "Rep."	4
+NNP "Research"	1
+NNP "Reserve"	4
+NNP "Resnick"	1
+NNP "Resolution"	1
+NNP "Retirement"	1
+NNP "Revolution"	1
+NNP "Reynolds"	1
+NNP "Richard"	6
+NNP "Ridley"	9
+NNP "Rippe"	1
+NNP "Ritter"	1
+NNP "Robert"	5
+NNP "Robertson"	1
+NNP "Robinson"	2
+NNP "Rockefeller"	1
+NNP "Roger"	2
+NNP "Rollie"	1
+NNP "Rolls-Royce"	1
+NNP "Ronald"	1
+NNP "Ross"	1
+NNP "Rothschild"	1
+NNP "Roy"	1
+NNP "Rubendall"	3
+NNP "Rural"	1
+NNP "S."	1
+NNP "S.A."	1
+NNP "S.C."	1
+NNP "S.p"	3
+NNP "SEC"	12
+NNP "SFE"	3
+NNP "Saint-Saens"	2
+NNP "San"	1
+NNP "Sandy"	1
+NNP "Sardinia"	1
+NNP "Saturday"	1
+NNP "Saul"	1
+NNP "School"	1
+NNP "Scientific"	1
+NNP "Scott"	3
+NNP "Secretary"	2
+NNP "Security"	1
+NNP "Seib"	1
+NNP "Senate"	4
+NNP "Senior"	1
+NNP "Seoul"	1
+NNP "Sept."	2
+NNP "September"	20
+NNP "Series"	2
+NNP "Serkin"	1
+NNP "Service"	2
+NNP "Shaw"	4
+NNP "Shell"	1
+NNP "Shere"	6
+NNP "Sherry"	1
+NNP "Shevardnadze"	1
+NNP "Shostakovich"	1
+NNP "Sider"	2
+NNP "Siemens"	1
+NNP "Sierra"	1
+NNP "Singapore"	9
+NNP "Smith"	2
+NNP "Sole"	1
+NNP "Sony"	2
+NNP "South"	4
+NNP "Southwide"	1
+NNP "Soviet"	2
+NNP "Sox"	1
+NNP "Square"	1
+NNP "St."	1
+NNP "Stamford"	1
+NNP "Stanley"	1
+NNP "Stark"	1
+NNP "State"	2
+NNP "Station"	1
+NNP "Stennett"	1
+NNP "Stephen"	1
+NNP "Stertz"	1
+NNP "Steve"	2
+NNP "Stevenson"	2
+NNP "Stewart"	2
+NNP "Stock"	5
+NNP "Stockholm"	1
+NNP "Stoll"	11
+NNP "Stoltzman"	10
+NNP "Stolzman"	1
+NNP "Strauss"	1
+NNP "Street"	2
+NNP "Sumitomo"	1
+NNP "Sun"	2
+NNP "Sunnyvale"	1
+NNP "Sventek"	2
+NNP "Switzerland"	1
+NNP "Sydney"	1
+NNP "Systems"	1
+NNP "T."	1
+NNP "TRUST"	1
+NNP "Taipei"	1
+NNP "Taiwan"	1
+NNP "Tandem"	1
+NNP "Tashi"	2
+NNP "Technology"	1
+NNP "Telephone"	1
+NNP "Telerate"	2
+NNP "Teodorani"	1
+NNP "Texas"	5
+NNP "Thatcher"	2
+NNP "Theatre"	1
+NNP "Thomas"	1
+NNP "Thornburgh"	1
+NNP "Tiananmen"	1
+NNP "Tiant"	2
+NNP "Times"	1
+NNP "Tokyo"	4
+NNP "Tomash"	3
+NNP "Trade"	2
+NNP "Trans"	2
+NNP "Transmission"	2
+NNP "Travis"	1
+NNP "Treasury"	14
+NNP "Treaty"	1
+NNP "Truckee"	1
+NNP "Trunkline"	1
+NNP "Trust"	1
+NNP "Tuesday"	8
+NNP "Turkey"	1
+NNP "Tyler"	1
+NNP "Tymnet"	1
+NNP "U.N."	3
+NNP "U.S."	41
+NNP "U.S.A"	1
+NNP "U.S.A."	1
+NNP "UBS-Phillips"	1
+NNP "UNESCO"	8
+NNP "UNIFIRST"	1
+NNP "Undersecretary"	1
+NNP "UniFirst"	2
+NNP "United"	3
+NNP "University"	5
+NNP "Unix"	3
+NNP "Vacaville"	1
+NNP "Vice"	3
+NNP "Vienna"	2
+NNP "Virtue"	1
+NNP "Vosges"	1
+NNP "Vries"	1
+NNP "Vt."	1
+NNP "W."	2
+NNP "Wakeman"	3
+NNP "Wako"	1
+NNP "Wales"	1
+NNP "Waleson"	1
+NNP "Wall"	2
+NNP "Warsaw"	2
+NNP "Wash."	1
+NNP "Washington"	1
+NNP "Water"	1
+NNP "Waters"	1
+NNP "Weaver"	3
+NNP "Weekes"	5
+NNP "Wellington"	5
+NNP "Wells"	1
+NNP "West"	12
+NNP "Western"	1
+NNP "White"	10
+NNP "Will"	1
+NNP "William"	3
+NNP "Wilmington"	1
+NNP "Windy"	1
+NNP "Winnetka"	1
+NNP "Wise"	1
+NNP "Witter"	1
+NNP "World"	3
+NNP "Yale"	1
+NNP "Yastrzemski"	1
+NNP "Yogi"	1
+NNP "York"	10
+NNP "Yorker"	1
+NNP "Zayadi"	2
+NNP "Zealand"	10
+NNP "Zellers"	1
+NNP "Zurich"	1
+NNP "de"	1
+NNP-R $ $-R	5
+NNP-R -LRB- -LRB--R	11
+NNP-R -RRB- -RRB--R	16
+NNP-R CC CC-R	111
+NNP-R CD	12
+NNP-R CD CD-R	47
+NNP-R DT DT-R	67
+NNP-R FW FW-R	2
+NNP-R IN	1
+NNP-R IN IN-R	100
+NNP-R JJ JJ-R	18
+NNP-R MD MD-R	34
+NNP-R NN	11
+NNP-R NN NN-R	116
+NNP-R NNP	53
+NNP-R NNP NNP-R	696
+NNP-R NNPS	7
+NNP-R NNPS NNPS-R	49
+NNP-R NNS	7
+NNP-R NNS NNS-R	66
+NNP-R POS POS-R	116
+NNP-R PRP PRP-R	3
+NNP-R PRP$ PRP$-R	2
+NNP-R RB RB-R	28
+NNP-R RBR RBR-R	1
+NNP-R SYM SYM-R	1
+NNP-R TO TO-R	25
+NNP-R VB VB-R	3
+NNP-R VBD	11
+NNP-R VBD VBD-R	146
+NNP-R VBG VBG-R	10
+NNP-R VBN VBN-R	7
+NNP-R VBP VBP-R	9
+NNP-R VBZ VBZ-R	61
+NNP-R WDT WDT-R	21
+NNP-R WP WP-R	12
+NNP-R WP$ WP$-R	1
+NNP-R WRB WRB-R	3
+NNPS "ASSETS"	1
+NNPS "Affairs"	1
+NNPS "Agnellis"	2
+NNPS "Airlines"	1
+NNPS "Americans"	1
+NNPS "Associates"	1
+NNPS "BRANDS"	1
+NNPS "Belzbergs"	1
+NNPS "Brands"	3
+NNPS "British"	1
+NNPS "C.D.s"	1
+NNPS "Cardinals"	1
+NNPS "Cars"	1
+NNPS "Commons"	1
+NNPS "Communications"	1
+NNPS "Computers"	1
+NNPS "Dataproducts"	2
+NNPS "Democrats"	4
+NNPS "Electronics"	1
+NNPS "Epinalers"	1
+NNPS "Equities"	1
+NNPS "Europeans"	1
+NNPS "French"	2
+NNPS "Gauloises"	1
+NNPS "Germans"	2
+NNPS "Industries"	4
+NNPS "Investments"	1
+NNPS "Investors"	1
+NNPS "Manufacturers"	2
+NNPS "Means"	2
+NNPS "Microsystems"	1
+NNPS "Moslems"	1
+NNPS "Motors"	4
+NNPS "Mountains"	1
+NNPS "Nations"	1
+NNPS "Norwegians"	1
+NNPS "Partners"	1
+NNPS "People"	2
+NNPS "Pictures"	2
+NNPS "Properties"	1
+NNPS "RATES"	1
+NNPS "Rangers"	1
+NNPS "Receipts"	1
+NNPS "Republicans"	1
+NNPS "Sands"	1
+NNPS "Savings"	2
+NNPS "Securities"	6
+NNPS "Senators"	1
+NNPS "Services"	1
+NNPS "Soviets"	6
+NNPS "Sox"	2
+NNPS "States"	2
+NNPS "Statistics"	4
+NNPS "Suns"	3
+NNPS "Systems"	5
+NNPS "Teachers"	1
+NNPS "Technologies"	3
+NNPS "Tropics"	3
+NNPS "Utilities"	1
+NNPS "Vosges"	1
+NNPS "Ways"	2
+NNPS "West"	2
+NNPS "Yankees"	1
+NNPS-R -LRB- -LRB--R	1
+NNPS-R CC CC-R	10
+NNPS-R DT DT-R	1
+NNPS-R IN IN-R	3
+NNPS-R MD MD-R	2
+NNPS-R NN	1
+NNPS-R NN NN-R	4
+NNPS-R NNP	5
+NNPS-R NNP NNP-R	26
+NNPS-R NNPS	1
+NNPS-R NNPS NNPS-R	3
+NNPS-R NNS NNS-R	3
+NNPS-R POS POS-R	5
+NNPS-R PRP PRP-R	1
+NNPS-R RB RB-R	3
+NNPS-R TO TO-R	3
+NNPS-R VBD VBD-R	14
+NNPS-R VBG VBG-R	1
+NNPS-R VBN VBN-R	1
+NNPS-R VBP VBP-R	4
+NNPS-R VBZ VBZ-R	5
+NNPS-R WDT WDT-R	1
+NNPS-R WP WP-R	3
+NNS "12-inches"	1
+NNS "16-year-olds"	1
+NNS "19-year-olds"	1
+NNS "1930s"	1
+NNS "30s"	1
+NNS "757-200s"	2
+NNS "ACCEPTANCES"	1
+NNS "Allies"	1
+NNS "Analysts"	3
+NNS "Animals"	1
+NNS "Arts"	1
+NNS "BANKERS"	1
+NNS "BILLS"	1
+NNS "Babelists"	1
+NNS "Babies"	1
+NNS "Bailiffs"	1
+NNS "Banks"	1
+NNS "Baskets"	1
+NNS "Bids"	2
+NNS "CDs"	5
+NNS "CERTIFICATES"	1
+NNS "Classics"	1
+NNS "Companies"	1
+NNS "Concerns"	1
+NNS "Differences"	1
+NNS "EURODOLLARS"	1
+NNS "Earnings"	1
+NNS "Employers"	1
+NNS "FUNDS"	1
+NNS "IOUs"	1
+NNS "Individuals"	1
+NNS "Investors"	3
+NNS "Lawyers"	1
+NNS "Managers"	1
+NNS "Men"	1
+NNS "Officials"	1
+NNS "Others"	1
+NNS "People"	1
+NNS "Players"	1
+NNS "Prices"	1
+NNS "Prosecutors"	1
+NNS "RATES"	1
+NNS "Researchers"	1
+NNS "Reserves"	1
+NNS "Results"	1
+NNS "S&Ls"	1
+NNS "Sales"	2
+NNS "Seats"	1
+NNS "Slides"	1
+NNS "Statistics"	1
+NNS "Stocks"	1
+NNS "Surprises"	1
+NNS "Tanks"	1
+NNS "Terms"	1
+NNS "Trains"	1
+NNS "Units"	1
+NNS "Voices"	2
+NNS "Years"	1
+NNS "Yields"	1
+NNS "accountants"	2
+NNS "accounts"	2
+NNS "acquisitions"	3
+NNS "acres"	1
+NNS "activities"	3
+NNS "adjustments"	1
+NNS "adults"	1
+NNS "agencies"	3
+NNS "aides"	2
+NNS "aircraft"	1
+NNS "allegations"	4
+NNS "allies"	3
+NNS "amounts"	3
+NNS "analysts"	6
+NNS "animals"	1
+NNS "answers"	1
+NNS "anthers"	4
+NNS "antics"	1
+NNS "apologists"	1
+NNS "applications"	1
+NNS "arbitragers"	1
+NNS "areas"	1
+NNS "arguments"	1
+NNS "arms"	1
+NNS "arrears"	1
+NNS "arsenals"	2
+NNS "articles"	1
+NNS "aspects"	2
+NNS "assemblies"	1
+NNS "assets"	9
+NNS "associates"	1
+NNS "athletics"	1
+NNS "attributes"	1
+NNS "audiences"	2
+NNS "authorities"	1
+NNS "backlogs"	1
+NNS "balloonists"	3
+NNS "balloons"	2
+NNS "ballparks"	1
+NNS "ballplayers"	1
+NNS "bands"	1
+NNS "bankers"	1
+NNS "banks"	25
+NNS "barriers"	1
+NNS "bases"	1
+NNS "baskets"	1
+NNS "beaches"	1
+NNS "beanballs"	1
+NNS "berries"	1
+NNS "beverages"	1
+NNS "bids"	2
+NNS "billions"	1
+NNS "bills"	2
+NNS "birds"	1
+NNS "boards"	1
+NNS "bonds"	5
+NNS "books"	1
+NNS "borrowings"	1
+NNS "bottlers"	1
+NNS "boys"	1
+NNS "brands"	1
+NNS "brokers"	2
+NNS "brothers"	1
+NNS "brushbacks"	1
+NNS "businesses"	7
+NNS "buttons"	1
+NNS "calculations"	1
+NNS "capital-gains"	1
+NNS "cardholders"	1
+NNS "cards"	1
+NNS "carriers"	1
+NNS "cars"	3
+NNS "cases"	2
+NNS "catchers"	1
+NNS "categories"	1
+NNS "cellists"	1
+NNS "cents"	14
+NNS "certificates"	2
+NNS "challenges"	1
+NNS "chambers"	1
+NNS "changes"	11
+NNS "chaps"	1
+NNS "charges"	3
+NNS "chefs"	1
+NNS "chips"	1
+NNS "choices"	1
+NNS "chores"	1
+NNS "circles"	1
+NNS "circumstances"	1
+NNS "clients"	1
+NNS "clouds"	1
+NNS "clues"	1
+NNS "clusters"	1
+NNS "colleagues"	2
+NNS "commitments"	3
+NNS "communications"	3
+NNS "communities"	2
+NNS "companies"	18
+NNS "complaints"	1
+NNS "components"	3
+NNS "computers"	15
+NNS "concepts"	1
+NNS "concerns"	1
+NNS "concertos"	1
+NNS "concerts"	1
+NNS "concessions"	1
+NNS "conditions"	2
+NNS "conferences"	1
+NNS "consequences"	1
+NNS "consumers"	2
+NNS "contestants"	1
+NNS "contracts"	3
+NNS "contributions"	1
+NNS "controls"	1
+NNS "conventioners"	1
+NNS "copies"	1
+NNS "corporations"	3
+NNS "costs"	3
+NNS "countries"	6
+NNS "coverings"	1
+NNS "cows"	1
+NNS "creators"	1
+NNS "credentials"	1
+NNS "critics"	1
+NNS "crops"	6
+NNS "currents"	1
+NNS "customers"	1
+NNS "data"	3
+NNS "dates"	1
+NNS "days"	24
+NNS "dealers"	2
+NNS "dealings"	1
+NNS "debts"	2
+NNS "decades"	1
+NNS "decliners"	1
+NNS "declines"	1
+NNS "defenses"	1
+NNS "deficiencies"	1
+NNS "delegates"	1
+NNS "deliveries"	1
+NNS "demands"	1
+NNS "denominations"	1
+NNS "departments"	1
+NNS "deposits"	1
+NNS "deserts"	1
+NNS "developers"	2
+NNS "devices"	1
+NNS "dignitaries"	1
+NNS "diners"	2
+NNS "dinners"	1
+NNS "directors"	5
+NNS "discussions"	1
+NNS "dividends"	2
+NNS "divisions"	1
+NNS "dollars"	1
+NNS "drinks"	2
+NNS "duels"	1
+NNS "duffers"	1
+NNS "durables"	1
+NNS "duties"	2
+NNS "dyes"	1
+NNS "earnings"	8
+NNS "economies"	2
+NNS "economists"	1
+NNS "efforts"	3
+NNS "eggs"	2
+NNS "elections"	3
+NNS "elements"	1
+NNS "employees"	5
+NNS "employers"	1
+NNS "enthusiasms"	1
+NNS "enthusiasts"	1
+NNS "errors"	1
+NNS "estimates"	6
+NNS "events"	2
+NNS "exceptions"	1
+NNS "executions"	1
+NNS "executives"	7
+NNS "exemptions"	1
+NNS "exercises"	1
+NNS "expectations"	1
+NNS "expenses"	1
+NNS "experts"	2
+NNS "explanations"	1
+NNS "eyes"	1
+NNS "facilities"	4
+NNS "factors"	3
+NNS "fans"	4
+NNS "farmers"	1
+NNS "farmwives"	1
+NNS "fastballs"	1
+NNS "features"	1
+NNS "feelings"	1
+NNS "feet"	4
+NNS "festivities"	1
+NNS "fields"	1
+NNS "figures"	5
+NNS "files"	2
+NNS "filings"	3
+NNS "fingers"	1
+NNS "fireballs"	1
+NNS "firms"	1
+NNS "flights"	1
+NNS "foothills"	1
+NNS "forces"	4
+NNS "foreigners"	1
+NNS "friends"	1
+NNS "functionaries"	1
+NNS "fundamentals"	1
+NNS "funds"	10
+NNS "futures"	1
+NNS "gains"	3
+NNS "games"	1
+NNS "generators"	1
+NNS "genes"	2
+NNS "giants"	1
+NNS "goods"	3
+NNS "governments"	2
+NNS "grains"	1
+NNS "greats"	2
+NNS "guns"	1
+NNS "gurus"	1
+NNS "gyrations"	1
+NNS "habits"	2
+NNS "hands"	4
+NNS "heavens"	1
+NNS "heights"	1
+NNS "heroes"	1
+NNS "hits"	2
+NNS "holders"	1
+NNS "homes"	1
+NNS "hopes"	2
+NNS "houses"	2
+NNS "humans"	1
+NNS "hundreds"	1
+NNS "hybrids"	2
+NNS "ideals"	1
+NNS "ideas"	2
+NNS "images"	2
+NNS "imbalances"	1
+NNS "implications"	3
+NNS "increases"	3
+NNS "indications"	2
+NNS "indicators"	8
+NNS "individuals"	1
+NNS "industries"	3
+NNS "insects"	2
+NNS "insiders"	7
+NNS "institutions"	6
+NNS "instructions"	1
+NNS "instruments"	1
+NNS "interests"	7
+NNS "inventions"	1
+NNS "investigators"	1
+NNS "investments"	3
+NNS "investors"	10
+NNS "issues"	12
+NNS "jeans"	1
+NNS "jets"	1
+NNS "jobs"	3
+NNS "journalists"	1
+NNS "judges"	2
+NNS "jumbos"	1
+NNS "jurisdictions"	1
+NNS "jurists"	1
+NNS "kiddies"	2
+NNS "kinds"	1
+NNS "knowns"	1
+NNS "knuckles"	1
+NNS "lawmakers"	1
+NNS "laws"	2
+NNS "lawyers"	3
+NNS "leaders"	4
+NNS "leads"	1
+NNS "leaguers"	1
+NNS "letters"	4
+NNS "levels"	4
+NNS "licenses"	1
+NNS "limits"	2
+NNS "lines"	1
+NNS "links"	1
+NNS "lire"	4
+NNS "lives"	1
+NNS "loafers"	2
+NNS "loans"	8
+NNS "losers"	1
+NNS "losses"	2
+NNS "lots"	2
+NNS "machines"	9
+NNS "magazines"	2
+NNS "majors"	4
+NNS "makers"	3
+NNS "managers"	3
+NNS "manufacturers"	1
+NNS "margins"	2
+NNS "markets"	14
+NNS "matters"	2
+NNS "maturities"	2
+NNS "measures"	1
+NNS "media"	2
+NNS "meetings"	1
+NNS "members"	6
+NNS "men"	1
+NNS "mergers"	1
+NNS "meringues"	1
+NNS "miles"	1
+NNS "minds"	1
+NNS "minors"	1
+NNS "minutes"	5
+NNS "mistakes"	1
+NNS "mists"	1
+NNS "modifications"	1
+NNS "months"	33
+NNS "morsels"	1
+NNS "mortgages"	5
+NNS "motives"	1
+NNS "moves"	2
+NNS "multiples"	1
+NNS "mutts"	1
+NNS "naggings"	1
+NNS "names"	2
+NNS "nations"	1
+NNS "natural-resources"	1
+NNS "negotiations"	1
+NNS "negotiators"	2
+NNS "nests"	1
+NNS "networks"	1
+NNS "newcomers"	1
+NNS "nights"	1
+NNS "notes"	3
+NNS "novitiates"	1
+NNS "nuances"	1
+NNS "numbers"	1
+NNS "objectives"	1
+NNS "objects"	1
+NNS "occasions"	1
+NNS "officers"	2
+NNS "offices"	1
+NNS "officials"	10
+NNS "operations"	8
+NNS "options"	8
+NNS "orders"	4
+NNS "organizations"	3
+NNS "organs"	2
+NNS "others"	5
+NNS "pages"	2
+NNS "palms"	1
+NNS "parcels"	1
+NNS "parents"	1
+NNS "participants"	3
+NNS "parts"	1
+NNS "passengers"	2
+NNS "patrons"	1
+NNS "patterns"	2
+NNS "payments"	6
+NNS "payouts"	1
+NNS "peaks"	1
+NNS "peculiarities"	1
+NNS "people"	6
+NNS "peoples"	1
+NNS "performances"	1
+NNS "philosophers"	1
+NNS "pictures"	1
+NNS "pieces"	4
+NNS "pipelines"	1
+NNS "pistils"	1
+NNS "pitchers"	2
+NNS "planes"	2
+NNS "planners"	1
+NNS "plans"	4
+NNS "plants"	17
+NNS "plastics"	2
+NNS "players"	7
+NNS "points"	5
+NNS "police"	1
+NNS "policies"	1
+NNS "polyrhythms"	1
+NNS "populations"	1
+NNS "positions"	1
+NNS "posts"	1
+NNS "powers"	1
+NNS "practices"	1
+NNS "presenters"	1
+NNS "prices"	14
+NNS "principles"	2
+NNS "printers"	1
+NNS "problems"	6
+NNS "proceeds"	2
+NNS "processors"	2
+NNS "producers"	2
+NNS "products"	8
+NNS "profits"	1
+NNS "programs"	6
+NNS "projects"	3
+NNS "promoters"	1
+NNS "properties"	1
+NNS "proportions"	2
+NNS "proposals"	2
+NNS "prosecutors"	1
+NNS "protests"	1
+NNS "purchases"	3
+NNS "purposes"	1
+NNS "quarters"	1
+NNS "quartets"	1
+NNS "questions"	3
+NNS "quotations"	1
+NNS "railbikes"	1
+NNS "rapeseeds"	1
+NNS "rates"	14
+NNS "ratings"	1
+NNS "raw-materials"	1
+NNS "readers"	1
+NNS "realignments"	1
+NNS "realities"	1
+NNS "reasons"	2
+NNS "recipes"	4
+NNS "redemptions"	1
+NNS "reductions"	1
+NNS "references"	1
+NNS "reforms"	1
+NNS "regions"	2
+NNS "registrations"	2
+NNS "relations"	1
+NNS "remedies"	1
+NNS "reporters"	1
+NNS "reports"	6
+NNS "representatives"	1
+NNS "requests"	1
+NNS "requirements"	2
+NNS "researchers"	3
+NNS "reservations"	1
+NNS "responses"	1
+NNS "responsibilities"	1
+NNS "restaurants"	2
+NNS "restraints"	1
+NNS "restrictions"	2
+NNS "results"	2
+NNS "retirees"	1
+NNS "returns"	1
+NNS "rights"	5
+NNS "rises"	1
+NNS "risks"	1
+NNS "robots"	1
+NNS "roles"	1
+NNS "roses"	1
+NNS "rules"	6
+NNS "rulings"	1
+NNS "runs"	1
+NNS "safeguards"	1
+NNS "salaries"	1
+NNS "sales"	18
+NNS "savings"	1
+NNS "sciences"	1
+NNS "scientists"	1
+NNS "scores"	2
+NNS "seasons"	1
+NNS "secretaries"	2
+NNS "secrets"	1
+NNS "sectors"	1
+NNS "securities"	11
+NNS "seeds"	7
+NNS "selections"	1
+NNS "seniors"	1
+NNS "servants"	1
+NNS "services"	4
+NNS "shareholders"	9
+NNS "shareholdings"	1
+NNS "shares"	37
+NNS "shoes"	1
+NNS "shots"	1
+NNS "shows"	1
+NNS "sidelines"	2
+NNS "sides"	2
+NNS "signs"	1
+NNS "slots"	1
+NNS "sodas"	1
+NNS "soundings"	1
+NNS "sounds"	1
+NNS "soybeans"	1
+NNS "spares"	1
+NNS "specialists"	1
+NNS "specialties"	1
+NNS "spirits"	1
+NNS "spooks"	1
+NNS "sports"	2
+NNS "sprays"	2
+NNS "stadiums"	1
+NNS "staffs"	1
+NNS "stakes"	2
+NNS "standards"	3
+NNS "stands"	1
+NNS "statements"	1
+NNS "states"	1
+NNS "steriles"	1
+NNS "stocks"	4
+NNS "stones"	1
+NNS "strains"	1
+NNS "stretches"	1
+NNS "students"	1
+NNS "subjects"	1
+NNS "subsidiaries"	1
+NNS "suggestions"	1
+NNS "summers"	1
+NNS "sunsets"	1
+NNS "suspicions"	1
+NNS "sweets"	1
+NNS "swings"	2
+NNS "systems"	4
+NNS "tactics"	1
+NNS "talents"	1
+NNS "talks"	10
+NNS "tanks"	7
+NNS "targets"	2
+NNS "tassels"	1
+NNS "taxpayers"	1
+NNS "teams"	1
+NNS "techniques"	1
+NNS "terms"	1
+NNS "testaments"	1
+NNS "thanks"	1
+NNS "things"	7
+NNS "thrifts"	2
+NNS "ties"	1
+NNS "times"	4
+NNS "tips"	1
+NNS "titans"	1
+NNS "titles"	1
+NNS "toes"	1
+NNS "tons"	2
+NNS "tourists"	1
+NNS "tours"	1
+NNS "tracks"	2
+NNS "traders"	4
+NNS "trades"	2
+NNS "transactions"	4
+NNS "trends"	1
+NNS "tricks"	1
+NNS "troops"	1
+NNS "troubles"	1
+NNS "turbines"	1
+NNS "tweezers"	1
+NNS "two-thirds"	1
+NNS "umbrellas"	1
+NNS "underwriters"	1
+NNS "units"	2
+NNS "unknowns"	1
+NNS "upsets"	1
+NNS "vehicles"	1
+NNS "ventures"	2
+NNS "versions"	1
+NNS "virgins"	1
+NNS "visuals"	1
+NNS "warrants"	1
+NNS "weapons"	6
+NNS "weeks"	6
+NNS "wills"	1
+NNS "windfalls"	1
+NNS "winds"	1
+NNS "winners"	1
+NNS "wins"	1
+NNS "wisecracks"	1
+NNS "workers"	7
+NNS "works"	1
+NNS "years"	24
+NNS "yen"	4
+NNS "yields"	10
+NNS "youths"	1
+NNS-R $ $-R	1
+NNS-R -LRB- -LRB--R	7
+NNS-R -RRB-	3
+NNS-R -RRB- -RRB--R	4
+NNS-R CC CC-R	99
+NNS-R CD CD-R	33
+NNS-R DT DT-R	47
+NNS-R EX EX-R	1
+NNS-R FW	1
+NNS-R IN IN-R	346
+NNS-R JJ	2
+NNS-R JJ JJ-R	41
+NNS-R JJR JJR-R	1
+NNS-R JJS JJS-R	1
+NNS-R MD MD-R	31
+NNS-R NN	4
+NNS-R NN NN-R	29
+NNS-R NNP	4
+NNS-R NNP NNP-R	18
+NNS-R NNPS NNPS-R	1
+NNS-R NNS	2
+NNS-R NNS NNS-R	27
+NNS-R POS POS-R	12
+NNS-R PRP PRP-R	24
+NNS-R RB	5
+NNS-R RB RB-R	65
+NNS-R RBR	1
+NNS-R RBR RBR-R	2
+NNS-R RP	1
+NNS-R RP RP-R	2
+NNS-R TO TO-R	71
+NNS-R VB VB-R	7
+NNS-R VBD	5
+NNS-R VBD VBD-R	98
+NNS-R VBG VBG-R	47
+NNS-R VBN VBN-R	40
+NNS-R VBP	4
+NNS-R VBP VBP-R	87
+NNS-R VBZ VBZ-R	17
+NNS-R WDT WDT-R	29
+NNS-R WP WP-R	15
+NNS-R WRB WRB-R	1
+PDT "All"	1
+PDT "all"	8
+PDT "half"	1
+PDT "such"	2
+PDT-R DT DT-R	12
+POS "'"	15
+POS "'s"	188
+POS-R $ $-R	2
+POS-R -RRB- -RRB--R	1
+POS-R CD	1
+POS-R CD CD-R	4
+POS-R DT DT-R	1
+POS-R IN IN-R	1
+POS-R JJ JJ-R	43
+POS-R JJS JJS-R	8
+POS-R NN	16
+POS-R NN NN-R	73
+POS-R NNP NNP-R	22
+POS-R NNPS NNPS-R	4
+POS-R NNS	5
+POS-R NNS NNS-R	15
+POS-R RBS RBS-R	1
+POS-R VBD	1
+POS-R VBD VBD-R	2
+POS-R VBG VBG-R	2
+POS-R VBZ VBZ-R	1
+PRP "He"	32
+PRP "Himself"	1
+PRP "I"	37
+PRP "It"	23
+PRP "One"	1
+PRP "They"	7
+PRP "We"	7
+PRP "You"	5
+PRP "he"	78
+PRP "her"	2
+PRP "him"	11
+PRP "himself"	3
+PRP "it"	114
+PRP "itself"	3
+PRP "me"	3
+PRP "myself"	1
+PRP "one"	1
+PRP "she"	4
+PRP "theirs"	1
+PRP "them"	13
+PRP "themselves"	1
+PRP "they"	40
+PRP "us"	6
+PRP "we"	13
+PRP "you"	21
+PRP$ "His"	3
+PRP$ "Its"	2
+PRP$ "My"	2
+PRP$ "Our"	2
+PRP$ "Your"	1
+PRP$ "her"	6
+PRP$ "his"	58
+PRP$ "its"	71
+PRP$ "my"	9
+PRP$ "our"	11
+PRP$ "their"	48
+PRP$ "your"	6
+PRP$-R $ $-R	1
+PRP$-R CC CC-R	1
+PRP$-R CD CD-R	4
+PRP$-R FW FW-R	1
+PRP$-R JJ JJ-R	57
+PRP$-R NN	12
+PRP$-R NN NN-R	82
+PRP$-R NNP NNP-R	8
+PRP$-R NNPS NNPS-R	1
+PRP$-R NNS	7
+PRP$-R NNS NNS-R	41
+PRP$-R RB RB-R	1
+PRP$-R VBG VBG-R	3
+PRP-R -LRB- -LRB--R	2
+PRP-R CC CC-R	4
+PRP-R DT DT-R	5
+PRP-R IN IN-R	14
+PRP-R JJ JJ-R	5
+PRP-R JJR JJR-R	2
+PRP-R MD MD-R	58
+PRP-R NN NN-R	1
+PRP-R PRP PRP-R	2
+PRP-R RB	1
+PRP-R RB RB-R	26
+PRP-R RBR RBR-R	2
+PRP-R RP	1
+PRP-R RP RP-R	2
+PRP-R TO TO-R	10
+PRP-R UH UH-R	1
+PRP-R VB VB-R	5
+PRP-R VBD	17
+PRP-R VBD VBD-R	115
+PRP-R VBG VBG-R	4
+PRP-R VBP VBP-R	49
+PRP-R VBZ	10
+PRP-R VBZ VBZ-R	79
+PRP-R WP WP-R	1
+PRP-R WRB WRB-R	2
+RB "Actually"	1
+RB "Additionally"	1
+RB "Already"	1
+RB "Also"	1
+RB "Apparently"	1
+RB "Aside"	2
+RB "Back"	4
+RB "Barely"	1
+RB "Currently"	1
+RB "Early"	1
+RB "Elsewhere"	1
+RB "Even"	3
+RB "Eventually"	4
+RB "Ever"	1
+RB "Finally"	1
+RB "Free"	1
+RB "Here"	2
+RB "However"	3
+RB "Indeed"	1
+RB "Instead"	2
+RB "Just"	2
+RB "Meanwhile"	3
+RB "Nevertheless"	1
+RB "Nonetheless"	1
+RB "Not"	4
+RB "Now"	4
+RB "Once"	1
+RB "Only"	1
+RB "Perhaps"	1
+RB "Real"	1
+RB "Recently"	1
+RB "Separately"	2
+RB "So"	8
+RB "Sometimes"	1
+RB "Still"	4
+RB "Suddenly"	1
+RB "Then"	2
+RB "Typically"	1
+RB "a.m."	1
+RB "about"	2
+RB "abroad"	2
+RB "actively"	1
+RB "actually"	2
+RB "afterward"	1
+RB "again"	4
+RB "ago"	6
+RB "ahead"	3
+RB "alfresco"	1
+RB "all"	2
+RB "allegedly"	1
+RB "almost"	5
+RB "aloft"	3
+RB "along"	2
+RB "already"	4
+RB "also"	37
+RB "altogether"	2
+RB "always"	3
+RB "annually"	2
+RB "anymore"	2
+RB "apart"	1
+RB "approximately"	3
+RB "around"	3
+RB "as"	14
+RB "automatically"	1
+RB "away"	2
+RB "back"	9
+RB "badly"	2
+RB "barely"	1
+RB "because"	2
+RB "before"	1
+RB "below"	1
+RB "bet"	1
+RB "cautiously"	1
+RB "certainly"	2
+RB "clearly"	2
+RB "cleverly"	1
+RB "close"	2
+RB "closely"	5
+RB "counter"	1
+RB "currently"	5
+RB "deep"	1
+RB "directly"	5
+RB "done"	1
+RB "down"	16
+RB "earlier"	6
+RB "early"	5
+RB "easily"	2
+RB "effortlessly"	1
+RB "elegantly"	1
+RB "else"	1
+RB "entirely"	1
+RB "especially"	1
+RB "essentially"	2
+RB "even"	23
+RB "eventually"	2
+RB "ever"	2
+RB "exactly"	1
+RB "extremely"	1
+RB "face-to-face"	1
+RB "fairly"	1
+RB "far"	8
+RB "fast"	1
+RB "fetchingly"	1
+RB "finally"	2
+RB "financially"	1
+RB "first"	2
+RB "flat-footed"	1
+RB "formerly"	3
+RB "free"	1
+RB "frequently"	2
+RB "fundamentally"	1
+RB "generally"	2
+RB "genetically"	1
+RB "hard"	1
+RB "hardly"	1
+RB "heartwarmingly"	1
+RB "here"	2
+RB "highly"	4
+RB "historically"	1
+RB "however"	3
+RB "immediately"	2
+RB "in"	2
+RB "increasingly"	1
+RB "indeed"	1
+RB "ingeniously"	1
+RB "initially"	1
+RB "instead"	1
+RB "jealously"	1
+RB "jointly"	1
+RB "just"	14
+RB "largely"	4
+RB "late"	3
+RB "lately"	1
+RB "later"	1
+RB "likely"	2
+RB "long"	4
+RB "low"	1
+RB "magisterially"	1
+RB "mainly"	1
+RB "meanwhile"	1
+RB "merely"	1
+RB "mistakenly"	2
+RB "mostly"	2
+RB "much"	7
+RB "n't"	72
+RB "naturally"	1
+RB "near"	1
+RB "nearby"	1
+RB "nearly"	1
+RB "neither"	2
+RB "never"	2
+RB "newly"	3
+RB "no"	2
+RB "nonetheless"	1
+RB "normally"	1
+RB "not"	30
+RB "noticeably"	1
+RB "now"	18
+RB "off"	3
+RB "officially"	1
+RB "often"	3
+RB "on"	1
+RB "once"	6
+RB "only"	26
+RB "openly"	1
+RB "out"	10
+RB "over"	5
+RB "overseas"	2
+RB "painfully"	1
+RB "particularly"	2
+RB "partly"	1
+RB "perfectly"	1
+RB "perhaps"	4
+RB "personally"	2
+RB "plenty"	1
+RB "politically"	2
+RB "previously"	5
+RB "privately"	1
+RB "probably"	5
+RB "promptly"	1
+RB "quickly"	5
+RB "rapidly"	1
+RB "rarely"	1
+RB "rather"	4
+RB "really"	4
+RB "recently"	2
+RB "regularly"	1
+RB "relatively"	2
+RB "respectively"	1
+RB "right"	2
+RB "routinely"	1
+RB "seemingly"	1
+RB "seldom"	1
+RB "seriously"	1
+RB "sharply"	1
+RB "simply"	4
+RB "slightly"	2
+RB "so"	17
+RB "socially"	1
+RB "solely"	1
+RB "somehow"	2
+RB "sometime"	1
+RB "sometimes"	2
+RB "somewhat"	1
+RB "somewhere"	2
+RB "soon"	1
+RB "specifically"	1
+RB "splendidly"	1
+RB "still"	9
+RB "straight"	1
+RB "substantially"	1
+RB "successfully"	3
+RB "superbly"	1
+RB "supposedly"	1
+RB "tad"	1
+RB "temporarily"	1
+RB "that"	1
+RB "then"	13
+RB "there"	5
+RB "thereby"	1
+RB "thoroughly"	1
+RB "though"	1
+RB "thus"	1
+RB "together"	2
+RB "too"	8
+RB "totally"	1
+RB "tremendously"	1
+RB "twice"	1
+RB "typically"	2
+RB "ultimately"	2
+RB "unfairly"	1
+RB "unfortunately"	2
+RB "up"	33
+RB "usually"	2
+RB "vaguely"	1
+RB "vehemently"	2
+RB "very"	9
+RB "violently"	1
+RB "virtually"	1
+RB "vividly"	2
+RB "waggishly"	1
+RB "well"	9
+RB "widely"	2
+RB "yet"	3
+RB-R $ $-R	4
+RB-R -LRB- -LRB--R	1
+RB-R -RRB-	2
+RB-R CC CC-R	13
+RB-R CD	1
+RB-R CD CD-R	26
+RB-R DT DT-R	48
+RB-R FW FW-R	1
+RB-R IN	2
+RB-R IN IN-R	122
+RB-R JJ	7
+RB-R JJ JJ-R	66
+RB-R JJR	1
+RB-R JJR JJR-R	6
+RB-R MD MD-R	15
+RB-R NN NN-R	13
+RB-R NNP	1
+RB-R NNP NNP-R	17
+RB-R NNPS NNPS-R	1
+RB-R NNS NNS-R	8
+RB-R PDT PDT-R	1
+RB-R POS POS-R	1
+RB-R PRP PRP-R	16
+RB-R PRP$ PRP$-R	5
+RB-R RB	5
+RB-R RB RB-R	61
+RB-R RBR RBR-R	3
+RB-R RP RP-R	1
+RB-R TO TO-R	32
+RB-R VB	2
+RB-R VB VB-R	75
+RB-R VBD VBD-R	49
+RB-R VBG VBG-R	23
+RB-R VBN	4
+RB-R VBN VBN-R	58
+RB-R VBP	1
+RB-R VBP VBP-R	23
+RB-R VBZ	3
+RB-R VBZ VBZ-R	30
+RB-R WDT WDT-R	2
+RB-R WP WP-R	3
+RB-R WRB WRB-R	4
+RBR "better"	3
+RBR "earlier"	3
+RBR "further"	1
+RBR "higher"	4
+RBR "later"	4
+RBR "less"	6
+RBR "longer"	1
+RBR "more"	18
+RBR-R CC CC-R	1
+RBR-R DT DT-R	3
+RBR-R IN IN-R	10
+RBR-R JJ	1
+RBR-R JJ JJ-R	16
+RBR-R RB	1
+RBR-R RB RB-R	4
+RBR-R VBZ VBZ-R	1
+RBS "least"	1
+RBS "most"	10
+RBS-R IN IN-R	1
+RBS-R JJ JJ-R	9
+RBS-R VBZ VBZ-R	1
+RP "away"	1
+RP "back"	2
+RP "by"	2
+RP "down"	5
+RP "in"	1
+RP "off"	9
+RP "on"	2
+RP "out"	10
+RP "over"	3
+RP "up"	22
+RP-R CC CC-R	1
+RP-R CD CD-R	1
+RP-R DT DT-R	20
+RP-R IN IN-R	9
+RP-R JJ JJ-R	2
+RP-R NN NN-R	2
+RP-R NNP NNP-R	1
+RP-R NNS NNS-R	1
+RP-R PRP PRP-R	1
+RP-R PRP$ PRP$-R	2
+RP-R RB RB-R	4
+RP-R TO TO-R	6
+RP-R VB VB-R	1
+RP-R WRB WRB-R	1
+SYM "&"	1
+SYM-R NNP NNP-R	1
+TO "To"	4
+TO "to"	527
+TO-R $ $-R	10
+TO-R CC CC-R	1
+TO-R CD	5
+TO-R CD CD-R	42
+TO-R DT DT-R	67
+TO-R IN IN-R	6
+TO-R JJ	1
+TO-R JJ JJ-R	26
+TO-R JJR JJR-R	2
+TO-R NN	3
+TO-R NN NN-R	19
+TO-R NNP	2
+TO-R NNP NNP-R	23
+TO-R NNPS NNPS-R	1
+TO-R NNS NNS-R	8
+TO-R PRP	2
+TO-R PRP PRP-R	4
+TO-R PRP$ PRP$-R	5
+TO-R RB RB-R	5
+TO-R RBS RBS-R	1
+TO-R VB	5
+TO-R VB VB-R	290
+TO-R VBG VBG-R	1
+TO-R WDT WDT-R	2
+TOP -LRB- -LRB--R	7
+TOP CC CC-R	44
+TOP CD CD-R	14
+TOP DT DT-R	237
+TOP EX EX-R	4
+TOP FW FW-R	1
+TOP IN IN-R	107
+TOP JJ JJ-R	40
+TOP JJR JJR-R	2
+TOP JJS JJS-R	3
+TOP LS LS-R	3
+TOP NN	1
+TOP NN NN-R	29
+TOP NNP	1
+TOP NNP NNP-R	180
+TOP NNPS NNPS-R	7
+TOP NNS NNS-R	40
+TOP PDT PDT-R	1
+TOP PRP PRP-R	91
+TOP PRP$ PRP$-R	10
+TOP RB	1
+TOP RB RB-R	68
+TOP TO TO-R	4
+TOP VB VB-R	4
+TOP VBD VBD-R	1
+TOP VBG VBG-R	13
+TOP VBN VBN-R	6
+TOP VBZ VBZ-R	2
+TOP WDT WDT-R	2
+TOP WP WP-R	5
+TOP WRB WRB-R	4
+UH "oh"	1
+UH "well"	1
+UH-R DT DT-R	1
+UH-R JJ JJ-R	1
+VB "Attention"	1
+VB "Expect"	2
+VB "See"	1
+VB "abandon"	1
+VB "abolish"	1
+VB "accept"	2
+VB "accommodate"	1
+VB "acquire"	3
+VB "add"	2
+VB "admit"	1
+VB "adopt"	1
+VB "affect"	2
+VB "agree"	2
+VB "alert"	2
+VB "allow"	3
+VB "alter"	1
+VB "amass"	1
+VB "amble"	1
+VB "amount"	1
+VB "announce"	1
+VB "appear"	6
+VB "apply"	1
+VB "approve"	1
+VB "argue"	1
+VB "ask"	1
+VB "attract"	2
+VB "auction"	1
+VB "avoid"	2
+VB "back"	1
+VB "bail"	1
+VB "balloon"	1
+VB "be"	104
+VB "become"	3
+VB "begin"	3
+VB "believe"	2
+VB "benefit"	2
+VB "bid"	1
+VB "block"	2
+VB "boost"	3
+VB "break"	2
+VB "brief"	1
+VB "bring"	1
+VB "build"	3
+VB "buy"	5
+VB "calculate"	1
+VB "call"	3
+VB "carry"	1
+VB "catch"	1
+VB "challenge"	1
+VB "change"	3
+VB "chauffeur"	1
+VB "cheer"	1
+VB "chew"	1
+VB "chop"	1
+VB "clarify"	1
+VB "clear"	2
+VB "clip"	1
+VB "close"	2
+VB "cloud"	1
+VB "come"	2
+VB "comment"	2
+VB "compensate"	1
+VB "compete"	3
+VB "compromise"	1
+VB "concentrate"	1
+VB "confer"	1
+VB "connect"	1
+VB "consider"	2
+VB "continue"	1
+VB "control"	1
+VB "cost"	1
+VB "create"	3
+VB "cut"	3
+VB "delay"	1
+VB "depart"	1
+VB "destroy"	1
+VB "deter"	2
+VB "develop"	1
+VB "devise"	1
+VB "devote"	1
+VB "disassemble"	1
+VB "discuss"	2
+VB "dismiss"	1
+VB "distort"	1
+VB "disturb"	1
+VB "do"	4
+VB "doubt"	1
+VB "drag"	1
+VB "draw"	1
+VB "drive"	1
+VB "drop"	1
+VB "dump"	1
+VB "ease"	2
+VB "eliminate"	1
+VB "emerge"	1
+VB "end"	3
+VB "engage"	1
+VB "enjoy"	2
+VB "ensure"	1
+VB "enter"	1
+VB "establish"	2
+VB "examine"	1
+VB "exempt"	1
+VB "exercise"	1
+VB "expand"	1
+VB "expect"	5
+VB "experience"	1
+VB "expire"	1
+VB "explore"	1
+VB "fail"	1
+VB "favor"	1
+VB "feed"	1
+VB "feel"	2
+VB "field"	1
+VB "fight"	3
+VB "file"	5
+VB "finance"	1
+VB "find"	2
+VB "fix"	1
+VB "fly"	1
+VB "frustrate"	1
+VB "get"	9
+VB "give"	4
+VB "go"	4
+VB "have"	28
+VB "hear"	1
+VB "help"	5
+VB "hold"	1
+VB "holler"	1
+VB "hurt"	1
+VB "illustrate"	1
+VB "improve"	3
+VB "impugn"	1
+VB "include"	2
+VB "increase"	2
+VB "inflate"	1
+VB "influence"	1
+VB "install"	2
+VB "introduce"	2
+VB "invent"	1
+VB "invest"	3
+VB "involve"	1
+VB "issue"	2
+VB "join"	1
+VB "justify"	1
+VB "keep"	6
+VB "kill"	2
+VB "know"	2
+VB "kowtow"	1
+VB "lay"	1
+VB "lead"	1
+VB "lend"	1
+VB "let"	2
+VB "lift"	3
+VB "like"	2
+VB "limit"	2
+VB "look"	3
+VB "lose"	1
+VB "love"	1
+VB "lower"	1
+VB "maintain"	1
+VB "make"	16
+VB "manufacture"	1
+VB "mature"	1
+VB "maul"	1
+VB "mean"	2
+VB "measure"	1
+VB "meet"	1
+VB "merge"	2
+VB "minimize"	1
+VB "monitor"	1
+VB "mount"	1
+VB "move"	1
+VB "mow"	1
+VB "negotiate"	1
+VB "note"	1
+VB "obtain"	1
+VB "obviate"	1
+VB "occur"	1
+VB "offer"	1
+VB "open"	1
+VB "operate"	1
+VB "organize"	1
+VB "override"	2
+VB "own"	2
+VB "pack"	1
+VB "pay"	8
+VB "penetrate"	1
+VB "play"	6
+VB "pollinate"	1
+VB "pop"	1
+VB "possess"	1
+VB "postpone"	1
+VB "preclude"	1
+VB "prefer"	1
+VB "pressure"	1
+VB "prevent"	1
+VB "process"	1
+VB "produce"	3
+VB "program"	1
+VB "prompt"	1
+VB "propel"	1
+VB "protect"	2
+VB "prove"	1
+VB "provide"	5
+VB "publish"	1
+VB "pull"	1
+VB "purchase"	1
+VB "pursue"	1
+VB "push"	1
+VB "put"	4
+VB "quit"	1
+VB "raise"	8
+VB "reach"	1
+VB "read"	2
+VB "reap"	1
+VB "reassure"	1
+VB "recapture"	1
+VB "receive"	1
+VB "recover"	1
+VB "reduce"	3
+VB "reflect"	1
+VB "reinvent"	1
+VB "rejoin"	2
+VB "relax"	1
+VB "relinquish"	1
+VB "remain"	3
+VB "remember"	1
+VB "remove"	2
+VB "renege"	1
+VB "repay"	1
+VB "replace"	2
+VB "report"	3
+VB "represent"	1
+VB "require"	2
+VB "resemble"	1
+VB "resist"	1
+VB "resolve"	1
+VB "rest"	2
+VB "restrain"	1
+VB "result"	1
+VB "retain"	1
+VB "ride"	3
+VB "rise"	2
+VB "rule"	1
+VB "run"	2
+VB "say"	5
+VB "scuttle"	2
+VB "see"	2
+VB "sell"	11
+VB "shed"	1
+VB "show"	2
+VB "shun"	1
+VB "shut"	1
+VB "sign"	1
+VB "sit"	1
+VB "slide"	1
+VB "slip"	1
+VB "slow"	2
+VB "smooth"	1
+VB "soften"	1
+VB "spot"	1
+VB "stand"	1
+VB "start"	2
+VB "stay"	3
+VB "steer"	1
+VB "step"	1
+VB "sterilize"	1
+VB "streamline"	1
+VB "strengthen"	1
+VB "stretch"	1
+VB "substitute"	1
+VB "succeed"	1
+VB "supply"	2
+VB "support"	1
+VB "survive"	1
+VB "switch"	1
+VB "take"	7
+VB "tell"	3
+VB "testify"	1
+VB "think"	2
+VB "thrash"	1
+VB "throw"	1
+VB "trace"	1
+VB "trade"	2
+VB "traduce"	1
+VB "transfer"	1
+VB "try"	3
+VB "undermine"	1
+VB "unveil"	1
+VB "use"	3
+VB "vote"	3
+VB "wail"	1
+VB "waive"	1
+VB "want"	3
+VB "wedge"	1
+VB "wonder"	1
+VB "work"	2
+VB "worry"	1
+VB "write"	1
+VB-R $ $-R	3
+VB-R -LRB- -LRB--R	1
+VB-R CC CC-R	13
+VB-R CD CD-R	11
+VB-R DT DT-R	139
+VB-R IN IN-R	74
+VB-R JJ	3
+VB-R JJ JJ-R	60
+VB-R JJR JJR-R	10
+VB-R MD MD-R	1
+VB-R NN	3
+VB-R NN NN-R	34
+VB-R NNP	1
+VB-R NNP NNP-R	20
+VB-R NNS	2
+VB-R NNS NNS-R	39
+VB-R PDT PDT-R	1
+VB-R PRP	1
+VB-R PRP PRP-R	28
+VB-R PRP$ PRP$-R	37
+VB-R RB	5
+VB-R RB RB-R	29
+VB-R RBR RBR-R	5
+VB-R RP	1
+VB-R RP RP-R	12
+VB-R TO TO-R	23
+VB-R VB VB-R	4
+VB-R VBD VBD-R	1
+VB-R VBG VBG-R	19
+VB-R VBN	4
+VB-R VBN VBN-R	46
+VB-R VBP VBP-R	1
+VB-R VBZ VBZ-R	2
+VB-R WP WP-R	1
+VB-R WP$ WP$-R	1
+VB-R WRB WRB-R	2
+VBD "'d"	2
+VBD "Was"	1
+VBD "accused"	1
+VBD "acknowledged"	1
+VBD "acquired"	1
+VBD "added"	7
+VBD "adjusted"	1
+VBD "admitted"	1
+VBD "adopted"	1
+VBD "adorned"	1
+VBD "advanced"	1
+VBD "advised"	1
+VBD "agreed"	9
+VBD "allowed"	1
+VBD "announced"	7
+VBD "appeared"	1
+VBD "applied"	1
+VBD "argued"	4
+VBD "asked"	3
+VBD "attached"	1
+VBD "attracted"	1
+VBD "attributed"	1
+VBD "became"	4
+VBD "began"	2
+VBD "behaved"	1
+VBD "boosted"	1
+VBD "bought"	2
+VBD "brought"	3
+VBD "built"	1
+VBD "bullied"	1
+VBD "called"	4
+VBD "came"	6
+VBD "capped"	2
+VBD "caught"	1
+VBD "chanted"	1
+VBD "charged"	1
+VBD "chortled"	1
+VBD "cited"	1
+VBD "claimed"	1
+VBD "clambered"	1
+VBD "cleared"	1
+VBD "closed"	9
+VBD "collaborated"	1
+VBD "collected"	1
+VBD "complained"	1
+VBD "completed"	3
+VBD "complicated"	1
+VBD "contributed"	4
+VBD "converted"	1
+VBD "crossed"	1
+VBD "cut"	1
+VBD "declared"	1
+VBD "declined"	3
+VBD "defended"	1
+VBD "denied"	1
+VBD "departed"	1
+VBD "described"	1
+VBD "did"	7
+VBD "discarded"	1
+VBD "discovered"	1
+VBD "disputed"	1
+VBD "double-crossed"	1
+VBD "drew"	2
+VBD "dropped"	2
+VBD "drove"	2
+VBD "earned"	1
+VBD "emphasized"	1
+VBD "ended"	4
+VBD "enlisted"	1
+VBD "estimated"	1
+VBD "exchanged"	1
+VBD "exercised"	1
+VBD "extorted"	1
+VBD "failed"	2
+VBD "featured"	1
+VBD "fell"	5
+VBD "felt"	2
+VBD "figured"	1
+VBD "finished"	1
+VBD "fired"	1
+VBD "followed"	4
+VBD "forced"	1
+VBD "found"	2
+VBD "gained"	1
+VBD "gave"	3
+VBD "got"	4
+VBD "graduated"	1
+VBD "had"	37
+VBD "hailed"	1
+VBD "handed"	1
+VBD "handled"	1
+VBD "harassed"	1
+VBD "held"	1
+VBD "helped"	2
+VBD "hinted"	1
+VBD "hissed"	1
+VBD "hounded"	1
+VBD "ignored"	1
+VBD "illustrated"	1
+VBD "improvised"	1
+VBD "included"	1
+VBD "increased"	3
+VBD "indicted"	1
+VBD "innovated"	1
+VBD "insisted"	1
+VBD "introduced"	1
+VBD "involved"	1
+VBD "kept"	2
+VBD "lashed"	1
+VBD "laughed"	1
+VBD "launched"	1
+VBD "leaned"	1
+VBD "led"	1
+VBD "left"	4
+VBD "liberated"	1
+VBD "lifted"	1
+VBD "linked"	1
+VBD "listed"	1
+VBD "lit"	1
+VBD "loaned"	1
+VBD "looked"	3
+VBD "lowered"	1
+VBD "made"	7
+VBD "maintained"	1
+VBD "managed"	1
+VBD "marched"	1
+VBD "meant"	1
+VBD "moved"	3
+VBD "muscled"	1
+VBD "named"	1
+VBD "noted"	2
+VBD "observed"	2
+VBD "offered"	3
+VBD "opposed"	1
+VBD "outnumbered"	1
+VBD "owed"	1
+VBD "owned"	1
+VBD "packed"	1
+VBD "played"	1
+VBD "plotted"	1
+VBD "plunged"	3
+VBD "ponied"	1
+VBD "presented"	1
+VBD "produced"	1
+VBD "promised"	1
+VBD "proposed"	2
+VBD "pulled"	1
+VBD "purchased"	1
+VBD "pushed"	1
+VBD "put"	1
+VBD "raised"	1
+VBD "ran"	1
+VBD "ranged"	2
+VBD "reached"	1
+VBD "rebounded"	1
+VBD "received"	2
+VBD "recognized"	1
+VBD "recovered"	1
+VBD "reflected"	1
+VBD "refused"	2
+VBD "remained"	3
+VBD "rendezvoused"	1
+VBD "reported"	6
+VBD "represented"	1
+VBD "required"	1
+VBD "resigned"	3
+VBD "responded"	1
+VBD "resulted"	1
+VBD "resurfaced"	1
+VBD "retained"	1
+VBD "retired"	1
+VBD "rigged"	1
+VBD "rose"	16
+VBD "said"	145
+VBD "sang"	1
+VBD "sat"	1
+VBD "savored"	1
+VBD "scoffed"	1
+VBD "scrambled"	1
+VBD "scuttled"	1
+VBD "seemed"	3
+VBD "sent"	2
+VBD "set"	1
+VBD "shifted"	1
+VBD "showed"	4
+VBD "signed"	1
+VBD "skyrocketed"	1
+VBD "slept"	1
+VBD "soared"	1
+VBD "sold"	2
+VBD "sparked"	1
+VBD "squinted"	1
+VBD "started"	3
+VBD "stirred"	1
+VBD "streaked"	1
+VBD "suggested"	2
+VBD "supposed"	1
+VBD "surged"	1
+VBD "suspected"	1
+VBD "testified"	1
+VBD "thought"	1
+VBD "tied"	1
+VBD "told"	7
+VBD "took"	3
+VBD "totaled"	2
+VBD "traced"	1
+VBD "traded"	1
+VBD "tried"	1
+VBD "triggered"	1
+VBD "turned"	2
+VBD "undermined"	1
+VBD "upgraded"	1
+VBD "used"	2
+VBD "vetoed"	1
+VBD "visited"	1
+VBD "walked"	1
+VBD "wanted"	2
+VBD "warned"	1
+VBD "was"	114
+VBD "watched"	2
+VBD "watered"	1
+VBD "went"	5
+VBD "were"	49
+VBD "won"	2
+VBD "wrote"	3
+VBD "yelled"	2
+VBD "yielded"	2
+VBD-R $ $-R	4
+VBD-R CC CC-R	3
+VBD-R CD CD-R	35
+VBD-R DT DT-R	132
+VBD-R IN IN-R	96
+VBD-R JJ	3
+VBD-R JJ JJ-R	33
+VBD-R JJR JJR-R	4
+VBD-R JJS JJS-R	1
+VBD-R MD MD-R	1
+VBD-R NN	1
+VBD-R NN NN-R	20
+VBD-R NNP	3
+VBD-R NNP NNP-R	40
+VBD-R NNPS NNPS-R	1
+VBD-R NNS	1
+VBD-R NNS NNS-R	14
+VBD-R PDT PDT-R	2
+VBD-R PRP	1
+VBD-R PRP PRP-R	57
+VBD-R PRP$ PRP$-R	21
+VBD-R RB	3
+VBD-R RB RB-R	65
+VBD-R RBR	1
+VBD-R RBR RBR-R	5
+VBD-R RP	1
+VBD-R RP RP-R	10
+VBD-R TO TO-R	30
+VBD-R VB VB-R	3
+VBD-R VBD VBD-R	1
+VBD-R VBG	1
+VBD-R VBG VBG-R	15
+VBD-R VBN	3
+VBD-R VBN VBN-R	78
+VBD-R VBP VBP-R	2
+VBD-R VBZ VBZ-R	1
+VBD-R WP WP-R	1
+VBG "According"	3
+VBG "Advancing"	1
+VBG "Contributing"	1
+VBG "Defining"	1
+VBG "Feeling"	1
+VBG "Finding"	1
+VBG "Including"	1
+VBG "Keeping"	1
+VBG "Stuffing"	1
+VBG "Testifying"	1
+VBG "Using"	1
+VBG "according"	7
+VBG "achieving"	1
+VBG "acquiring"	1
+VBG "adding"	1
+VBG "aging"	1
+VBG "agreeing"	1
+VBG "aiming"	1
+VBG "alienating"	1
+VBG "alleging"	1
+VBG "allowing"	3
+VBG "answering"	1
+VBG "appealing"	2
+VBG "arousing"	1
+VBG "ascending"	2
+VBG "asking"	1
+VBG "assuming"	1
+VBG "attempting"	2
+VBG "attracting"	1
+VBG "backing"	1
+VBG "ballooning"	1
+VBG "banking"	2
+VBG "becoming"	1
+VBG "being"	10
+VBG "blocking"	1
+VBG "boosting"	1
+VBG "bottling"	3
+VBG "breaking"	1
+VBG "breeding"	1
+VBG "brewing"	1
+VBG "bringing"	1
+VBG "bulging"	1
+VBG "calling"	4
+VBG "casting"	1
+VBG "combining"	3
+VBG "coming"	2
+VBG "competing"	1
+VBG "complaining"	1
+VBG "conforming"	1
+VBG "consorting"	1
+VBG "consulting"	1
+VBG "containing"	1
+VBG "continuing"	1
+VBG "contributing"	1
+VBG "controlling"	1
+VBG "cramming"	1
+VBG "creating"	3
+VBG "cruising"	1
+VBG "damaging"	1
+VBG "deciding"	1
+VBG "declining"	1
+VBG "descending"	1
+VBG "developing"	4
+VBG "discovering"	1
+VBG "discussing"	1
+VBG "disposing"	1
+VBG "distracting"	1
+VBG "doing"	2
+VBG "dotting"	1
+VBG "drifting"	1
+VBG "driving"	1
+VBG "educating"	1
+VBG "emerging"	1
+VBG "equaling"	2
+VBG "exceeding"	1
+VBG "exempting"	1
+VBG "existing"	1
+VBG "experimenting"	1
+VBG "fertilizing"	1
+VBG "fighting"	1
+VBG "filling"	1
+VBG "financing"	1
+VBG "finding"	1
+VBG "flowing"	1
+VBG "focusing"	1
+VBG "following"	3
+VBG "forcing"	2
+VBG "generating"	1
+VBG "getting"	4
+VBG "giving"	2
+VBG "going"	10
+VBG "growing"	2
+VBG "guarding"	1
+VBG "having"	2
+VBG "heading"	1
+VBG "heating"	1
+VBG "helping"	1
+VBG "holding"	7
+VBG "imploring"	1
+VBG "including"	12
+VBG "increasing"	1
+VBG "insisting"	1
+VBG "interloping"	1
+VBG "interrupting"	1
+VBG "involving"	1
+VBG "joining"	1
+VBG "justifying"	1
+VBG "keeping"	2
+VBG "languishing"	1
+VBG "laying"	1
+VBG "leading"	7
+VBG "leaping"	1
+VBG "leaving"	1
+VBG "linking"	1
+VBG "listening"	2
+VBG "lobbying"	1
+VBG "lying"	1
+VBG "mail-sorting"	1
+VBG "making"	5
+VBG "managing"	4
+VBG "manufacturing"	2
+VBG "matching"	1
+VBG "meeting"	1
+VBG "moving"	1
+VBG "naming"	1
+VBG "negotiating"	3
+VBG "nursing"	1
+VBG "offering"	2
+VBG "opening"	2
+VBG "operating"	5
+VBG "opposing"	2
+VBG "overstating"	1
+VBG "pawing"	1
+VBG "paying"	1
+VBG "pending"	1
+VBG "persuading"	1
+VBG "pitching"	1
+VBG "playing"	1
+VBG "pocketing"	1
+VBG "pointing"	1
+VBG "policy-making"	1
+VBG "pollen-producing"	1
+VBG "preserving"	1
+VBG "pressing"	1
+VBG "pressuring"	1
+VBG "printing"	1
+VBG "processing"	1
+VBG "proclaiming"	1
+VBG "producing"	2
+VBG "projecting"	1
+VBG "promoting"	1
+VBG "pulling"	1
+VBG "punching"	1
+VBG "pushing"	1
+VBG "putting"	1
+VBG "raising"	3
+VBG "ranging"	1
+VBG "ranking"	1
+VBG "reaching"	1
+VBG "rearing"	1
+VBG "referring"	1
+VBG "reflecting"	1
+VBG "reigning"	1
+VBG "rejoining"	1
+VBG "remaining"	4
+VBG "reneging"	1
+VBG "repeating"	1
+VBG "reporting"	1
+VBG "representing"	1
+VBG "requiring"	1
+VBG "resigning"	1
+VBG "responding"	1
+VBG "resulting"	1
+VBG "retiring"	1
+VBG "retreating"	1
+VBG "returning"	1
+VBG "reveling"	1
+VBG "riding"	1
+VBG "rising"	2
+VBG "rolling"	1
+VBG "ruling"	1
+VBG "running"	2
+VBG "saluting"	1
+VBG "savoring"	1
+VBG "saying"	1
+VBG "scanning"	1
+VBG "scrambling"	1
+VBG "searching"	1
+VBG "seeing"	1
+VBG "seeking"	1
+VBG "selling"	6
+VBG "serving"	1
+VBG "sharing"	1
+VBG "shipping"	1
+VBG "showing"	1
+VBG "simplifying"	1
+VBG "sipping"	1
+VBG "slowing"	2
+VBG "soaring"	1
+VBG "sorting"	1
+VBG "spanning"	1
+VBG "springing"	1
+VBG "squaring"	1
+VBG "standing"	1
+VBG "stealing"	1
+VBG "stemming"	1
+VBG "sterilizing"	1
+VBG "succeeding"	6
+VBG "taking"	1
+VBG "talking"	1
+VBG "teeming"	1
+VBG "theory-teaching"	1
+VBG "thinking"	1
+VBG "throwing"	1
+VBG "totaling"	3
+VBG "tracing"	1
+VBG "trading"	2
+VBG "training"	2
+VBG "trying"	1
+VBG "using"	7
+VBG "voting"	2
+VBG "waiting"	2
+VBG "watching"	2
+VBG "wearing"	2
+VBG "weeping"	1
+VBG "weighing"	1
+VBG "working"	3
+VBG "wrestling"	1
+VBG "writing"	1
+VBG "yanking"	1
+VBG-R $ $-R	4
+VBG-R -RRB-	1
+VBG-R -RRB- -RRB--R	1
+VBG-R CC CC-R	4
+VBG-R CD	2
+VBG-R CD CD-R	5
+VBG-R DT DT-R	74
+VBG-R IN IN-R	56
+VBG-R JJ JJ-R	19
+VBG-R JJR JJR-R	3
+VBG-R NN	2
+VBG-R NN NN-R	37
+VBG-R NNP NNP-R	15
+VBG-R NNPS NNPS-R	1
+VBG-R NNS	8
+VBG-R NNS NNS-R	32
+VBG-R PDT PDT-R	1
+VBG-R PRP	1
+VBG-R PRP PRP-R	11
+VBG-R PRP$ PRP$-R	12
+VBG-R RB	2
+VBG-R RB RB-R	17
+VBG-R RP RP-R	6
+VBG-R TO TO-R	32
+VBG-R VB VB-R	1
+VBG-R VBD VBD-R	1
+VBG-R VBG VBG-R	2
+VBG-R VBN	1
+VBG-R VBN VBN-R	6
+VBG-R WP WP-R	1
+VBN "Annualized"	1
+VBN "Barred"	1
+VBN "Clad"	1
+VBN "Considered"	1
+VBN "Crouched"	1
+VBN "Downgraded"	1
+VBN "Posted"	2
+VBN "Revitalized"	1
+VBN "accompanied"	1
+VBN "accused"	1
+VBN "achieved"	1
+VBN "acquired"	2
+VBN "added"	1
+VBN "adjusted"	4
+VBN "adopted"	1
+VBN "agreed"	2
+VBN "aimed"	2
+VBN "aligned"	1
+VBN "allowed"	3
+VBN "angered"	1
+VBN "announced"	1
+VBN "applied"	1
+VBN "appointed"	1
+VBN "approved"	2
+VBN "arranged"	1
+VBN "asked"	2
+VBN "associated"	1
+VBN "assured"	1
+VBN "attached"	1
+VBN "attempted"	1
+VBN "attributed"	1
+VBN "autographed"	1
+VBN "backed"	1
+VBN "based"	11
+VBN "become"	1
+VBN "been"	44
+VBN "believed"	2
+VBN "blackmailed"	1
+VBN "bothered"	1
+VBN "brought"	2
+VBN "budged"	1
+VBN "buffeted"	1
+VBN "built"	3
+VBN "calculated"	1
+VBN "called"	4
+VBN "carried"	1
+VBN "caught"	1
+VBN "caused"	1
+VBN "changed"	1
+VBN "chosen"	1
+VBN "climbed"	1
+VBN "clipped"	1
+VBN "closed"	1
+VBN "come"	1
+VBN "comforted"	1
+VBN "compared"	3
+VBN "compelled"	2
+VBN "complained"	1
+VBN "completed"	3
+VBN "compromised"	1
+VBN "concerned"	1
+VBN "considered"	4
+VBN "consulted"	1
+VBN "controlled"	1
+VBN "counted"	1
+VBN "coupled"	1
+VBN "created"	3
+VBN "cross-pollinated"	1
+VBN "declined"	2
+VBN "defined"	2
+VBN "delivered"	2
+VBN "denied"	1
+VBN "designed"	1
+VBN "determined"	1
+VBN "developed"	4
+VBN "devised"	1
+VBN "disclosed"	5
+VBN "discovered"	1
+VBN "displaced"	1
+VBN "dissented"	1
+VBN "done"	1
+VBN "doomed"	1
+VBN "dragged"	1
+VBN "driven"	1
+VBN "dropped"	3
+VBN "dubbed"	1
+VBN "ejected"	1
+VBN "elected"	3
+VBN "embraced"	1
+VBN "employed"	3
+VBN "ended"	4
+VBN "engaged"	1
+VBN "engineered"	1
+VBN "erupted"	1
+VBN "estimated"	3
+VBN "excluded"	1
+VBN "exempted"	1
+VBN "expected"	6
+VBN "exploited"	1
+VBN "expressed"	1
+VBN "faced"	1
+VBN "fallen"	1
+VBN "felt"	1
+VBN "fertilized"	1
+VBN "followed"	2
+VBN "formed"	1
+VBN "fought"	1
+VBN "given"	2
+VBN "gone"	1
+VBN "gotten"	1
+VBN "grown"	2
+VBN "guaranteed"	1
+VBN "had"	4
+VBN "headed"	1
+VBN "held"	6
+VBN "heralded"	1
+VBN "hired"	1
+VBN "hit"	1
+VBN "hovered"	1
+VBN "hurt"	1
+VBN "identified"	1
+VBN "included"	1
+VBN "increased"	2
+VBN "inserted"	2
+VBN "intended"	1
+VBN "intervened"	1
+VBN "introduced"	3
+VBN "invested"	1
+VBN "invited"	1
+VBN "involved"	1
+VBN "isolated"	2
+VBN "issued"	1
+VBN "known"	2
+VBN "laid"	1
+VBN "learned"	1
+VBN "led"	2
+VBN "left"	2
+VBN "lifted"	1
+VBN "limited"	1
+VBN "linked"	1
+VBN "listed"	3
+VBN "lobbied"	1
+VBN "lost"	2
+VBN "made"	6
+VBN "measured"	1
+VBN "modeled"	1
+VBN "moved"	3
+VBN "muddled"	1
+VBN "named"	16
+VBN "obliged"	1
+VBN "offered"	5
+VBN "operated"	1
+VBN "ousted"	2
+VBN "owned"	3
+VBN "paid"	8
+VBN "passed"	2
+VBN "placed"	1
+VBN "planted"	1
+VBN "played"	3
+VBN "pollinated"	2
+VBN "powered"	1
+VBN "priced"	1
+VBN "produced"	4
+VBN "projected"	3
+VBN "pronounced"	1
+VBN "proposed"	9
+VBN "provided"	1
+VBN "provoked"	1
+VBN "published"	1
+VBN "purchased"	1
+VBN "purged"	1
+VBN "pushed"	1
+VBN "put"	1
+VBN "quoted"	2
+VBN "raised"	3
+VBN "reached"	3
+VBN "reacted"	1
+VBN "received"	2
+VBN "recognized"	1
+VBN "recorded"	2
+VBN "reduced"	1
+VBN "referred"	1
+VBN "registered"	2
+VBN "released"	3
+VBN "renamed"	1
+VBN "repaid"	2
+VBN "repeated"	1
+VBN "reported"	2
+VBN "required"	3
+VBN "resolved"	1
+VBN "risen"	1
+VBN "said"	3
+VBN "scheduled"	2
+VBN "scolded"	1
+VBN "seated"	1
+VBN "seen"	1
+VBN "selected"	1
+VBN "sent"	2
+VBN "served"	1
+VBN "set"	7
+VBN "shaken"	1
+VBN "shaped"	1
+VBN "shocked"	1
+VBN "shown"	2
+VBN "slowed"	1
+VBN "sold"	9
+VBN "spent"	1
+VBN "spurred"	1
+VBN "stacked"	1
+VBN "stalked"	1
+VBN "stayed"	1
+VBN "stepped"	1
+VBN "stolen"	2
+VBN "stopped"	2
+VBN "structured"	1
+VBN "stuck"	1
+VBN "subjected"	1
+VBN "submitted"	2
+VBN "subverted"	1
+VBN "summoned"	1
+VBN "surprised"	2
+VBN "surveyed"	1
+VBN "suspected"	1
+VBN "suspended"	2
+VBN "swelled"	1
+VBN "taken"	8
+VBN "tangled"	1
+VBN "targeted"	1
+VBN "tended"	1
+VBN "terminated"	1
+VBN "thinned"	1
+VBN "thought"	1
+VBN "tied"	2
+VBN "trained"	1
+VBN "tried"	1
+VBN "uncovered"	1
+VBN "undervalued"	1
+VBN "unhinged"	1
+VBN "used"	4
+VBN "valued"	2
+VBN "vetoed"	1
+VBN "waived"	1
+VBN "weakened"	1
+VBN "worded"	1
+VBN "worked"	1
+VBN "worried"	2
+VBN "worsened"	1
+VBN "written"	2
+VBN-R $ $-R	1
+VBN-R CC CC-R	7
+VBN-R CD CD-R	6
+VBN-R DT DT-R	35
+VBN-R IN IN-R	199
+VBN-R JJ	1
+VBN-R JJ JJ-R	25
+VBN-R JJR JJR-R	2
+VBN-R JJS JJS-R	1
+VBN-R MD MD-R	2
+VBN-R NN	3
+VBN-R NN NN-R	15
+VBN-R NNP NNP-R	16
+VBN-R NNS	3
+VBN-R NNS NNS-R	18
+VBN-R PRP PRP-R	4
+VBN-R PRP$ PRP$-R	3
+VBN-R RB	2
+VBN-R RB RB-R	26
+VBN-R RBR RBR-R	2
+VBN-R RP	1
+VBN-R RP RP-R	10
+VBN-R TO TO-R	45
+VBN-R VB VB-R	1
+VBN-R VBG	1
+VBN-R VBG VBG-R	13
+VBN-R VBN	3
+VBN-R VBN VBN-R	10
+VBN-R VBP VBP-R	2
+VBN-R WRB WRB-R	3
+VBP "'m"	5
+VBP "'re"	4
+VBP "'ve"	2
+VBP "Take"	1
+VBP "account"	1
+VBP "add"	1
+VBP "affect"	1
+VBP "agree"	1
+VBP "am"	2
+VBP "are"	81
+VBP "argue"	1
+VBP "average"	1
+VBP "ban"	1
+VBP "begin"	1
+VBP "believe"	2
+VBP "bring"	1
+VBP "burn"	1
+VBP "captain"	1
+VBP "carry"	1
+VBP "confirm"	1
+VBP "consider"	1
+VBP "contend"	2
+VBP "continue"	1
+VBP "dictate"	1
+VBP "disagree"	1
+VBP "dislike"	1
+VBP "do"	11
+VBP "dream"	1
+VBP "embody"	1
+VBP "expect"	3
+VBP "express"	1
+VBP "fail"	1
+VBP "fear"	1
+VBP "feel"	4
+VBP "figure"	1
+VBP "file"	1
+VBP "force"	1
+VBP "hate"	1
+VBP "have"	42
+VBP "hold"	1
+VBP "hope"	2
+VBP "hurl"	1
+VBP "include"	3
+VBP "insist"	1
+VBP "juxtapose"	1
+VBP "know"	2
+VBP "lag"	1
+VBP "leave"	1
+VBP "maintain"	2
+VBP "make"	6
+VBP "miss"	1
+VBP "move"	1
+VBP "need"	3
+VBP "object"	1
+VBP "occur"	1
+VBP "offer"	1
+VBP "operate"	1
+VBP "oppose"	2
+VBP "own"	1
+VBP "paint"	1
+VBP "pollinate"	1
+VBP "protect"	1
+VBP "provide"	1
+VBP "raise"	1
+VBP "receive"	1
+VBP "reclaim"	1
+VBP "relive"	1
+VBP "remain"	2
+VBP "remember"	1
+VBP "run"	1
+VBP "say"	5
+VBP "see"	2
+VBP "seem"	1
+VBP "separate"	1
+VBP "serve"	1
+VBP "smolder"	1
+VBP "sow"	1
+VBP "stand"	1
+VBP "think"	2
+VBP "track"	1
+VBP "vary"	1
+VBP "want"	5
+VBP "wonder"	1
+VBP "work"	1
+VBP "worry"	3
+VBP-R CC CC-R	3
+VBP-R CD CD-R	2
+VBP-R DT DT-R	42
+VBP-R IN IN-R	22
+VBP-R JJ	3
+VBP-R JJ JJ-R	19
+VBP-R JJR JJR-R	2
+VBP-R JJS JJS-R	1
+VBP-R NN NN-R	6
+VBP-R NNP NNP-R	3
+VBP-R NNS NNS-R	11
+VBP-R PRP PRP-R	6
+VBP-R PRP$ PRP$-R	1
+VBP-R RB	1
+VBP-R RB RB-R	47
+VBP-R RBR RBR-R	1
+VBP-R RP RP-R	2
+VBP-R TO TO-R	7
+VBP-R VB	1
+VBP-R VBG VBG-R	19
+VBP-R VBN	1
+VBP-R VBN VBN-R	49
+VBP-R WP WP-R	1
+VBP-R WRB WRB-R	3
+VBZ "'s"	32
+VBZ "Is"	1
+VBZ "Seems"	1
+VBZ "adjusts"	1
+VBZ "admits"	1
+VBZ "allows"	2
+VBZ "anticipates"	2
+VBZ "appears"	1
+VBZ "argues"	1
+VBZ "asks"	1
+VBZ "attracts"	1
+VBZ "battles"	1
+VBZ "believes"	1
+VBZ "blames"	1
+VBZ "bounces"	1
+VBZ "chooses"	1
+VBZ "claims"	1
+VBZ "cleans"	1
+VBZ "comes"	1
+VBZ "commissions"	1
+VBZ "completes"	1
+VBZ "concedes"	1
+VBZ "consists"	1
+VBZ "continues"	1
+VBZ "costs"	1
+VBZ "crowds"	1
+VBZ "deactivates"	1
+VBZ "demonstrates"	1
+VBZ "denies"	1
+VBZ "directs"	2
+VBZ "distributes"	1
+VBZ "does"	14
+VBZ "dons"	1
+VBZ "draws"	1
+VBZ "employs"	1
+VBZ "encourages"	1
+VBZ "ends"	1
+VBZ "excludes"	1
+VBZ "expects"	4
+VBZ "expires"	1
+VBZ "figures"	1
+VBZ "files"	1
+VBZ "fires"	1
+VBZ "flies"	1
+VBZ "flips"	1
+VBZ "follows"	2
+VBZ "gives"	3
+VBZ "goes"	2
+VBZ "growls"	1
+VBZ "handles"	1
+VBZ "has"	82
+VBZ "heads"	1
+VBZ "holds"	3
+VBZ "hustles"	1
+VBZ "includes"	2
+VBZ "indicates"	2
+VBZ "interferes"	1
+VBZ "interprets"	1
+VBZ "involves"	2
+VBZ "is"	132
+VBZ "knows"	1
+VBZ "lasts"	1
+VBZ "laughs"	1
+VBZ "learns"	1
+VBZ "licenses"	1
+VBZ "limits"	1
+VBZ "looks"	1
+VBZ "makes"	5
+VBZ "means"	3
+VBZ "meets"	1
+VBZ "needs"	2
+VBZ "offers"	2
+VBZ "overcomes"	1
+VBZ "oversees"	1
+VBZ "owes"	1
+VBZ "owns"	6
+VBZ "packages"	1
+VBZ "passes"	1
+VBZ "pays"	1
+VBZ "plans"	2
+VBZ "plays"	3
+VBZ "pores"	1
+VBZ "prepares"	1
+VBZ "prevents"	1
+VBZ "processes"	1
+VBZ "promises"	1
+VBZ "proves"	1
+VBZ "provides"	3
+VBZ "puts"	1
+VBZ "ranges"	1
+VBZ "recounts"	1
+VBZ "reflects"	3
+VBZ "regulates"	1
+VBZ "remains"	2
+VBZ "requires"	2
+VBZ "researches"	1
+VBZ "restricts"	1
+VBZ "retains"	2
+VBZ "runs"	1
+VBZ "says"	26
+VBZ "scoops"	1
+VBZ "seems"	5
+VBZ "sees"	1
+VBZ "sells"	2
+VBZ "shags"	1
+VBZ "shows"	3
+VBZ "speaks"	1
+VBZ "speeds"	1
+VBZ "spins"	1
+VBZ "spreads"	1
+VBZ "strengthens"	1
+VBZ "succeeds"	2
+VBZ "supports"	1
+VBZ "survives"	1
+VBZ "takes"	1
+VBZ "tells"	1
+VBZ "throws"	1
+VBZ "ties"	1
+VBZ "tracks"	1
+VBZ "treats"	1
+VBZ "uses"	3
+VBZ "values"	1
+VBZ "vows"	1
+VBZ "wants"	3
+VBZ "wins"	1
+VBZ "works"	1
+VBZ-R $ $-R	4
+VBZ-R -RRB- -RRB--R	1
+VBZ-R CC CC-R	5
+VBZ-R CD CD-R	18
+VBZ-R DT DT-R	87
+VBZ-R IN IN-R	36
+VBZ-R JJ	4
+VBZ-R JJ JJ-R	36
+VBZ-R JJR JJR-R	3
+VBZ-R NN	1
+VBZ-R NN NN-R	22
+VBZ-R NNP	1
+VBZ-R NNP NNP-R	17
+VBZ-R NNS NNS-R	8
+VBZ-R PDT PDT-R	1
+VBZ-R PRP PRP-R	9
+VBZ-R PRP$ PRP$-R	7
+VBZ-R RB	1
+VBZ-R RB RB-R	56
+VBZ-R RBR RBR-R	4
+VBZ-R RBS RBS-R	2
+VBZ-R RP RP-R	3
+VBZ-R TO TO-R	13
+VBZ-R VB VB-R	2
+VBZ-R VBG	1
+VBZ-R VBG VBG-R	23
+VBZ-R VBN	3
+VBZ-R VBN VBN-R	72
+VBZ-R VBP VBP-R	1
+VBZ-R WP WP-R	2
+VBZ-R WRB WRB-R	1
+WDT "That"	1
+WDT "Which"	1
+WDT "that"	63
+WDT "what"	2
+WDT "which"	63
+WDT-R DT DT-R	3
+WDT-R IN IN-R	2
+WDT-R MD MD-R	20
+WDT-R NN NN-R	2
+WDT-R NNP NNP-R	4
+WDT-R PRP PRP-R	1
+WDT-R RB RB-R	10
+WDT-R VBD VBD-R	31
+WDT-R VBP VBP-R	19
+WDT-R VBZ VBZ-R	38
+WP "What"	6
+WP "what"	10
+WP "who"	49
+WP "whom"	1
+WP$ "whose"	5
+WP$-R NN NN-R	2
+WP$-R NNS NNS-R	3
+WP-R DT DT-R	4
+WP-R IN IN-R	2
+WP-R JJ JJ-R	1
+WP-R MD MD-R	2
+WP-R NNP NNP-R	1
+WP-R PRP PRP-R	5
+WP-R RB RB-R	2
+WP-R VBD VBD-R	18
+WP-R VBP VBP-R	13
+WP-R VBZ VBZ-R	18
+WRB "When"	4
+WRB "how"	15
+WRB "when"	21
+WRB "where"	6
+WRB "why"	1
+WRB-R DT DT-R	8
+WRB-R FW FW-R	1
+WRB-R JJ JJ-R	10
+WRB-R NN NN-R	2
+WRB-R NNP NNP-R	6
+WRB-R NNS NNS-R	3
+WRB-R PRP PRP-R	9
+WRB-R PRP$ PRP$-R	2
+WRB-R TO TO-R	5
+WRB-R VBN VBN-R	1
+|#-R| CD CD-R	1
+|#| "#"	1

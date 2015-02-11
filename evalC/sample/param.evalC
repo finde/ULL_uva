@@ -1,0 +1,78 @@
+##---------------------------------------------------------------------------##
+## LABELED                                                                   ##
+## Specifies whether the evaluation takes labels into account.               ##
+## Default: true                                                             ##
+##---------------------------------------------------------------------------##
+LABELED true
+
+##---------------------------------------------------------------------------##
+## CONSTITUENTS_UNIT                                                         ##
+## Specifies in which way constituencies are identified and compared.        ##
+## Possible options: 0 (WORDS), 1 (YIELD) , 2 (CHARACTERS).                  ##
+## 0 (WORDS) : constituencies are matched by their WORDS SPANS (positions    ## 
+##   of first and the last word constituent) as in EvalB.                    ## 
+## 1 (CHARACTERS) : constituencies are matched by their CHARACTER SPANS      ##
+##   (positions of the first and last character, where spaces don't occupy   ##
+##   any position.                                                           ##
+## 2 (YIELD): constituencies are matched by their yield (actual string of    ##
+##            words and spaces they yield).                                  ##
+##---------------------------------------------------------------------------##
+CONSTITUENTS_UNIT 0
+
+##---------------------------------------------------------------------------##
+## REMOVE_SEMANTIC_TAGS                                                      ##
+## Specifies whether the evaluation discards the semantic tags in the        ##
+## constituencies labels (-SBJ, -TMP, -LOC, ...)                             ##
+## Default: true                                                             ##
+##---------------------------------------------------------------------------##
+REMOVE_SEMANTIC_TAGS true
+
+##---------------------------------------------------------------------------##
+## CUTOFF_LENGTH                                                             ##
+## Cutoff length for intermediate statistics (at the end of the file)        ##
+## Default: 40                                                               ##
+##---------------------------------------------------------------------------##
+CUTOFF_LENGTH 40
+
+##---------------------------------------------------------------------------##
+## ENCODING                                                                  ##
+## Specifies the charset-encoding of the input files.                        ##
+## Default: UTF-8                                                            ##
+## Other options: US-ASCII, ISO-8859-1, UTF-16BE, UTF-16LE, UTF-16           ## 
+##---------------------------------------------------------------------------##
+ENCODING UTF-8
+
+##---------------------------------------------------------------------------##
+## EXCLUDE_CAT                                                               ##
+## Specifies the internal categories (above POS) that are not counted when   ##
+## extracting constituencies.                                                ##
+##---------------------------------------------------------------------------##
+EXCLUDE_CAT TOP
+
+##---------------------------------------------------------------------------##
+## EXCLUDE_POS                                                               ## 
+## Specifies the POS categories that are not counted when evaluating         ##
+## pos-tagging accuracy.            .                                        ##
+## Note that the check is only done in each POStag of the gold parsetree.    ##
+## The assumption is that a possible difference is not relevant              ## 
+## for the scoring purpose.                                                  ##
+## Default: '' | , | . | : | ``                                              ##
+##---------------------------------------------------------------------------## 
+EXCLUDE_POS ''
+EXCLUDE_POS ,
+EXCLUDE_POS .
+EXCLUDE_POS :
+EXCLUDE_POS ``
+
+##---------------------------------------------------------------------------##
+## DELETE_POS                                                                ## 
+## Specifies which POS-tags to delete (prune) before processing each test    ##
+## and gold parsetree.                                                       ##
+##---------------------------------------------------------------------------##	
+DELETE_POS -NONE- 
+	
+##---------------------------------------------------------------------------##
+## EQ_LABEL                                                                  ##
+## Pairs of labels which are considered equals to one another                ##
+##---------------------------------------------------------------------------##	
+EQUAL_LABELS PRT ADVP

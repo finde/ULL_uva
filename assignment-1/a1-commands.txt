@@ -1,0 +1,69 @@
+################################################################################
+#Installing bitpar
+
+mkdir \$workdir
+cd \$workdir
+wget ftp://ftp.ims.uni-stuttgart.de/pub/corpora/BitPar/New-BitPar.tar.gz
+tar xvf New-BitPar.tar 
+cd BitPar/src
+make
+cd ../../\hfill 
+ln -s \$workdir/BitPar/src/bitpar bitpar
+
+
+
+################################################################################
+# Extracting a bitpar grammar from a treebank
+
+#Extracting a grammar from a file named treebank and write it to a file named grammar
+java -jar ../PCFG_extractor.jar treebanks treebanks.grammar
+
+# rearrange create files suitable in Bitpar from PCFG_extractor output
+echo "Rearrange information such that it becomes suitable for Bitpar"
+less treebanks.grammar | sed 's/%/%%/g' | awk '{printf ($NF " "); for (i=1; i<NF; i++) printf ($i " "); printf ("\n");}' > treebanks.gram.bitpar
+
+# create lexicon
+less treebanks.gram.bitpar | grep -E '"[^"]+"' | sed 's/\"//g' | awk '{print($3"\t"$2"\t"$1)}' > treebanks.lexicon.bitpar
+sed -i 's/"//g' treebanks.lexicon.bitpar
+
+# remove lexical rules from treebank
+grep -v '"' treebanks.gram.bitpar > treebanks.grammar.bitpar
+
+
+################################################################################
+# Uniquely number all nonterminals (except for TOP) in a treebank called treebank
+cat treebank | sed 's/\([A-Z\$]\) /\1-NR- /g' | awk '{ while($0~/-NR-/) sub(/-NR-/, ++cnt); print}' | sed 's/TOP[0-9]*/TOP/g' > treebank_unique
+
+# concatenate two treebanks with names treebank_unique and treebank
+cat treebank_unique treebank > treebanks
+
+
+################################################################################
+# Running io with Bitpar
+
+# Do a single pass of io with bitpar
+echo "Do a pass of io with bitpar"
+.././bitpar -s TOP treebanks.grammar.bitpar treebanks.lexicon.bitpar corpus -em em
+
+# remove lines with 0 counts
+echo "Remove empty lines"
+less em.gram | grep -v '0\.00' > em.grammar
+less em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > em.lexicon
+
+################################################################################
+# downloading and running evalC
+
+# download the .jar file from the website of Federico Sangati
+wget homepages.inf.ed.ac.uk/fsangati/evalC_25_5_10.zip
+
+# run evalC
+java -jar evalC.jar $treebank_gold $your_parses $output
+
+################################################################################
+# get probabilities from parse forest file
+
+# get probabilities and write to file $output
+cat $parse_forests | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $output
+
+# sum to get log-likelihood from file $output
+python sum_log_probabilities $output
