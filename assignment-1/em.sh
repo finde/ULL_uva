@@ -2,6 +2,7 @@
 function em {
 	f=$1
 	n_iteration=$2
+	DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 	echo "::EM::"
 	for i in `seq 1 $n_iteration`;
@@ -28,10 +29,10 @@ function em {
 		cat $f/_forest_proba | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output
 
 		# sum to get log-likelihood from file $output
-		likelihood=$(python ../sum_log_probabilities.py $f/_output | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
+		likelihood=$(python $DIR/sum_log_probabilities.py $f/_output | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
 
 #		echo " - running evalC"
-		recall_precision_fscore=$(java -jar ../evalC/evalC.jar $f/new_treebank_gold $f/_forest $f/_eval_$i | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ' | tr ',' ' ')
+		recall_precision_fscore=$(java -jar $DIR/../evalC/evalC.jar $f/new_treebank_gold $f/_forest $f/_eval_$i | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ' | tr ',' ' ')
 		recall=$(awk '{ print $1 }' <<< "$recall_precision_fscore")
 		precision=$(awk '{ print $2 }' <<< "$recall_precision_fscore")
 		fscore=$(awk '{ print $3 }' <<< "$recall_precision_fscore")

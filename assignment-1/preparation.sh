@@ -1,14 +1,9 @@
 #!/bin/bash
-treebank=$1
-number_of_sentences=$2
-n_iteration=$3
-bitpar='../BitPar/src/bitpar'
-f='output'
-
 function preparation {
 	treebank=$1
 	number_of_sentences=$2
 	f=$3
+	DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 	echo "::Preparation::"
 	echo " >> cleaning up the files"

@@ -2,9 +2,10 @@
 
 function grammar_extraction_pcfg {
 	f=$1
+	DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 	echo "::Extracting grammars with PCFG::"
 	echo " >> running PCFG extractor .."
-	java -jar ../PCFG_extractor.jar $f/new_treebank $f/_treebanks.grammar
+	java -jar $DIR/../PCFG_extractor.jar $f/new_treebank $f/_treebanks.grammar
 
 	echo " >> Rearrange information such that it becomes suitable for Bitpar"
 	less $f/_treebanks.grammar | sed 's/%/%%/g' | awk '{printf ($NF " "); for (i=1; i<NF; i++) printf ($i " "); printf ("\n");}' > $f/em.gram

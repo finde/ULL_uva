@@ -4,12 +4,13 @@ set -e
 treebank=$1
 number_of_sentences=$2
 n_iteration=$3
-output_folder=$4
-bitpar='../BitPar/src/bitpar'
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+bitpar=$DIR'/../BitPar/src/bitpar'
+output_folder=$DIR/$4
 
-. preparation.sh
-. grammar_extraction_pcfg.sh
-. em.sh
+. $DIR/preparation.sh
+. $DIR/grammar_extraction_pcfg.sh
+. $DIR/em.sh
 
 ########### MAIN FUNCTION  ################
 preparation $treebank $number_of_sentences $output_folder
