@@ -1,24 +1,13 @@
 ################################################################################
-#Installing bitpar
-
-		mkdir \$workdir
-		cd \$workdir
-		wget ftp://ftp.ims.uni-stuttgart.de/pub/corpora/BitPar/New-BitPar.tar.gz
-		tar xvf New-BitPar.tar
-		cd BitPar/src
-		make
-		cd ../../\hfill
-		ln -s \$workdir/BitPar/src/bitpar bitpar
-
-################################################################################
 # How to run the code?
 
 
-		./assignment_1.sh <treebank filepath> <number of sentences to be parsed>
+		./assignment_1.sh <treebank_filepath> <number_of_sentences> <number_of_iterations> <output_folder>
 
 ################################################################################
 # To Do
 
-- log probability
+- part 2
+- make pretty output
 - report of analysis
 
