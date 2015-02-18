@@ -13,4 +13,4 @@ for line in f:
 
 f.close()
 
-print "The sum of the log of all probabilities in iinput file is:", log_prob_total
+print "The sum of the log of all probabilities in input file is: [", log_prob_total, "]"

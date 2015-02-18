@@ -53,18 +53,4 @@ docs/_build/
 # PyBuilder
 target/
 
-assignment-1/_corpus
-assignment-1/_eval
-assignment-1/_log_proba
-assignment-1/_output
-assignment-1/_parsed
-assignment-1/_parsed_proba
-assignment-1/_treebanks.grammar
-assignment-1/_treebanks.grammar.bitpar
-assignment-1/_treebanks.lexicon.bitpar
-assignment-1/em.gram
-assignment-1/em.grammar
-assignment-1/em.lex
-assignment-1/em.lexicon
-assignment-1/new_treebank
-assignment-1/new_treebank_gold
+output/
