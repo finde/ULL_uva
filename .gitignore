@@ -54,3 +54,4 @@ docs/_build/
 target/
 
 !assignment-1/*.*
+.DS_Store
