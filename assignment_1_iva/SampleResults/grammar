@@ -1,0 +1,2324 @@
+2 $ $ 
+2 -LRB- -LRB- 
+2 -RRB- -RRB- 
+4 ADJP ADJP CC ADJP 
+6 ADJP ADJP PP 
+1 ADJP ADVP JJ 
+1 ADJP ADVP JJ PRN 
+1 ADJP DT RBR JJ 
+1 ADJP IN PP 
+2 ADJP IN S 
+14 ADJP JJ 
+4 ADJP JJ CC JJ 
+1 ADJP JJ CC JJ CC JJ PP 
+3 ADJP JJ JJ 
+1 ADJP JJ NN 
+1 ADJP JJ NP 
+12 ADJP JJ PP 
+5 ADJP JJ S 
+3 ADJP JJ SBAR 
+3 ADJP JJR 
+2 ADJP JJR PP 
+4 ADJP NN JJ 
+2 ADJP NP JJ 
+3 ADJP NP JJR 
+2 ADJP RB 
+2 ADJP RB DT 
+9 ADJP RB JJ 
+2 ADJP RB JJ CC JJ 
+1 ADJP RB JJ SBAR 
+1 ADJP RB JJR 
+1 ADJP RB RB JJ SBAR 
+3 ADJP RB VBN 
+3 ADJP RBR JJ 
+3 ADJP RBS JJ 
+1 ADJP RP 
+1 ADJP VBN PP 
+1 ADVP ADVP CC ADVP 
+1 ADVP ADVP RB ADVP 
+1 ADVP ADVP SBAR 
+1 ADVP IN RB 
+1 ADVP IN RBS IN 
+3 ADVP NP RB 
+95 ADVP RB 
+1 ADVP RB CC RB NP 
+2 ADVP RB IN 
+1 ADVP RB PP 
+4 ADVP RB RB 
+1 ADVP RB RB RB 
+1 ADVP RB SBAR 
+2 ADVP RBR 
+3 ADVP RBR RB 
+1 ADVP RP PP 
+4 CC & 
+4 CC And 
+8 CC But 
+1 CC Or 
+111 CC and 
+8 CC but 
+1 CC nor 
+12 CC or 
+1 CD 1 
+1 CD 1,001 
+1 CD 1,200 
+1 CD 1,214 
+1 CD 1.2 
+1 CD 1/2 
+1 CD 10 
+1 CD 11 
+3 CD 15 
+1 CD 17 
+1 CD 19 
+1 CD 1990 
+1 CD 2,750 
+1 CD 20 
+1 CD 230 
+2 CD 25 
+2 CD 30 
+1 CD 37 
+1 CD 4,300 
+1 CD 45 
+1 CD 53 
+1 CD 7.14 
+1 CD 70 
+1 CD 80 
+1 CD 92 
+3 CD One 
+1 CD Sixty 
+1 CD billion 
+1 CD five 
+1 CD four 
+1 CD hundred 
+2 CD million 
+1 CD ninety 
+10 CD one 
+1 CD seven 
+6 CD two 
+2 CONJP RB RB 
+5 DT A 
+3 DT Both 
+1 DT No 
+1 DT Some 
+2 DT That 
+44 DT The 
+6 DT This 
+91 DT a 
+3 DT all 
+22 DT an 
+3 DT another 
+3 DT any 
+1 DT both 
+5 DT each 
+1 DT every 
+3 DT no 
+8 DT some 
+4 DT that 
+210 DT the 
+7 DT these 
+14 DT this 
+3 DT those 
+1 EX There 
+3 EX there 
+1 FRAG ADVP 
+1 FRAG CC RB ADVP PP 
+1 FRAG NNS NNS 
+2 FRAG NP 
+1 FRAG NP PP 
+1 FRAG RB ADVP 
+1 FW Glasnost 
+1 FW etc 
+1 IN As 
+1 IN At 
+3 IN For 
+7 IN In 
+1 IN Of 
+3 IN On 
+1 IN Under 
+1 IN Until 
+1 IN With 
+10 IN about 
+2 IN after 
+5 IN against 
+1 IN along 
+2 IN among 
+1 IN around 
+19 IN as 
+19 IN at 
+4 IN because 
+2 IN before 
+2 IN between 
+1 IN beyond 
+19 IN by 
+1 IN during 
+38 IN for 
+22 IN from 
+5 IN if 
+70 IN in 
+6 IN into 
+4 IN like 
+125 IN of 
+14 IN on 
+2 IN out 
+4 IN over 
+2 IN since 
+13 IN than 
+19 IN that 
+1 IN though 
+2 IN through 
+4 IN under 
+2 IN until 
+2 IN while 
+19 IN with 
+2 IN within 
+1 IN without 
+1 JJ 19th-century 
+1 JJ 72-game 
+1 JJ 80%-owned 
+1 JJ African 
+1 JJ Amazing 
+2 JJ Deep 
+1 JJ Different 
+1 JJ Eastern 
+1 JJ Economic 
+1 JJ Far 
+1 JJ Free 
+1 JJ French 
+1 JJ Gaelic 
+1 JJ Glamorous 
+1 JJ Indian 
+1 JJ Inner 
+1 JJ International 
+4 JJ Japanese 
+1 JJ Many 
+1 JJ Million-dollar 
+1 JJ Musical 
+2 JJ New 
+1 JJ Old-time 
+1 JJ Other 
+1 JJ Polish 
+1 JJ Quarterly 
+1 JJ Several 
+1 JJ Solo 
+1 JJ Spanish 
+1 JJ Such 
+1 JJ Unwilling 
+1 JJ Vivaldi-at-brunch 
+1 JJ Western 
+4 JJ able 
+1 JJ abusive 
+1 JJ accomplished 
+1 JJ active 
+1 JJ actual 
+1 JJ administrative 
+1 JJ aggressive 
+1 JJ alcoholic 
+1 JJ amenable 
+1 JJ annual 
+1 JJ anti-Western 
+1 JJ anti-takeover 
+1 JJ applicable 
+1 JJ as 
+1 JJ asset-backed 
+1 JJ audience-friendly 
+1 JJ baby-faced 
+1 JJ beneficial 
+1 JJ biennial 
+1 JJ bite-sized 
+1 JJ bitter 
+1 JJ cash-flush 
+1 JJ certain 
+1 JJ chief 
+1 JJ civil 
+1 JJ classical 
+4 JJ commercial 
+1 JJ competitive 
+1 JJ complementary 
+1 JJ complete 
+1 JJ complex 
+1 JJ compositional 
+1 JJ congenial 
+1 JJ contemporary 
+1 JJ continued 
+3 JJ corporate 
+1 JJ corrupt 
+1 JJ countercultural 
+1 JJ creative 
+1 JJ current 
+1 JJ deep 
+1 JJ desperate 
+1 JJ different 
+2 JJ difficult 
+1 JJ dramatic 
+1 JJ dreaded 
+1 JJ dreadful 
+3 JJ easy 
+1 JJ effective 
+1 JJ eight-team 
+1 JJ eight-time 
+1 JJ electronic 
+1 JJ embarrassed 
+1 JJ enjoyable 
+1 JJ enormous 
+1 JJ enough 
+1 JJ ethical 
+1 JJ even 
+1 JJ exaggerated 
+1 JJ extreme 
+1 JJ fancy 
+1 JJ favorite 
+1 JJ federal 
+2 JJ female 
+1 JJ fertile 
+4 JJ few 
+6 JJ financial 
+4 JJ first 
+1 JJ flip 
+1 JJ flourishing 
+2 JJ foreign 
+1 JJ foreseeable 
+1 JJ forgettable 
+3 JJ former 
+1 JJ founding 
+2 JJ free 
+1 JJ free-lance 
+1 JJ full 
+1 JJ fuzzy 
+5 JJ genetic 
+1 JJ genial 
+1 JJ gentle 
+2 JJ global 
+1 JJ glossy 
+1 JJ good 
+2 JJ great 
+1 JJ greenhouse-produced 
+1 JJ half 
+2 JJ hard 
+1 JJ hard-line 
+2 JJ high 
+1 JJ high-grade 
+1 JJ high-production 
+1 JJ human-rights 
+1 JJ hungry 
+10 JJ hybrid 
+1 JJ ideological 
+1 JJ impossible 
+2 JJ individual 
+1 JJ industrial 
+1 JJ injured 
+1 JJ innovative 
+1 JJ interesting 
+5 JJ international 
+1 JJ intrinsic 
+1 JJ investment-banking 
+1 JJ irresponsible 
+2 JJ key 
+1 JJ labor-intensive 
+3 JJ large 
+4 JJ last 
+1 JJ lasting 
+1 JJ legendary 
+1 JJ level 
+1 JJ light 
+1 JJ lightweight 
+2 JJ limited 
+1 JJ little 
+1 JJ long 
+2 JJ lovely 
+1 JJ lush 
+1 JJ major 
+5 JJ male 
+2 JJ male-fertile 
+4 JJ male-sterile 
+2 JJ many 
+2 JJ mechanical 
+1 JJ medium-grade 
+2 JJ mellow 
+1 JJ middle-management 
+1 JJ military 
+2 JJ much 
+1 JJ near 
+1 JJ necessary 
+15 JJ new 
+4 JJ next 
+1 JJ non-Japanese 
+1 JJ nondemocratic 
+1 JJ novel 
+1 JJ nuclear 
+1 JJ obvious 
+1 JJ oceanographic 
+1 JJ off-speed 
+1 JJ oil-producing 
+3 JJ old 
+1 JJ once-cozy 
+1 JJ orange-and-blue 
+11 JJ other 
+3 JJ own 
+2 JJ past 
+1 JJ payable 
+1 JJ permissible 
+1 JJ polished 
+2 JJ pollen-inhibiting 
+1 JJ powerful 
+1 JJ predictable 
+1 JJ pretax 
+1 JJ pro 
+1 JJ professional 
+1 JJ protected 
+1 JJ public 
+1 JJ puckish 
+1 JJ pure-voiced 
+3 JJ recent 
+1 JJ reproductive 
+2 JJ required 
+1 JJ resistant 
+3 JJ responsible 
+1 JJ restrictive 
+1 JJ ridiculous 
+1 JJ same 
+5 JJ second 
+3 JJ senior 
+1 JJ short-term 
+2 JJ significant 
+2 JJ similar 
+1 JJ simple 
+1 JJ smoke-filled 
+1 JJ so-called 
+1 JJ social 
+1 JJ special 
+1 JJ standing-room-only 
+1 JJ statist 
+1 JJ steady 
+2 JJ sterile 
+1 JJ stock-picking 
+1 JJ straight 
+1 JJ street-corner 
+2 JJ strict 
+2 JJ subject 
+1 JJ successful 
+7 JJ such 
+1 JJ susceptible 
+2 JJ third-quarter 
+1 JJ threatening 
+1 JJ three-month 
+1 JJ timely 
+1 JJ top 
+1 JJ transnational 
+1 JJ unamended 
+1 JJ unencumbered 
+1 JJ unlikely 
+1 JJ unpleasant 
+1 JJ unprecedented 
+1 JJ unsurprising 
+1 JJ various 
+1 JJ vast 
+1 JJ warm 
+1 JJ whimsical 
+1 JJ wide 
+1 JJ wily 
+1 JJ wrong 
+1 JJR better 
+1 JJR gentler 
+1 JJR higher 
+1 JJR longer 
+1 JJR lower 
+12 JJR more 
+1 JJR smaller 
+1 JJR stronger 
+1 JJR tougher 
+2 JJS biggest 
+3 JJS largest 
+1 JJS latest 
+2 JJS most 
+1 MD ca 
+11 MD can 
+3 MD could 
+7 MD may 
+4 MD might 
+2 MD must 
+1 MD should 
+17 MD will 
+18 MD would 
+1 NAC NNP NNP NNP 
+7 NN % 
+2 NN A. 
+1 NN Air 
+1 NN Anxiety 
+1 NN Carnival 
+1 NN Clarinet 
+1 NN Counterpoint 
+1 NN End 
+1 NN Eurobond 
+1 NN Grace 
+1 NN Information 
+1 NN Leisure 
+1 NN Midmorning 
+1 NN Misanthrope 
+1 NN Nothing 
+1 NN Odyssey 
+2 NN Order 
+2 NN Peace 
+1 NN Quartet 
+1 NN Someone 
+1 NN Sonata 
+1 NN Stage 
+1 NN Swan 
+1 NN Time 
+1 NN Today 
+1 NN World 
+2 NN access 
+1 NN account 
+1 NN advance 
+7 NN agency 
+1 NN agreement 
+1 NN alfalfa 
+1 NN allure 
+1 NN anger 
+1 NN annuity 
+2 NN appeal 
+1 NN appearance 
+1 NN application 
+5 NN approach 
+2 NN approval 
+2 NN argument 
+1 NN assistant 
+1 NN at-bat 
+1 NN attempt 
+5 NN audience 
+2 NN auto 
+2 NN average 
+3 NN bank 
+1 NN banking 
+2 NN baseball 
+2 NN basis 
+1 NN bassist 
+1 NN biochemist 
+2 NN biotechnology 
+1 NN bite 
+2 NN blessing 
+5 NN bond 
+1 NN brokerage 
+1 NN brunt 
+1 NN buddy 
+1 NN budget 
+1 NN building 
+1 NN bunt 
+1 NN bureaucracy 
+2 NN business 
+1 NN cabal 
+1 NN cable 
+1 NN capital 
+2 NN carrier 
+2 NN case 
+1 NN cash 
+2 NN cell 
+1 NN censorship 
+1 NN centerfielder 
+3 NN chamber 
+3 NN charge 
+1 NN charter 
+1 NN chateau 
+5 NN chemical 
+1 NN choice 
+1 NN circuit 
+1 NN claptrap 
+1 NN clarinet 
+1 NN clarinetist 
+2 NN clash 
+1 NN clout 
+1 NN club 
+2 NN college 
+1 NN commission 
+1 NN commissioner 
+1 NN communist 
+7 NN company 
+1 NN competition 
+1 NN compliance 
+1 NN computer 
+3 NN concern 
+2 NN concert 
+1 NN conflict 
+1 NN confrontation 
+1 NN consensus 
+1 NN contract 
+9 NN corn 
+1 NN corruption 
+6 NN cotton 
+1 NN counsel 
+1 NN country 
+1 NN course 
+1 NN credit-card 
+4 NN crop 
+1 NN crowd 
+2 NN culture 
+1 NN date 
+1 NN debut 
+1 NN decision 
+1 NN deja 
+1 NN demand 
+2 NN development 
+4 NN director 
+1 NN disarmament 
+1 NN disclosure 
+1 NN dispute 
+1 NN distance 
+3 NN division 
+1 NN divisiveness 
+1 NN ear 
+1 NN edition 
+2 NN education 
+1 NN effect 
+1 NN effort 
+1 NN elixir 
+1 NN emasculation 
+1 NN encore 
+1 NN encounter 
+1 NN end 
+3 NN engineering 
+1 NN entertainment 
+1 NN equipment 
+2 NN equity 
+1 NN estate 
+2 NN evening 
+2 NN everyone 
+2 NN executive 
+1 NN exile 
+1 NN expansion 
+1 NN fact 
+2 NN failure 
+1 NN farm 
+1 NN fashion 
+1 NN feed 
+1 NN fellow 
+2 NN female 
+4 NN field 
+2 NN finance 
+1 NN financing 
+1 NN flashpoint 
+1 NN flower 
+1 NN fly 
+1 NN founding 
+1 NN fraction 
+2 NN freedom 
+1 NN fun 
+12 NN fund 
+2 NN future 
+1 NN game 
+1 NN gametocide 
+10 NN gene 
+1 NN generation 
+1 NN golf 
+8 NN government 
+1 NN greenhouse 
+1 NN groundball 
+5 NN group 
+2 NN growth 
+6 NN half 
+1 NN hand 
+1 NN head 
+4 NN herbicide 
+1 NN heredity 
+1 NN hit 
+2 NN home 
+1 NN hope 
+3 NN hybrid 
+2 NN ideal 
+1 NN ideology 
+1 NN impact 
+1 NN importance 
+1 NN inch 
+2 NN information 
+2 NN insider 
+1 NN insider-trading 
+1 NN instrumentation 
+5 NN investment 
+4 NN issue 
+1 NN jam 
+3 NN jazz 
+1 NN justice 
+1 NN law 
+1 NN lawyer 
+1 NN leadership 
+1 NN league 
+1 NN legislation 
+1 NN level 
+1 NN liberty 
+1 NN licensing 
+1 NN line 
+1 NN listener 
+1 NN listening 
+1 NN literacy 
+1 NN lot 
+2 NN luxury 
+1 NN machine 
+2 NN machinery 
+1 NN mail 
+1 NN majority 
+3 NN maker 
+4 NN male 
+1 NN manager 
+2 NN manipulation 
+1 NN manufacture 
+2 NN market 
+1 NN marketing 
+2 NN master 
+1 NN membership 
+1 NN memory 
+1 NN minister 
+6 NN money 
+1 NN money-market 
+2 NN month 
+1 NN morning 
+1 NN mound 
+1 NN move 
+1 NN movement 
+5 NN music 
+1 NN nation 
+1 NN need 
+3 NN none 
+1 NN nothing 
+3 NN number 
+1 NN obeisance 
+1 NN obfuscation 
+1 NN obligatto 
+1 NN office 
+1 NN officer 
+1 NN one 
+1 NN one-third 
+2 NN operation 
+1 NN order 
+1 NN organ 
+1 NN outfield 
+1 NN output 
+1 NN owner 
+5 NN part 
+2 NN participation 
+1 NN party 
+1 NN past 
+1 NN peace 
+4 NN pension 
+1 NN percent 
+1 NN performance 
+1 NN personality 
+1 NN phrasing 
+1 NN pianist/bassoonist/composer 
+1 NN piece 
+3 NN plan 
+14 NN plant 
+1 NN playing 
+1 NN point 
+1 NN policy 
+5 NN pollen 
+1 NN pollination 
+1 NN pop 
+2 NN position 
+1 NN potpourri 
+3 NN power 
+9 NN president 
+2 NN press 
+1 NN pressure 
+1 NN price 
+1 NN pride 
+1 NN printing 
+1 NN process 
+1 NN producer 
+2 NN production 
+1 NN promoter 
+3 NN proposal 
+1 NN proxy 
+1 NN public 
+1 NN quarterly 
+1 NN quartet 
+1 NN rapeseed 
+1 NN rate 
+1 NN reason 
+1 NN record 
+1 NN redistributionism 
+1 NN reform 
+1 NN repertoire 
+1 NN replacement 
+1 NN reporting 
+5 NN research 
+1 NN resistance 
+2 NN rest 
+2 NN review 
+3 NN rice 
+1 NN right 
+1 NN role 
+1 NN row 
+2 NN rule 
+1 NN scale 
+1 NN science 
+3 NN season 
+1 NN secretary 
+9 NN seed 
+1 NN sell 
+1 NN session 
+1 NN set 
+1 NN setting 
+2 NN share 
+1 NN shortstop 
+1 NN show 
+1 NN side 
+1 NN sign 
+1 NN signature 
+1 NN sincerity 
+1 NN singer 
+1 NN skirmish 
+1 NN slide 
+1 NN sorghum 
+1 NN soul 
+3 NN spray 
+1 NN spring 
+1 NN spring-training 
+1 NN staff 
+1 NN state 
+1 NN statism 
+1 NN sterility 
+1 NN sterilization 
+4 NN stock 
+1 NN strain 
+1 NN strike 
+1 NN string 
+2 NN subsidiary 
+1 NN substitute 
+2 NN success 
+2 NN summer 
+1 NN support 
+1 NN swig 
+1 NN syndicate 
+1 NN table 
+1 NN takeover 
+1 NN tassel 
+6 NN technique 
+2 NN technology 
+1 NN television 
+1 NN tennis 
+1 NN thief 
+2 NN thing 
+1 NN third 
+1 NN tidbit 
+6 NN time 
+2 NN timing 
+1 NN tobacco 
+2 NN today 
+1 NN tolerance 
+1 NN tone 
+2 NN tool 
+1 NN toughness 
+1 NN toxicity 
+1 NN trading 
+1 NN training 
+1 NN trait 
+1 NN transaction 
+1 NN tribunal 
+1 NN trick 
+1 NN tune 
+1 NN turf 
+1 NN type 
+1 NN uniform 
+1 NN usefulness 
+1 NN variety 
+1 NN venture 
+4 NN vice 
+1 NN victim 
+1 NN vigor 
+1 NN virtue 
+1 NN virus 
+1 NN vu 
+2 NN week 
+1 NN whole 
+1 NN wind 
+1 NN winner 
+1 NN woodwind 
+3 NN world 
+1 NN wrath 
+1 NN writer 
+4 NN year 
+1 NN yesterday 
+1 NN yield 
+1 NN youth 
+1 NN yuppie 
+1 NNP Africa 
+1 NNP Age 
+1 NNP American 
+2 NNP Angeles 
+1 NNP Annuity 
+1 NNP Association 
+1 NNP Association-College 
+1 NNP Aug. 
+1 NNP BELL 
+1 NNP Bach 
+3 NNP Bank 
+1 NNP Baseball 
+1 NNP Beach 
+1 NNP Belgium 
+1 NNP Bell 
+1 NNP Berra 
+1 NNP Bert 
+2 NNP Bill 
+2 NNP Biosource 
+1 NNP Blair 
+1 NNP Bolton 
+1 NNP Brahms 
+1 NNP Brian 
+2 NNP Britain 
+1 NNP Brunswick 
+1 NNP Bush 
+1 NNP CORP. 
+1 NNP Calif. 
+1 NNP California 
+1 NNP Campaneris 
+1 NNP Canada 
+1 NNP Cattrall 
+1 NNP Caygill 
+1 NNP Celimene 
+1 NNP Charlie 
+1 NNP Chicago 
+1 NNP China 
+1 NNP Christina 
+1 NNP City 
+1 NNP Clyde 
+2 NNP Co 
+6 NNP Co. 
+1 NNP Coast 
+1 NNP Coleman 
+4 NNP Collins 
+2 NNP Commission 
+2 NNP Congress 
+2 NNP Conlon 
+1 NNP Corp. 
+1 NNP Curt 
+1 NNP DFC 
+1 NNP Dave 
+2 NNP David 
+1 NNP December 
+2 NNP Delta 
+1 NNP Department 
+1 NNP Don 
+5 NNP Douglas 
+1 NNP E. 
+1 NNP Earl 
+1 NNP Eastern 
+1 NNP Ed 
+2 NNP Eddie 
+1 NNP Eduard 
+1 NNP Eli 
+1 NNP Elianti 
+1 NNP Entrekin 
+1 NNP Erwin 
+3 NNP Europe 
+2 NNP Exchange 
+1 NNP Express 
+1 NNP Feb. 
+1 NNP Federico 
+1 NNP Fla. 
+1 NNP Flood 
+1 NNP Florida 
+1 NNP Foreign 
+1 NNP Fred 
+2 NNP Fund 
+1 NNP Gabele 
+5 NNP Genetic 
+1 NNP Genetics 
+1 NNP Germany 
+1 NNP Glove 
+2 NNP Gold 
+1 NNP Goldberg 
+2 NNP Gomez 
+1 NNP Goodman 
+2 NNP Haag 
+1 NNP Howard 
+1 NNP INDUSTRIES 
+1 NNP ITEL 
+1 NNP Ill. 
+3 NNP Inc. 
+3 NNP Industrial 
+2 NNP Insurance 
+1 NNP Invest/Net 
+1 NNP Ireland 
+1 NNP Itel 
+1 NNP Jan 
+10 NNP Japan 
+1 NNP Johanson 
+2 NNP John 
+1 NNP Joni 
+1 NNP Jr. 
+1 NNP Judy 
+1 NNP Kim 
+1 NNP Kingman 
+1 NNP Land 
+6 NNP Lane 
+3 NNP Leemans 
+1 NNP Lilly 
+1 NNP London 
+2 NNP Los 
+1 NNP Louis 
+1 NNP Ltd. 
+1 NNP Luis 
+2 NNP M'Bow 
+1 NNP March 
+2 NNP Mayor 
+1 NNP McGregor 
+1 NNP Messiaen 
+1 NNP Metropolitan 
+1 NNP Miami 
+1 NNP Minister 
+1 NNP Miss. 
+1 NNP Mitchell 
+1 NNP Monday 
+2 NNP Monsanto 
+1 NNP Mosher 
+1 NNP Motor 
+20 NNP Mr. 
+5 NNP Ms. 
+1 NNP Murray 
+1 NNP Museum 
+1 NNP N.V. 
+1 NNP National 
+12 NNP New 
+1 NNP Nikko 
+6 NNP Nomura 
+1 NNP North 
+1 NNP Northern 
+1 NNP Oakland 
+1 NNP Oct. 
+1 NNP Oil 
+1 NNP Orioles 
+1 NNP Ornette 
+1 NNP Orwellian 
+1 NNP Palm 
+1 NNP Paris 
+1 NNP Parker 
+2 NNP Paul 
+1 NNP Peter 
+2 NNP Pine 
+5 NNP Plant 
+3 NNP President 
+1 NNP Professional 
+1 NNP Provident 
+1 NNP Radio 
+1 NNP Raymond 
+3 NNP Reagan 
+1 NNP Red 
+1 NNP Reich 
+1 NNP Retirement 
+1 NNP Revolution 
+1 NNP Richard 
+3 NNP Robert 
+2 NNP Robinson 
+1 NNP Rolls-Royce 
+1 NNP Ronald 
+1 NNP Ross 
+1 NNP Rothschild 
+1 NNP S. 
+10 NNP SEC 
+2 NNP Saint-Saens 
+1 NNP Scientific 
+1 NNP Scott 
+1 NNP Senior 
+1 NNP Series 
+1 NNP Serkin 
+1 NNP Shell 
+1 NNP Sherry 
+1 NNP Shevardnadze 
+1 NNP Shostakovich 
+2 NNP Sider 
+1 NNP Singapore 
+1 NNP South 
+1 NNP Southwide 
+1 NNP Soviet 
+1 NNP Sox 
+1 NNP Square 
+1 NNP St. 
+1 NNP State 
+7 NNP Stoltzman 
+1 NNP Systems 
+1 NNP Tashi 
+1 NNP Theatre 
+1 NNP Tiananmen 
+1 NNP Tiant 
+1 NNP Tuesday 
+1 NNP Tyler 
+3 NNP U.N. 
+8 NNP U.S. 
+8 NNP UNESCO 
+3 NNP United 
+1 NNP University 
+1 NNP Vacaville 
+1 NNP W. 
+1 NNP Waleson 
+1 NNP Weaver 
+2 NNP Wellington 
+3 NNP West 
+1 NNP Windy 
+1 NNP Winnetka 
+1 NNP World 
+1 NNP Yale 
+1 NNP Yogi 
+3 NNP York 
+7 NNP Zealand 
+1 NNPS Cardinals 
+1 NNPS Cars 
+1 NNPS Equities 
+1 NNPS Nations 
+4 NNPS Securities 
+2 NNPS Soviets 
+2 NNPS States 
+1 NNPS Suns 
+1 NNPS Systems 
+1 NNPS Teachers 
+1 NNPS Tropics 
+1 NNS 1930s 
+1 NNS Animals 
+1 NNS Arts 
+1 NNS Babelists 
+1 NNS Babies 
+1 NNS Classics 
+1 NNS Companies 
+1 NNS Earnings 
+3 NNS Investors 
+1 NNS Managers 
+1 NNS Researchers 
+1 NNS Slides 
+1 NNS Surprises 
+1 NNS Trains 
+1 NNS Voices 
+1 NNS Years 
+1 NNS accounts 
+1 NNS activities 
+1 NNS analysts 
+1 NNS animals 
+4 NNS anthers 
+1 NNS apologists 
+1 NNS aspects 
+1 NNS attributes 
+2 NNS audiences 
+1 NNS ballparks 
+1 NNS bankers 
+9 NNS banks 
+1 NNS barriers 
+1 NNS beaches 
+1 NNS beverages 
+2 NNS bonds 
+1 NNS borrowings 
+1 NNS boys 
+1 NNS businesses 
+1 NNS cardholders 
+1 NNS carriers 
+2 NNS cars 
+1 NNS cases 
+1 NNS cellists 
+3 NNS cents 
+7 NNS changes 
+1 NNS choices 
+1 NNS circles 
+1 NNS clouds 
+1 NNS colleagues 
+11 NNS companies 
+1 NNS concepts 
+1 NNS concerts 
+1 NNS conditions 
+1 NNS conferences 
+1 NNS consequences 
+1 NNS contracts 
+1 NNS corporations 
+1 NNS countries 
+6 NNS crops 
+1 NNS data 
+1 NNS days 
+1 NNS debts 
+1 NNS delegates 
+1 NNS deserts 
+1 NNS directors 
+1 NNS divisions 
+1 NNS duties 
+2 NNS earnings 
+1 NNS elections 
+1 NNS elements 
+2 NNS employees 
+4 NNS estimates 
+1 NNS executions 
+5 NNS executives 
+1 NNS exercises 
+1 NNS experts 
+1 NNS features 
+1 NNS feelings 
+1 NNS figures 
+3 NNS filings 
+1 NNS firms 
+1 NNS friends 
+1 NNS functionaries 
+6 NNS funds 
+1 NNS futures 
+2 NNS genes 
+2 NNS governments 
+1 NNS grains 
+2 NNS greats 
+1 NNS gurus 
+1 NNS heroes 
+1 NNS humans 
+2 NNS hybrids 
+1 NNS ideals 
+2 NNS ideas 
+1 NNS images 
+2 NNS implications 
+2 NNS industries 
+2 NNS insects 
+7 NNS insiders 
+5 NNS institutions 
+1 NNS interests 
+2 NNS investments 
+3 NNS investors 
+1 NNS jobs 
+1 NNS journalists 
+2 NNS kiddies 
+1 NNS kinds 
+1 NNS knowns 
+1 NNS laws 
+2 NNS letters 
+1 NNS limits 
+1 NNS loans 
+2 NNS managers 
+4 NNS markets 
+1 NNS media 
+1 NNS meetings 
+2 NNS members 
+1 NNS minds 
+2 NNS minutes 
+1 NNS modifications 
+2 NNS months 
+1 NNS morsels 
+1 NNS mortgages 
+1 NNS motives 
+1 NNS moves 
+1 NNS names 
+1 NNS numbers 
+3 NNS officials 
+6 NNS options 
+3 NNS organizations 
+2 NNS organs 
+2 NNS participants 
+1 NNS peculiarities 
+1 NNS peoples 
+1 NNS pictures 
+2 NNS pieces 
+1 NNS pistils 
+1 NNS plans 
+15 NNS plants 
+2 NNS plastics 
+3 NNS players 
+1 NNS powers 
+1 NNS presenters 
+2 NNS principles 
+2 NNS problems 
+2 NNS producers 
+1 NNS products 
+2 NNS programs 
+3 NNS projects 
+2 NNS proposals 
+3 NNS purchases 
+1 NNS purposes 
+1 NNS quartets 
+1 NNS rapeseeds 
+2 NNS reasons 
+1 NNS references 
+1 NNS reforms 
+1 NNS relations 
+1 NNS reporters 
+4 NNS reports 
+1 NNS representatives 
+1 NNS requirements 
+3 NNS researchers 
+1 NNS responsibilities 
+3 NNS rights 
+1 NNS robots 
+1 NNS roles 
+5 NNS rules 
+1 NNS salaries 
+6 NNS sales 
+1 NNS sciences 
+1 NNS scientists 
+1 NNS scores 
+9 NNS securities 
+7 NNS seeds 
+1 NNS selections 
+1 NNS servants 
+2 NNS shareholders 
+3 NNS shares 
+1 NNS shots 
+2 NNS sides 
+1 NNS sounds 
+1 NNS soybeans 
+1 NNS sports 
+2 NNS sprays 
+1 NNS stadiums 
+1 NNS statements 
+1 NNS steriles 
+2 NNS stocks 
+1 NNS strains 
+1 NNS subjects 
+1 NNS suggestions 
+1 NNS summers 
+1 NNS sunsets 
+1 NNS suspicions 
+1 NNS systems 
+1 NNS tactics 
+1 NNS talents 
+1 NNS tassels 
+1 NNS teams 
+1 NNS testaments 
+1 NNS thanks 
+1 NNS things 
+1 NNS times 
+1 NNS titans 
+1 NNS tours 
+2 NNS trades 
+2 NNS transactions 
+1 NNS tweezers 
+1 NNS underwriters 
+1 NNS unknowns 
+1 NNS visuals 
+1 NNS weapons 
+1 NNS wills 
+1 NNS workers 
+3 NNS years 
+1 NP ADJP JJ NN 
+2 NP ADJP NN 
+2 NP ADJP NN NNS 
+6 NP ADJP NNS 
+1 NP ADJP NNS S 
+8 NP CD 
+1 NP CD DT 
+1 NP CD JJ NN NNS 
+1 NP CD JJ NNS 
+1 NP CD JJR NN 
+5 NP CD NN 
+1 NP CD NNP NNP NNS 
+8 NP CD NNS 
+14 NP DT 
+1 NP DT ADJP JJ NN 
+1 NP DT ADJP JJ NN CC NN NNS 
+3 NP DT ADJP NN 
+2 NP DT ADJP NN NN 
+3 NP DT CD NNS 
+3 NP DT JJ 
+2 NP DT JJ JJ JJ NN 
+1 NP DT JJ JJ JJ NNS NN 
+6 NP DT JJ JJ NN 
+3 NP DT JJ JJ NN NN 
+1 NP DT JJ JJ NN NNS 
+2 NP DT JJ JJ NNS 
+68 NP DT JJ NN 
+1 NP DT JJ NN CC NN 
+4 NP DT JJ NN NN 
+2 NP DT JJ NN NNS 
+1 NP DT JJ NNP 
+1 NP DT JJ NNP NNS 
+15 NP DT JJ NNS 
+1 NP DT JJ NNS NNS NN 
+1 NP DT JJ NNS POS 
+1 NP DT JJR ADJP NN 
+2 NP DT JJS NN 
+1 NP DT JJS NN NN NNS 
+1 NP DT JJS NNS 
+1 NP DT NAC NN 
+128 NP DT NN 
+1 NP DT NN CC NN 
+1 NP DT NN CC NN NN 
+1 NP DT NN CC NNS 
+27 NP DT NN NN 
+3 NP DT NN NN NN 
+1 NP DT NN NN NNS 
+1 NP DT NN NN NNS NN CC NNS NN 
+6 NP DT NN NNS 
+6 NP DT NN POS 
+2 NP DT NN S 
+2 NP DT NN VBZ 
+12 NP DT NNP 
+1 NP DT NNP CD NN 
+3 NP DT NNP NN 
+1 NP DT NNP NN NN 
+1 NP DT NNP NN S 
+2 NP DT NNP NNP 
+2 NP DT NNP NNP NN 
+1 NP DT NNP NNP NN NN 
+1 NP DT NNP NNP NN NN NN 
+1 NP DT NNP NNP NNP 
+1 NP DT NNP NNP NNP NNP 
+1 NP DT NNP NNP NNP NNP NNP 
+1 NP DT NNP NNP NNP NNPS 
+1 NP DT NNP NNP NNPS 
+3 NP DT NNP NNPS 
+2 NP DT NNP NNS 
+1 NP DT NNP NNS NN 
+1 NP DT NNP NX 
+3 NP DT NNP POS 
+1 NP DT NNPS CC NNP NNP 
+1 NP DT NNPS NNP CC NNP NNP NNP NNPS NNP 
+55 NP DT NNS 
+1 NP DT NNS NN 
+1 NP DT NNS NNS 
+1 NP DT UCP NN 
+1 NP DT VBG JJ JJ JJ NNS 
+1 NP DT VBG JJ NN 
+3 NP DT VBG NN 
+2 NP DT VBG NNS 
+3 NP DT VBN NNS 
+4 NP EX 
+1 NP FW 
+2 NP JJ 
+1 NP JJ JJ JJ NNS 
+2 NP JJ JJ NN 
+6 NP JJ JJ NNS 
+23 NP JJ NN 
+2 NP JJ NN NN 
+7 NP JJ NN NNS 
+1 NP JJ NN NNS S 
+1 NP JJ NNP NNP JJ NNP NNP 
+1 NP JJ NNP NNP NNPS NN NNP NNP 
+51 NP JJ NNS 
+1 NP JJ NNS CC NN 
+1 NP JJ NNS CC NNS 
+1 NP JJR 
+1 NP JJR JJ NN 
+1 NP JJR NN 
+1 NP JJR NN NNS 
+1 NP JJS 
+1 NP JJS NNS 
+102 NP NN 
+3 NP NN CC NN 
+1 NP NN CC NN NN NNS 
+1 NP NN CC NN NNS 
+1 NP NN CC NN NNS CC RB NNS S 
+1 NP NN CC NNS 
+11 NP NN NN 
+2 NP NN NN CC NN 
+1 NP NN NN NN 
+1 NP NN NN NNP NNP 
+1 NP NN NN NNS 
+18 NP NN NNS 
+1 NP NN NNS CC NN 
+1 NP NN NNS CC NNS 
+1 NP NN POS 
+1 NP NN RB POS 
+1 NP NN S 
+40 NP NNP 
+4 NP NNP CC NNP 
+1 NP NNP CC NNP NNP NNP 
+3 NP NNP CD 
+1 NP NNP NN NNP 
+1 NP NNP NN NNP NNP 
+1 NP NNP NN NNS 
+65 NP NNP NNP 
+1 NP NNP NNP CC NNP 
+1 NP NNP NNP NN 
+8 NP NNP NNP NNP 
+3 NP NNP NNP NNP NNP 
+1 NP NNP NNP NNP NNP NNP 
+1 NP NNP NNP NNPS 
+1 NP NNP NNP NNPS NNP 
+11 NP NNP NNP POS 
+2 NP NNP NNPS NNP 
+5 NP NNP NNS 
+1 NP NNP NNS NN 
+14 NP NNP POS 
+1 NP NNPS 
+1 NP NNPS CC NNP NNP NN 
+79 NP NNS 
+2 NP NNS CC NNS 
+1 NP NNS CC NNS NNS 
+1 NP NNS NN 
+1 NP NNS NNS NNS NNS FW 
+3 NP NNS POS 
+1 NP NNS VBG NNS 
+11 NP NP 
+5 NP NP ADJP 
+1 NP NP ADJP JJ NNS 
+1 NP NP ADJP NN 
+1 NP NP ADJP NNS 
+2 NP NP ADJP NP 
+5 NP NP ADVP 
+1 NP NP ADVP NP 
+25 NP NP CC NP 
+1 NP NP CC NP PP 
+1 NP NP CD NN NNS 
+2 NP NP JJ JJ NNS 
+2 NP NP JJ NN 
+1 NP NP JJ NNP NNP NN 
+4 NP NP JJ NNS 
+1 NP NP JJ NP 
+1 NP NP JJ NX 
+1 NP NP JJS NN NN 
+1 NP NP JJS NNS NN 
+9 NP NP NN 
+4 NP NP NN NN 
+2 NP NP NN S 
+1 NP NP NN SBAR 
+2 NP NP NNP NNP 
+5 NP NP NNS 
+56 NP NP NP 
+10 NP NP NP CC NP 
+1 NP NP NP CC PP NP 
+1 NP NP NP CC RB NP 
+1 NP NP NP NP 
+2 NP NP NP NP CC NP 
+1 NP NP NP PP 
+4 NP NP NX 
+199 NP NP PP 
+2 NP NP PP ADJP 
+6 NP NP PP PP 
+1 NP NP PP PRN 
+1 NP NP PP SBAR 
+1 NP NP PP VP 
+2 NP NP PRN 
+1 NP NP S 
+52 NP NP SBAR 
+1 NP NP UCP 
+26 NP NP VP 
+1 NP NP VP ADJP 
+2 NP NP VP SBAR 
+84 NP PRP 
+1 NP PRP$ ADJP JJ NN 
+4 NP PRP$ JJ NN 
+1 NP PRP$ JJ NN NN 
+1 NP PRP$ JJ NN NNS 
+2 NP PRP$ JJ NNS 
+1 NP PRP$ JJ NNS POS 
+8 NP PRP$ NN 
+1 NP PRP$ NN CC NN NN 
+1 NP PRP$ NN NN 
+1 NP PRP$ NNP NNS 
+1 NP PRP$ NNP NNS NNS 
+10 NP PRP$ NNS 
+1 NP PRP$ NNS CC NNS 
+1 NP PRP$ NNS POS 
+1 NP PRP$ NX 
+1 NP PRP$ QP NNS 
+5 NP QP 
+7 NP QP NN 
+3 NP QP NNS 
+1 NP QP NX 
+2 NP RB 
+1 NP RB DT NN 
+1 NP RB DT NNPS 
+1 NP RB JJ NN 
+1 NP RB NN 
+1 NP RB NN NN NN 
+1 NP RB PDT DT 
+1 NP RB PRP$ NN 
+1 NP SBAR NP 
+1 NP UCP NNS 
+1 NP VBG NNS 
+1 NP VBN NNS 
+1 NP WDT 
+1 NX DT NN 
+3 NX JJ NN 
+1 NX JJ NN NN NN 
+3 NX JJ NNS 
+1 NX NN 
+1 NX NNS 
+2 NX NP PP 
+1 NX NX NX CC NX 
+1 NX NX NX NX CC NX 
+1 NX RB NNS 
+1 PDT all 
+7 POS ' 
+35 POS 's 
+3 PP ADVP IN NP 
+1 PP ADVP TO NP 
+1 PP IN 
+1 PP IN ADJP 
+1 PP IN ADVP 
+1 PP IN CC IN NP 
+377 PP IN NP 
+1 PP IN PP 
+13 PP IN S 
+1 PP IN SBAR 
+1 PP IN UCP 
+5 PP JJ IN NP 
+1 PP PP CC PP 
+1 PP PP PP 
+1 PP RB ADJP 
+1 PP RB IN ADJP 
+1 PP RB PP 
+35 PP TO NP 
+1 PP TO VP 
+4 PP VBG NP 
+2 PP VBG PP 
+1 PRN -LRB- S NP -RRB- 
+1 PRN CC VBP 
+1 PRN NP 
+1 PRN PP 
+1 PRN PP SBAR 
+4 PRN S 
+2 PRN SBAR 
+8 PRP He 
+2 PRP I 
+6 PRP It 
+3 PRP They 
+2 PRP We 
+1 PRP You 
+20 PRP he 
+20 PRP it 
+1 PRP itself 
+5 PRP them 
+9 PRP they 
+1 PRP us 
+1 PRP we 
+5 PRP you 
+1 PRP$ His 
+6 PRP$ his 
+15 PRP$ its 
+15 PRP$ their 
+17 PRT RP 
+1 QP $ CD CD 
+2 QP CD CD 
+1 QP CD CD CC CD CD 
+4 QP CD JJR 
+1 QP CD NN TO CD NN 
+1 QP DT CD 
+1 QP IN $ CD CD 
+2 QP IN CD 
+1 QP IN DT 
+1 QP JJ RB IN CD 
+1 QP NN JJR 
+1 QP RB JJ IN CD 
+1 RB Already 
+1 RB Also 
+1 RB Apparently 
+1 RB Aside 
+1 RB Currently 
+1 RB Early 
+1 RB Ever 
+1 RB Free 
+1 RB However 
+1 RB Just 
+1 RB Meanwhile 
+1 RB Nevertheless 
+3 RB Not 
+2 RB Now 
+1 RB Perhaps 
+1 RB Then 
+1 RB abroad 
+1 RB actually 
+1 RB again 
+1 RB ago 
+2 RB all 
+2 RB almost 
+6 RB also 
+1 RB always 
+1 RB annually 
+1 RB apart 
+2 RB as 
+1 RB automatically 
+1 RB badly 
+1 RB because 
+1 RB certainly 
+1 RB clearly 
+3 RB currently 
+1 RB deep 
+1 RB down 
+1 RB early 
+1 RB effortlessly 
+1 RB elegantly 
+1 RB else 
+1 RB especially 
+8 RB even 
+1 RB eventually 
+1 RB ever 
+1 RB extremely 
+1 RB face-to-face 
+1 RB far 
+1 RB fast 
+1 RB formerly 
+1 RB genetically 
+1 RB hardly 
+1 RB here 
+2 RB highly 
+1 RB historically 
+1 RB however 
+1 RB immediately 
+1 RB increasingly 
+1 RB indeed 
+1 RB ingeniously 
+1 RB jealously 
+2 RB just 
+2 RB largely 
+1 RB late 
+1 RB later 
+1 RB likely 
+1 RB magisterially 
+1 RB merely 
+2 RB mistakenly 
+2 RB much 
+10 RB n't 
+1 RB naturally 
+1 RB nearby 
+1 RB neither 
+9 RB not 
+6 RB now 
+1 RB officially 
+1 RB often 
+2 RB once 
+7 RB only 
+3 RB out 
+1 RB over 
+1 RB overseas 
+1 RB partly 
+1 RB personally 
+1 RB plenty 
+2 RB probably 
+1 RB rarely 
+1 RB rather 
+3 RB really 
+1 RB simply 
+7 RB so 
+1 RB socially 
+2 RB somehow 
+1 RB soon 
+1 RB still 
+2 RB successfully 
+1 RB superbly 
+5 RB then 
+2 RB there 
+1 RB thereby 
+1 RB though 
+1 RB thus 
+2 RB too 
+1 RB totally 
+1 RB ultimately 
+1 RB up 
+1 RB vaguely 
+1 RB vehemently 
+3 RB very 
+1 RB virtually 
+3 RB well 
+1 RBR later 
+2 RBR less 
+6 RBR more 
+1 RBS least 
+3 RBS most 
+1 RP away 
+7 RP off 
+3 RP out 
+2 RP over 
+6 RP up 
+1 S -LRB- NP VP -RRB- 
+3 S ADJP 
+1 S ADJP PP SBAR 
+9 S ADVP NP VP 
+2 S ADVP PRN NP VP 
+4 S ADVP VP 
+1 S CC ADVP NP VP 
+1 S CC NP PP VP 
+8 S CC NP VP 
+1 S CC PP NP VP 
+1 S CONJP SINV ADVP S 
+1 S CONJP SINV PRN CC S 
+1 S FRAG NP VP 
+6 S NP 
+2 S NP ADJP 
+1 S NP ADVP 
+14 S NP ADVP VP 
+3 S NP NP VP 
+1 S NP PP VP 
+2 S NP S VP 
+213 S NP VP 
+1 S PP 
+1 S PP NP ADVP VP 
+17 S PP NP VP 
+1 S PP PP 
+3 S PP VP 
+1 S RB SBAR NP VP 
+1 S RB VP 
+1 S S ADJP 
+1 S S CC ADVP S 
+13 S S CC S 
+1 S S CC SQ 
+14 S S NP VP 
+1 S S PRN NP VP 
+3 S S S 
+1 S S S CC S 
+1 S SBAR ADVP S VP 
+1 S SBAR NP ADVP VP 
+4 S SBAR NP VP 
+1 S SBAR VP 
+138 S VP 
+1 SBAR ADVP IN S 
+1 SBAR IN FRAG 
+1 SBAR IN IN S 
+1 SBAR IN NN S 
+33 SBAR IN S 
+2 SBAR RB IN S 
+1 SBAR RB S 
+33 SBAR S 
+1 SBAR SINV 
+4 SBAR WHADVP S 
+50 SBAR WHNP S 
+2 SBAR WHPP S 
+1 SBARQ WHNP SQ 
+1 SINV ADJP VP NP 
+1 SINV ADVP VP VP NP 
+1 SINV FRAG VP NP 
+1 SINV MD NP VP 
+4 SINV S VP NP 
+1 SINV S VP NP PP 
+1 SINV VBD NP RB VP 
+1 SINV VBP NP VP 
+1 SQ CC VBD NP SBAR 
+1 SQ MD NP ADVP VP 
+1 SQ VBD NP SBAR 
+1 SQ VBZ NP NP 
+1 SQ VP 
+120 TO to 
+4 TOP FRAG 
+182 TOP S 
+1 TOP SBARQ 
+8 TOP SINV 
+3 TOP SQ 
+1 TOP UCP 
+1 UCP ADJP NP 
+1 UCP JJ CC NN 
+1 UCP JJ NN CC NN 
+1 UCP NP CC ADVP 
+1 UCP PP CC ADVP VP 
+1 UCP S NP 
+1 UCP VP CC ADJP 
+1 VB accommodate 
+1 VB acquire 
+1 VB add 
+1 VB agree 
+1 VB allow 
+1 VB apply 
+1 VB approve 
+1 VB ask 
+1 VB avoid 
+1 VB bail 
+30 VB be 
+2 VB begin 
+1 VB believe 
+2 VB block 
+1 VB boost 
+1 VB break 
+1 VB buy 
+1 VB challenge 
+1 VB change 
+1 VB chew 
+1 VB clip 
+1 VB cloud 
+1 VB comment 
+1 VB confer 
+1 VB create 
+2 VB cut 
+1 VB depart 
+1 VB develop 
+1 VB devise 
+1 VB dismiss 
+1 VB disturb 
+1 VB do 
+1 VB ease 
+1 VB eliminate 
+1 VB enjoy 
+1 VB exempt 
+1 VB fail 
+1 VB field 
+4 VB file 
+2 VB get 
+1 VB give 
+6 VB have 
+1 VB hear 
+1 VB hurt 
+1 VB illustrate 
+1 VB include 
+1 VB introduce 
+2 VB invest 
+2 VB kill 
+1 VB kowtow 
+1 VB limit 
+1 VB lower 
+1 VB mature 
+1 VB mean 
+1 VB obviate 
+1 VB offer 
+1 VB open 
+1 VB pay 
+2 VB play 
+1 VB pollinate 
+1 VB possess 
+1 VB postpone 
+1 VB pressure 
+1 VB prevent 
+3 VB produce 
+1 VB protect 
+1 VB provide 
+1 VB publish 
+1 VB purchase 
+1 VB put 
+1 VB quit 
+1 VB raise 
+1 VB receive 
+2 VB rejoin 
+1 VB relax 
+1 VB remain 
+1 VB renege 
+1 VB replace 
+3 VB report 
+1 VB require 
+2 VB say 
+1 VB scuttle 
+1 VB see 
+1 VB sell 
+1 VB show 
+1 VB shun 
+1 VB sign 
+1 VB sit 
+2 VB stay 
+1 VB sterilize 
+1 VB streamline 
+1 VB stretch 
+1 VB survive 
+2 VB take 
+1 VB think 
+1 VB traduce 
+1 VB transfer 
+1 VB try 
+1 VB undermine 
+1 VB use 
+1 VB vote 
+2 VB work 
+1 VB write 
+1 VBD Was 
+2 VBD added 
+1 VBD admitted 
+1 VBD adopted 
+1 VBD allowed 
+1 VBD attached 
+1 VBD brought 
+1 VBD called 
+1 VBD collaborated 
+2 VBD contributed 
+1 VBD converted 
+1 VBD cut 
+1 VBD departed 
+1 VBD did 
+1 VBD disputed 
+1 VBD featured 
+2 VBD felt 
+1 VBD followed 
+1 VBD gave 
+1 VBD got 
+4 VBD had 
+1 VBD handled 
+1 VBD increased 
+1 VBD introduced 
+1 VBD lashed 
+1 VBD launched 
+1 VBD left 
+1 VBD liberated 
+1 VBD managed 
+1 VBD offered 
+2 VBD proposed 
+1 VBD pulled 
+1 VBD reflected 
+1 VBD refused 
+1 VBD reported 
+1 VBD required 
+1 VBD resigned 
+28 VBD said 
+1 VBD sang 
+2 VBD seemed 
+1 VBD sold 
+2 VBD started 
+1 VBD stirred 
+1 VBD supposed 
+3 VBD told 
+1 VBD triggered 
+1 VBD undermined 
+1 VBD warned 
+19 VBD was 
+2 VBD went 
+6 VBD were 
+1 VBD won 
+3 VBD wrote 
+1 VBD yielded 
+1 VBG According 
+1 VBG according 
+1 VBG achieving 
+1 VBG appealing 
+1 VBG asking 
+1 VBG attracting 
+1 VBG banking 
+1 VBG being 
+1 VBG breeding 
+1 VBG calling 
+1 VBG containing 
+1 VBG continuing 
+2 VBG creating 
+1 VBG damaging 
+1 VBG developing 
+1 VBG educating 
+1 VBG experimenting 
+1 VBG fertilizing 
+1 VBG following 
+1 VBG forcing 
+1 VBG giving 
+2 VBG going 
+1 VBG guarding 
+1 VBG having 
+1 VBG holding 
+4 VBG including 
+1 VBG justifying 
+1 VBG leaving 
+1 VBG lobbying 
+1 VBG making 
+1 VBG managing 
+1 VBG negotiating 
+1 VBG opposing 
+1 VBG policy-making 
+1 VBG pollen-producing 
+1 VBG printing 
+2 VBG producing 
+1 VBG promoting 
+1 VBG pulling 
+1 VBG putting 
+2 VBG raising 
+1 VBG rejoining 
+1 VBG remaining 
+1 VBG reporting 
+1 VBG reveling 
+1 VBG rising 
+1 VBG seeking 
+1 VBG selling 
+1 VBG spanning 
+1 VBG springing 
+1 VBG squaring 
+1 VBG stemming 
+1 VBG sterilizing 
+1 VBG succeeding 
+3 VBG using 
+1 VBG waiting 
+1 VBG working 
+1 VBN Considered 
+1 VBN Crouched 
+1 VBN Revitalized 
+1 VBN accompanied 
+1 VBN achieved 
+1 VBN aligned 
+1 VBN allowed 
+1 VBN attached 
+1 VBN attributed 
+2 VBN based 
+7 VBN been 
+1 VBN believed 
+1 VBN blackmailed 
+1 VBN bothered 
+1 VBN brought 
+1 VBN called 
+1 VBN carried 
+1 VBN changed 
+1 VBN chosen 
+2 VBN compelled 
+1 VBN created 
+1 VBN cross-pollinated 
+1 VBN delivered 
+3 VBN developed 
+1 VBN doomed 
+1 VBN dubbed 
+1 VBN elected 
+1 VBN embraced 
+1 VBN engaged 
+1 VBN engineered 
+1 VBN erupted 
+1 VBN excluded 
+1 VBN expected 
+1 VBN expressed 
+1 VBN felt 
+1 VBN fertilized 
+1 VBN gone 
+1 VBN gotten 
+2 VBN grown 
+1 VBN guaranteed 
+1 VBN had 
+1 VBN held 
+2 VBN inserted 
+2 VBN introduced 
+1 VBN invested 
+1 VBN involved 
+2 VBN isolated 
+1 VBN known 
+1 VBN limited 
+1 VBN linked 
+1 VBN made 
+1 VBN modeled 
+1 VBN muddled 
+3 VBN named 
+1 VBN obliged 
+1 VBN offered 
+1 VBN paid 
+1 VBN planted 
+1 VBN played 
+2 VBN pollinated 
+4 VBN produced 
+5 VBN proposed 
+1 VBN purged 
+1 VBN reached 
+1 VBN received 
+1 VBN repaid 
+1 VBN required 
+1 VBN seen 
+1 VBN served 
+1 VBN set 
+1 VBN shown 
+1 VBN spurred 
+1 VBN subverted 
+1 VBN taken 
+1 VBN terminated 
+1 VBN tried 
+1 VBN used 
+1 VBN worded 
+1 VBN worried 
+1 VBN written 
+1 VBP 're 
+1 VBP Take 
+1 VBP am 
+27 VBP are 
+1 VBP begin 
+1 VBP captain 
+1 VBP carry 
+1 VBP contend 
+1 VBP continue 
+1 VBP dictate 
+1 VBP fail 
+1 VBP fear 
+1 VBP feel 
+1 VBP file 
+1 VBP force 
+9 VBP have 
+1 VBP insist 
+2 VBP make 
+1 VBP oppose 
+1 VBP pollinate 
+1 VBP protect 
+1 VBP reclaim 
+1 VBP remain 
+1 VBP run 
+1 VBP say 
+2 VBP see 
+1 VBP separate 
+1 VBP sow 
+1 VBP think 
+5 VBP want 
+1 VBP wonder 
+10 VBZ 's 
+1 VBZ Is 
+1 VBZ anticipates 
+1 VBZ appears 
+1 VBZ believes 
+1 VBZ chooses 
+1 VBZ costs 
+1 VBZ deactivates 
+1 VBZ directs 
+1 VBZ distributes 
+2 VBZ does 
+1 VBZ dons 
+1 VBZ expects 
+1 VBZ files 
+1 VBZ flips 
+1 VBZ growls 
+1 VBZ handles 
+15 VBZ has 
+1 VBZ interferes 
+2 VBZ involves 
+29 VBZ is 
+1 VBZ lasts 
+2 VBZ makes 
+1 VBZ means 
+1 VBZ overcomes 
+1 VBZ oversees 
+1 VBZ owns 
+1 VBZ packages 
+1 VBZ passes 
+2 VBZ plans 
+3 VBZ plays 
+1 VBZ pores 
+1 VBZ prevents 
+1 VBZ regulates 
+1 VBZ remains 
+3 VBZ says 
+1 VBZ scoops 
+2 VBZ seems 
+2 VBZ sells 
+1 VBZ shags 
+2 VBZ shows 
+1 VBZ spreads 
+1 VBZ tells 
+1 VBZ throws 
+1 VBZ uses 
+1 VP ADVP JJ S 
+1 VP ADVP TO VP 
+2 VP ADVP VB NP 
+1 VP ADVP VB SBAR 
+1 VP ADVP VBD NP 
+1 VP ADVP VBD NP PP 
+1 VP ADVP VBG NP 
+1 VP ADVP VBN 
+1 VP ADVP VBN NP 
+2 VP ADVP VBN PP 
+2 VP ADVP VBN PP S 
+1 VP ADVP VBN PP SBAR 
+1 VP ADVP VBP S 
+1 VP ADVP VBZ 
+1 VP ADVP VBZ NP 
+1 VP ADVP VP CC VP 
+4 VP MD ADVP VP 
+1 VP MD RB ADVP VP 
+4 VP MD RB VP 
+52 VP MD VP 
+1 VP NN NP 
+1 VP NP S 
+1 VP PRN MD VP 
+1 VP PRN VB NP PP 
+1 VP TO ADVP VP 
+79 VP TO VP 
+10 VP VB 
+14 VP VB ADJP 
+2 VP VB ADJP PP 
+1 VP VB ADJP PP PP 
+2 VP VB ADJP S 
+2 VP VB ADVP 
+1 VP VB ADVP ADVP 
+1 VP VB ADVP NP 
+1 VP VB CC VB NP 
+1 VP VB CC VB NP ADJP 
+44 VP VB NP 
+2 VP VB NP ADVP 
+1 VP VB NP ADVP ADVP 
+2 VP VB NP NP 
+18 VP VB NP PP 
+1 VP VB NP PP ADJP 
+2 VP VB NP PP PP 
+1 VP VB NP PRT 
+1 VP VB NP SBAR 
+14 VP VB PP 
+2 VP VB PP NP 
+1 VP VB PRT 
+1 VP VB PRT NP PP SBAR 
+2 VP VB PRT NP S 
+1 VP VB PRT PP 
+6 VP VB S 
+3 VP VB SBAR 
+13 VP VB VP 
+16 VP VBD 
+3 VP VBD ADJP 
+1 VP VBD ADJP PP 
+1 VP VBD ADJP S 
+1 VP VBD ADVP ADJP 
+1 VP VBD ADVP PP 
+25 VP VBD NP 
+1 VP VBD NP ADVP 
+4 VP VBD NP PP 
+1 VP VBD NP PP NP SBAR 
+1 VP VBD NP PP PP 
+1 VP VBD NP PP SBAR 
+1 VP VBD NP PP SBAR S 
+2 VP VBD NP SBAR 
+4 VP VBD PP 
+2 VP VBD PP PP 
+1 VP VBD PP S 
+1 VP VBD PRT NP NP 
+1 VP VBD PRT NP S 
+1 VP VBD PRT NP SBAR 
+1 VP VBD RB ADVP VP 
+1 VP VBD RB NP ADVP NP 
+1 VP VBD RB VP 
+8 VP VBD S 
+1 VP VBD S S 
+18 VP VBD SBAR 
+1 VP VBD UCP 
+13 VP VBD VP 
+24 VP VBG NP 
+1 VP VBG NP NP 
+2 VP VBG NP PP 
+1 VP VBG NP PP SBAR 
+3 VP VBG NP S 
+7 VP VBG PP 
+1 VP VBG PP NP 
+1 VP VBG PP PP 
+2 VP VBG PP S 
+1 VP VBG PRT NP 
+1 VP VBG PRT NP S 
+1 VP VBG PRT PP PP 
+4 VP VBG S 
+1 VP VBG VP 
+9 VP VBN 
+2 VP VBN ADJP 
+2 VP VBN ADVP 
+9 VP VBN NP 
+4 VP VBN NP PP 
+31 VP VBN PP 
+5 VP VBN PP PP 
+2 VP VBN PP S 
+2 VP VBN PRT PP 
+1 VP VBN PRT PP SBAR 
+13 VP VBN S 
+1 VP VBN S PP 
+1 VP VBN S S 
+5 VP VBN SBAR 
+2 VP VBN VP 
+5 VP VBP 
+3 VP VBP ADJP 
+1 VP VBP ADVP 
+1 VP VBP ADVP PP 
+3 VP VBP ADVP VP 
+10 VP VBP NP 
+1 VP VBP NP ADVP 
+1 VP VBP NP ADVP SBAR 
+5 VP VBP NP PP 
+3 VP VBP PP 
+1 VP VBP PP S 
+1 VP VBP PRN NP PP 
+1 VP VBP PRT NP 
+1 VP VBP RB ADJP 
+5 VP VBP S 
+1 VP VBP S SBAR SBAR 
+4 VP VBP SBAR 
+1 VP VBP UCP 
+20 VP VBP VP 
+6 VP VBZ 
+7 VP VBZ ADJP 
+1 VP VBZ ADJP PP 
+1 VP VBZ ADVP 
+1 VP VBZ ADVP ADJP 
+1 VP VBZ ADVP NP 
+3 VP VBZ ADVP VP 
+2 VP VBZ CC VBZ NP 
+25 VP VBZ NP 
+2 VP VBZ NP ADVP 
+1 VP VBZ NP NP ADVP 
+4 VP VBZ NP PP 
+1 VP VBZ NP S 
+1 VP VBZ NP SBAR 
+5 VP VBZ PP 
+2 VP VBZ PP PP 
+1 VP VBZ PRT NP 
+5 VP VBZ RB VP 
+6 VP VBZ S 
+5 VP VBZ SBAR 
+20 VP VBZ VP 
+14 VP VP CC VP 
+1 VP VP VP CC VP 
+1 WDT That 
+24 WDT that 
+13 WDT which 
+1 WHADVP RB WRB 
+3 WHADVP WRB 
+2 WHNP IN 
+37 WHNP WDT 
+14 WHNP WP 
+1 WHPP IN WHNP 
+1 WHPP TO WHNP 
+2 WP What 
+3 WP what 
+9 WP who 
+3 WRB when 
+1 WRB why 

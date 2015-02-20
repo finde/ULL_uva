@@ -1,0 +1,86 @@
+
+if [ $# -eq 0 ] ; then
+	printf "\n Choose one of the following options: \n\n"
+
+	printf "likelihood grammar lexicon corpus \n"
+	printf "scores grammar lexicon corpus \n"
+	printf "top_rules grammar \n"
+		
+	printf "\n"
+	exit
+fi
+
+
+args=("$@")
+
+case ${args[0]} in
+
+loglikelihood)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+	
+	temp=$corpus"_temp"
+	current=$corpus"_current"
+	rm final_probs
+
+	cp $corpus $temp
+	#cp $corpus curpus_current
+	get_next_sentence.py $corpus
+
+	while [ `wc -l $current | awk '{print $1}'` -ne "0" ]; do
+		bitpar -vp -s TOP -b 1 $grammar $lexicon $current "parse_forest" -q
+		grep 'vitprob' "parse_forest" | sed -e 's/vitprob=//g' > viterbi_probs	
+		sum_viterbis.py viterbi_probs final_probs
+		rm "parse_forest"
+	
+		get_next_sentence.py $corpus
+	done
+	
+	get_loglikelihood.py final_probs loglikelihoods
+
+	rm $current
+	rm $temp
+	;;
+
+
+scores)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+	
+	echo "EVALUATING PARSES"
+	cp treebank gold_treebank
+	initial_steps remove_lexical_rules gold_treebank
+	bitpar -b 1 -s TOP $grammar $lexicon $corpus parses 
+	eval_jarpath=`which evalC.jar`
+	java -jar $eval_jarpath gold_treebank parses output >> final_scores
+	;;
+
+
+top_rules)
+	grammar=${args[1]}
+
+	echo "ITERATION" >> all_top_rules
+	get_top_rules.py $grammar 10 >> all_top_rules
+	;;
+
+all)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+
+	evaluations loglikelihood $grammar $lexicon $corpus
+	evaluations scores $grammar $lexicon $corpus
+	evaluations top_rules $grammar
+		
+	;;
+
+*)	
+	evaluations
+	;;
+
+esac
+
+
+

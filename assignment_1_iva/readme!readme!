@@ -1,0 +1,20 @@
+Add the Part1 folder to your path (as well as the bitpar folder).
+In an empty folder with only the treebank run 
+	
+	the_new_magic treebank_name number_of_em_iterations
+
+and all sorts of miracles happen! :P For now there's plenty of output 
+and weird files and that's why the folder should be preferably empty. 
+
+After all the following files are interesting:
+
+loglikelihoods - loglikelihoods for all iterations
+final_scores - shows precision/recall/Fscore for all iterations
+all_top_rules - top 10 rules for each iteration
+plot_loglikelihoods.png
+plot_scors.png
+plot_top_rules.png
+
+
+The rest of the files might show random results from the last iteration made 
+(keeping them for test purposes)

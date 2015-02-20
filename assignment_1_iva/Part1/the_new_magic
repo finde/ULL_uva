@@ -1,0 +1,17 @@
+
+args=("$@")
+
+treebank=${args[0]}
+iterations=${args[1]}
+
+cp $treebank treebank
+
+initial_steps all treebank
+
+evaluations all grammar lexicon corpus
+
+iterate_em grammar lexicon corpus $iterations
+
+plot_loglikelihoods.py loglikelihoods
+plot_scores.py final_scores
+plot_top_rules.py all_top_rules

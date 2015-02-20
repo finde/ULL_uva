@@ -1,0 +1,41 @@
+-------------------------------
+evalC
+-------------------------------
+
+evalC computes the accuracy of a bracketed test corpus when compared with a gold version.
+The two treebanks should follow the Penn Treebanks formats.
+The output of evalC is very similar to the one provided by evalB (http://nlp.cs.nyu.edu/evalb/).
+In addition to the overall and per-sentence bracketing accuracy, evalC gives more in depth evaluation about:
+- per-category accuracy
+- per-category crossing bracket
+- category mismatches
+
+USAGE: 
+java -jar evalC.jar [-p paramFile] [-log logFile] goldFile testFile outputFile
+
+The directory sample, contains an example pair of gold and test file (sample.gld, sample.tst),
+and the output of evalB (sample.evalB) and evalC (sample.evalC) when used with specific parameter files (param.evalB, param.evalC).
+IMPORTANT: the two parameter files are not equivalent and cannot be used interchangeably.
+
+-------------------------------
+evalC_GUI
+-------------------------------
+
+evalC_GUI is the graphical version of evalC.
+It displays each gold/test structure and marks in red the non-matching constituents (in red) and incorrect pos-tags (in green). 
+From the File menu it is possible to:
+- Load a Gold File (should be in Penn Treebanks format)
+- Load a Test File (should be in Penn Treebanks format)
+- Load a Parameter File (i.e. sample/evalC.prm)
+- Compare (display the Gold/Test treebanks and mark the differences)
+- Compare with output (display the Gold/Test treebanks with differences and in addition output an evaluation file.
+- Export to PDS (export the current Gold/Test pair of structures to a PDF document)
+- Export ALL to PDS (export the Gold/Test pairs of structures of the two treebanks to a PDF document, one pair per page)
+
+USAGE: 
+java [-Xmx100M] -jar evalC_GUI.jar
+
+--------------------------------------------------------------
+For questions/comments contact me: f.sangati (at) uva (dot) nl
+--------------------------------------------------------------
+
