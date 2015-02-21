@@ -16,12 +16,7 @@ function em {
 		less $f/em.gram | grep -v '0\.00' > $f/em.grammar
 		less $f/em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > $f/em.lexicon
 
-		rm -f $f/em.gram && rm -f $f/em.lex
-		mv $f/em.grammar $f/em.gram
-		mv $f/em.lexicon $f/em.lex
-
-#		echo " - get the forest of PCFGs"
-		$bitpar -q -s TOP -b 1 $f/em.gram $f/em.lex $f/_corpus > $f/_forest
+		rm -f $f/em.gram && rm -f $f/em.lex && mv $f/em.grammar $f/em.gram && mv $f/em.lexicon $f/em.lex && $bitpar -q -s TOP -b 1 $f/em.gram $f/em.lex $f/_corpus > $f/_forest
 		sed -i '' 's/\\//g' $f/_forest
 
 #		echo " -  evaluation"
