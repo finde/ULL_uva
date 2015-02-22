@@ -6,14 +6,13 @@ number_of_sentences=$2
 n_iteration=$3
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 bitpar=$DIR'/../BitPar/src/bitpar'
-output_folder=$DIR/$4
+f=$4
 
 #. $DIR/preparation.sh
 #. $DIR/grammar_extraction_pcfg.sh
 #. $DIR/em.sh
 . $DIR/dep2pcfg.sh
 
-f='output'
 rm -rf $f
 mkdir $f
 
@@ -32,14 +31,14 @@ em=$DIR/$f/'_em'
 
 ###############################################################################
 # Extract POS-tag sequences from a treebank $treebank and write them to a file called $output
-cat $treebank | sed '/^$/d' | sed -n '2p' | sed  -e 's/(/((/g;s/([^"]*(//g;s/ "[^)]*//g;s/)//g' > $sentence_file
+cat $treebank | sed '/^$/d' | sed  -e 's/(/((/g;s/([^"]*(//g;s/ "[^)]*//g;s/)//g' > $sentence_file
 
 # using words
-#cat $treebank | sed '/^$/d' | sed -n '2p' | sed -e 's/([^"]* "//g;s/"[^ ]*//g' > $sentence_file
+#cat $treebank | sed '/^$/d' | sed -e 's/([^"]* "//g;s/"[^ ]*//g' > $sentence_file
 
 #################################################################################
 ## Filtering out sentences with up to 10 tags
-cat $sentence_file | awk '{if (NF<11) print}' > $sentences
+cat $sentence_file | awk '{if (NF<11) print}' | head -n $number_of_sentences > $sentences
 
 ################################################################################
 # Extract all dependencies from a file with sentences of words or POS tags
@@ -50,40 +49,45 @@ cat $sentences |  awk '{for (i=1;i<=NF;i++) {print "ROOT",$i, "right"; for (j=i+
 ### sort, count and sort again
 cat $all_dependencies | sort | uniq -c | sort -g -r -k 1 | sed 's/ *[0-9]* //' | dmv | sort > $headden_transform
 
+#cat $headden_transform
+
 ##################################################################################
 # Annotate dependency parses encoded as CF-trees with Headden's transform with heads
-cat $headden_transform | uniq -c | sed 's/^ *//' > $grammar
-cat $grammar | grep -E '_l|_r' | awk '{printf("%s\t%s\t%s\n",$3,$2,$1)}' > $lexicon
-sed -i '' '/_[lr]$/d' $grammar
+cat $headden_transform | uniq -c | sed 's/^ *//' > $em.gram
+cat $em.gram | grep -E '_l|_r' | awk '{printf("%s\t%s\t%s\n",$3,$2,$1)}' > $em.lex
+sed -i '' '/_[lr]$/d' $em.gram
+#sed -i '' 's/[0-9]* //' $em.gram
 
 # convert sentences to double -> split head
 #cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s\n",$i)}printf("\n")}' > $corpus
 cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("\n")}' > $sentences_double
-echo "NNP_l" > $sentences_double
-echo "NNP_r" >> $sentences_double
-echo "NNP_l" >> $sentences_double
-echo "NNP_r" >> $sentences_double
-cat $grammar
-cat $lexicon
-cat $sentences_double
-$bitpar -s Y_NNP -b 1 $grammar $lexicon $sentences_double
-#$bitpar -s S $grammar $lexicon $sentences_double -em $em
 
-#less $em.gram | grep -v '0\.00' > $em.grammar
-#less $em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > $em.lexicon
-#
-#rm -f $em.gram && rm -f $em.lex && mv $em.grammar $em.gram && mv $em.lexicon $em.lex && $bitpar -s S -b 1 $em.gram $em.lex $sentences_double | sed 's/\\//g' > $f/_forest
-#
-##echo "evaluation"
-#$bitpar -ip -s S $em.gram $em.lex $sentences_double > $f/_forest_proba
-#cat $f/_forest_proba | grep -E -o '^[{]*\(S=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output
-#
-##sum to get log-likelihood from file $output
-#likelihood=$(python $DIR/sum_log_probabilities.py $f/_output | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
-#echo " ->> likelihood:  "$likelihood
-#
-# annotate parses
-#cat $f/_forest | sed 's/\((L[^ ]\+\) /\1-H /g' | sed 's/\([^ _]_L\) /\1-H /g' | sed 's/\((R[^_]_[^ ]\+\) /\1-H /g' | sed 's/^(S (\([^ ]\+\) /(S (\1-H /g' | sed 's/\(_[lr]\)/\1-H/g'
+    echo "::EM::"
+	for i in `seq 1 $n_iteration`;
+	do
+	    echo '======='
+		echo ' >> Iteration-'$i
+        echo '======='
 
-#python transform_parses.py $f/parses_head > $f/dep_parses
-#
+        $bitpar -q -s S $em.gram $em.lex $sentences_double -em $em
+
+        less $em.gram | grep -v '0\.00' > $em.grammar
+        less $em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > $em.lexicon
+
+        rm -f $em.gram && rm -f $em.lex && mv $em.grammar $em.gram && mv $em.lexicon $em.lex && $bitpar -q -s S -b 1 $em.gram $em.lex $sentences_double | sed 's/\\//g' > $f/_forest.txt
+
+        #echo "evaluation"
+        $bitpar  -q -ip -s S $em.gram $em.lex $sentences_double > $f/_forest_proba.txt
+        cat $f/_forest_proba.txt | grep -E -o '^[{]*\(S=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output.txt
+
+        #sum to get log-likelihood from file $output
+        likelihood=$(python $DIR/sum_log_probabilities.py $f/_output.txt | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
+        echo " ->> likelihood:  "$likelihood
+
+        # annotate parses
+        cat $f/_forest.txt | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\([^ _]_L\) /\1-H /g' | sed 's/\((R[^_]_[^ ]*\) /\1-H /g' | sed 's/^(S (\([^ ]*\) /(S (\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
+
+        python $DIR/transform_parses.py $f/parses_head.txt > $f/dep_parses.txt
+        python $DIR/evaluateD.py $f/dep_parses.txt ././wsj10.txt.gold
+	done
+
