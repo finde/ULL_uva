@@ -16,7 +16,7 @@ def main():
         score = 0
         test = line_test.split()
         gold = line_gold.split()
-        print line_test, line_gold
+        # print line_test, line_gold
         assert len(test) == len(gold), "gold sentence %i and input sentence %i do not have the same length" % (
             nr_of_sentences, nr_of_sentences)
         for i in range(len(test)):
@@ -26,8 +26,8 @@ def main():
         A += accuracy
         line_test, line_gold = ftest.readline(), fgold.readline()
 
-    print "\nnr of sentences: %i" % nr_of_sentences
-    print "average accuracy per sentence: %f" % (A / float(nr_of_sentences))
+    print "average accuracy per sentence: [%f]" % (A / float(nr_of_sentences))
+    # print "\nnr of sentences: %i" % nr_of_sentences
     return A / float(nr_of_sentences)
 
 

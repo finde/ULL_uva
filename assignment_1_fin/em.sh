@@ -10,7 +10,7 @@ function em {
 		echo ' >> Iteration-'$i
 
 #		echo " - Do a single pass of io with bitpar"
-		$bitpar -q -s TOP $f/em.gram $f/em.lex $f/_corpus -em $f/em
+		$bitpar -s TOP $f/em.gram $f/em.lex $f/_corpus -em $f/em
 
 		# # remove lines with 0 counts
 		less $f/em.gram | grep -v '0\.00' > $f/em.grammar
@@ -20,8 +20,7 @@ function em {
 		sed -i '' 's/\\//g' $f/_forest
 
 #		echo " -  evaluation"
-		$bitpar -q -ip -s TOP $f/em.gram $f/em.lex $f/_corpus> $f/_forest_proba
-		cat $f/_forest_proba | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output
+		$bitpar -q -vp -s TOP $f/em.gram $f/em.lex $f/_corpus | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output
 
 		# sum to get log-likelihood from file $output
 		likelihood=$(python $DIR/sum_log_probabilities.py $f/_output | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
@@ -41,6 +40,6 @@ function em {
 		then
 			echo "iteration,likelihood,recall,precision,fscore" >> $f/results.csv
 		fi
-		echo "#"$i","$likelihood","$recall","$precision","$fscore >> $f/results.csv
+		echo $i","$likelihood","$recall","$precision","$fscore >> $f/results.csv
 	done
 }
