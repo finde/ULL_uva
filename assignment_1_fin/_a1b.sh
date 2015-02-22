@@ -59,11 +59,14 @@ sed -i '' '/_[lr]$/d' $grammar
 # convert sentences to double -> split head
 #cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s\n",$i)}printf("\n")}' > $corpus
 cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("\n")}' > $sentences_double
+echo "NNP_l" > $sentences_double
+echo "NNP_r" >> $sentences_double
+echo "NNP_l" >> $sentences_double
+echo "NNP_r" >> $sentences_double
 cat $grammar
 cat $lexicon
-echo "NNP_l NNP_r" > $sentences_double
 cat $sentences_double
-$bitpar -s S -b 1 $grammar $lexicon $sentences_double
+$bitpar -s Y_NNP -b 1 $grammar $lexicon $sentences_double
 #$bitpar -s S $grammar $lexicon $sentences_double -em $em
 
 #less $em.gram | grep -v '0\.00' > $em.grammar

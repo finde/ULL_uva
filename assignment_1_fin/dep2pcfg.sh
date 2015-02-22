@@ -35,7 +35,7 @@ function dmv {
 		printf("L_%s L1_%s\n",h,h);
 		printf("LP_%s L0_%s\n",h,h);
 		printf("LP_%s L1_%s\n",h,h);
-		printf("LP_%s Y_%s LP_%s\n",h,a,h);
+		printf("L1_%s Y_%s LP_%s\n",h,a,h);
 		printf("L0_%s %s_l\n",h,h);
 	}
 	function right(h,a)
@@ -44,7 +44,7 @@ function dmv {
 		printf("R_%s R1_%s\n",h,h);
 		printf("RP_%s R0_%s\n",h,h);
 		printf("RP_%s R1_%s\n",h,h);
-		printf("RP_%s RP_%s Y_%s\n",h,h,a);
+		printf("R1_%s RP_%s Y_%s\n",h,h,a);
 		printf("R0_%s %s_r\n",h,h);
 	}
 	{if ($1=="ROOT") root($2)
