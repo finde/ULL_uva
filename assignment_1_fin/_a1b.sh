@@ -56,10 +56,9 @@ cat $all_dependencies | sort | uniq -c | sort -g -r -k 1 | sed 's/ *[0-9]* //' |
 cat $headden_transform | uniq -c | sed 's/^ *//' > $em.gram
 cat $em.gram | grep -E '_l|_r' | awk '{printf("%s\t%s\t%s\n",$3,$2,$1)}' > $em.lex
 sed -i '' '/_[lr]$/d' $em.gram
-#sed -i '' 's/[0-9]* //' $em.gram
+#sed -i '' 's/[0-9]* /1/' $em.gram
 
 # convert sentences to double -> split head
-#cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s\n",$i)}printf("\n")}' > $corpus
 cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("\n")}' > $sentences_double
 
     echo "::EM::"
@@ -86,8 +85,16 @@ cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("
 
         # annotate parses
         cat $f/_forest.txt | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\([^ _]_L\) /\1-H /g' | sed 's/\((R[^_]_[^ ]*\) /\1-H /g' | sed 's/^(S (\([^ ]*\) /(S (\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
+#        cat $f/_forest.txt | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\((R[^ ]*\) /\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
 
         python $DIR/transform_parses.py $f/parses_head.txt > $f/dep_parses.txt
-        python $DIR/evaluateD.py $f/dep_parses.txt ././wsj10.txt.gold
+        accuracy=$(python $DIR/evaluateD.py $f/dep_parses.txt ././wsj10.txt.gold | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
+
+
+        if [ $i -eq 1 ] ;
+		then
+			echo "iteration,likelihood,accuracy" >> $f/results.csv
+		fi
+		echo "#"$i","$likelihood","accuracy >> $f/results.csv
 	done
 
