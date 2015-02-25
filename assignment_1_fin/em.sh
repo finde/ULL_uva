@@ -10,26 +10,31 @@ function em {
 		echo ' >> Iteration-'$i
 
 #		echo " - Do a single pass of io with bitpar"
-		$bitpar -q -s TOP $f/em.gram $f/em.lex $f/_corpus -em $f/em
+		$bitpar -s TOP $f/em.gram $f/em.lex $f/_corpus -em $f/em
 
 		# # remove lines with 0 counts
 		less $f/em.gram | grep -v '0\.00' > $f/em.grammar
-		less $f/em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > $f/em.lexicon
+		less $f/em.lex | grep -v '0.000000' | awk '{print $1"\t"$2" "$3 }' > $f/em.lexicon
 
-		rm -f $f/em.gram && rm -f $f/em.lex
-		mv $f/em.grammar $f/em.gram
-		mv $f/em.lexicon $f/em.lex
-
-#		echo " - get the forest of PCFGs"
-		$bitpar -q -s TOP -b 1 $f/em.gram $f/em.lex $f/_corpus > $f/_forest
+		rm -f $f/em.gram && rm -f $f/em.lex && mv $f/em.grammar $f/em.gram && mv $f/em.lexicon $f/em.lex && $bitpar -q -s TOP -b 1 $f/em.gram $f/em.lex $f/_corpus > $f/_forest
 		sed -i '' 's/\\//g' $f/_forest
 
-#		echo " -  evaluation"
-		$bitpar -q -ip -s TOP $f/em.gram $f/em.lex $f/_corpus> $f/_forest_proba
-		cat $f/_forest_proba | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output
+#		echo " likelihood - evaluation"
+        # additional trick, split corpus into per sentences, evaluate them separately and then sum them
+        while read line
+        do
+            # if this is sentence separator:
+            if [ ! "$line" ]; then
+                $bitpar -q -ip -s TOP $f/em.gram $f/em.lex $f/_corpus_single | grep -E -o '^[{]*\(TOP=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' >> $f/_output
+                rm -f $f/_corpus_single
+            else
+                echo "$line" >> $f/_corpus_single
+            fi
+        done < $f/_corpus
 
 		# sum to get log-likelihood from file $output
 		likelihood=$(python $DIR/sum_log_probabilities.py $f/_output | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
+        rm -f $f/_output
 
 #		echo " - running evalC"
 		recall_precision_fscore=$(java -jar $DIR/../evalC/evalC.jar $f/new_treebank_gold $f/_forest $f/_eval_$i | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ' | tr ',' ' ')
@@ -46,6 +51,6 @@ function em {
 		then
 			echo "iteration,likelihood,recall,precision,fscore" >> $f/results.csv
 		fi
-		echo "#"$i","$likelihood","$recall","$precision","$fscore >> $f/results.csv
+		echo $i","$likelihood","$recall","$precision","$fscore >> $f/results.csv
 	done
 }

@@ -26,20 +26,16 @@ def output(line):
 
     parse = nestedExpr('(',')').parseString(txt).asList()[0]
     
-#    print "\n\n"; pprint.pprint(parse)
+    #pprint.pprint(parse)
 
     depstruct = depgen(parse, None, object())
-
-#    pprint.pprint(depstruct)
+    
+    #pprint.pprint(depstruct)
 
     parents = [x[2] for x in depstruct]
     ids = [None] + [x[1] for x in depstruct]
 
-    try:
-        deps = [ids.index(p) for p in parents]
-    except ValueError:
-        print p
-        raise
+    deps = [ids.index(p) for p in parents]
 
 
     #assert deps[1::2]==deps[::2], deps
@@ -48,36 +44,24 @@ def output(line):
     for i in range(0, len(deps)):
         if deps[i] > 0:        
             deps[i] = (deps[i]+1)/2
-    print ' '.join(map(str, deps[::2])),
-    """
-    sentence = ([x[0] for x in depstruct])
-    print ' '.join(sentence)
-    for i,x in enumerate(sentence):
-        print '%s(%s)' % (x, (["ROOT"] + sentence)[deps[i]]) ,
-    else:
-        print
-    print
-    """
+    print ' '.join(map(str,deps[::2]))
+
 
 def main():
-	# command line
-    if len(sys.argv) == 2:
-        in_path = sys.argv[1]
-    else:
-        in_path = '../parses'
+    in_path = sys.argv[1]
     
     fin = open(in_path, 'r')
     
     while True:
         s = fin.readline()
-        if len(s) == 0:
+        if len(s) is 0:
             break
-        if s[0] != '(':
+        if not s[0] is '(':
             t = ''
             s = s.split()
-            for i in range(0, len(s)-3):
-                t += '0 '
-            print t[::4]
+            if s:
+                s = [t for t in s[3:]]
+                print '0 ' * (len(s)/2)
         else:
             output(s)
 
