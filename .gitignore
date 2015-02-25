@@ -55,3 +55,11 @@ target/
 
 !assignment-1/*.*
 .DS_Store
+assignment_1_fin/_treebank_dummy
+assignment_1_fin/code.zip
+assignment_1_fin/output*
+assignment_1_fin/wsj10.txt.gold
+dep2pcfg
+dep2pcfg-master.zip
+treep-1.0
+treep-1.0.tar.gz
