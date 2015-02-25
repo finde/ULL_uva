@@ -1,0 +1,106 @@
+
+if [ $# -eq 0 ] ; then
+	printf "\n Choose one of the following options: \n\n"
+
+	printf "extract_POS_tags treebank POS_tags_file \n"
+	printf "POS_tags_up_to treebank POS_tags_up_to_file \n"
+	printf "extract_dependencies POS_tags_file dependencies_file \n"
+	printf  "sort_dependencies dependencies_file sorted_dependencies_file \n"
+	printf "annotate_parses headed_parses parses_head \n"		
+	printf "create_corpus POS_tags corpus \n"
+	printf "all all/upto10 treebank \n"
+	
+	printf "\n"
+	exit
+fi
+
+
+args=("$@")
+
+case ${args[0]} in
+
+extract_POS_tags)
+	echo "EXTRACTING POS TAGS FROM TREEBANK"
+	#cat ${args[1]} | sed 's/(/( /g;s/([^(]\+ (//g;s/[^ (]\+)//g; 
+	#s/[(]//g;s/ \+/ /g;s/^ \+//' | grep '[A-Za-z]' > ${args[2]}
+	
+	cat ${args[1]} | sed '/^$/d' | sed -e 's/(/((/g;s/([^"]*(//g;s/ "[^)]*//g;s/)//g' > ${args[2]}
+
+
+	;;
+
+POS_tags_up_to_10)
+	echo "EXTRACTING POS TAG SEQUENCES WITH LENGTH UP TO 10"
+	initial_steps_part2 extract_POS_tags ${args[1]} POS_tags_temp
+	cat POS_tags_temp | awk '{if (NF<11) print}' > ${args[2]}
+	rm POS_tags_temp	
+	;;
+
+extract_dependencies)
+	echo "EXTRACTING ALL POSSIBLE DEPENDENCIES"
+	cat ${args[1]} | awk '{for (i=1;i<=NF;i++) {print "ROOT",$i, "right"; for (j=i+1;j<=NF;j++) {print $i,$j, "right"; print $j,$i, "left"}}}' > ${args[2]}
+	;;
+
+sort_dependencies)
+	echo "SORTING DEPENDENCIES"
+	less ${args[1]} | sort | uniq -c | sort -g -r -k 1 | sed 's/ *[0-9]* //' > ${args[2]}
+	;;
+
+
+create_corpus)
+	echo "CREATING A CORPUS"
+	cat ${args[1]} 	| awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("\n")}' > ${args[2]}			
+	;;
+
+annotate_parses)
+	echo "HEAD-ANNOTATING PARSES"
+	
+	cat ${args[1]} | sed 's/\(([LR]_[^ ]\+\) /\1-H /g' | sed 's/\((L0_[^ ]\+\) /\1-H /g' |  sed 's/\((L1_[^ ]\+\) /\1-H /g' | sed 's/\((L2_[^ ]\+\) /\1-H /g' | sed 's/\((Lp_[^ ]\+\) /\1-H /g' | sed 's/\((R0_[^ ]\+\) /\1-H /g' | sed 's/\((R1_[^ ]\+\) /\1-H /g' | sed 's/\((R2_[^ ]\+\) /\1-H /g' | sed 's/\((Rp_[^ ]\+\) /\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' | sed 's/^(TOP (\([^ ]\+\) /(S (\1-H /g' > ${args[2]}	
+	;;
+
+
+all)
+	case ${args[1]} in
+	all)
+		initial_steps_part2 extract_POS_tags ${args[2]} POS_tags
+		;;
+
+	upto10)
+		initial_steps_part2 POS_tags_up_to_10 ${args[2]} POS_tags
+		;;
+	esac		
+
+	initial_steps_part2 extract_dependencies POS_tags dependencies
+	initial_steps_part2 sort_dependencies dependencies sorted_dependencies
+	
+
+
+	echo "ENCODING"
+	### UNCOMMENT ONE OF THE FOLLOWING TO USE THE DESIRED ENCODING ###
+	
+	#get_naive_encoding.py dependencies initial_grammar initial_lexicon
+	#get_faster_split_head_encoding.py dependencies initial_grammar initial_lexicon
+	#get_split_head_encoding.py dependencies initial_grammar initial_lexicon
+	#get_headden_simple_split_head1.py dependencies initial_grammar initial_lexicon	
+	#get_headden_simple_split_head2.py dependencies initial_grammar initial_lexicon	
+	#get_headden_dmv.py dependencies initial_grammar initial_lexicon
+	get_headden_evg.py dependencies initial_grammar initial_lexicon
+
+	cat initial_grammar | sort | uniq -c > grammar
+	cat initial_lexicon | sort | uniq -c | awk '{printf("%s\t%s\t%s\n",$3,$2,1)}' > lexicon
+
+	initial_steps_part2 create_corpus POS_tags corpus
+	
+	rm initial_lexicon
+	rm initial_grammar	
+	;;
+
+*)
+	initial_steps_part2
+	;;
+esac
+
+
+
+
+

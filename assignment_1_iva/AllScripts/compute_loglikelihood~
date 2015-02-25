@@ -1,0 +1,31 @@
+
+args=("$@")
+
+grammar=${args[0]}
+lexicon=${args[1]}
+corpus=${args[2]}
+
+temp=$corpus"_temp"
+current=$corpus"_current"
+rm final_probs
+
+cp $corpus $temp
+#cp $corpus curpus_current
+get_next_sentence.py $corpus
+
+
+# Get probability per sentence (Using Viterbi => getting only the best parse)
+
+while [ `wc -l $current | awk '{print $1}'` -ne "0" ]; do
+	bitpar -vp -s TOP -b 1 $grammar $lexicon $current "parse_forest" -q
+	grep 'vitprob' "parse_forest" | sed -e 's/vitprob=//g' > viterbi_probs	
+	sum_viterbis.py viterbi_probs final_probs
+	rm "parse_forest"
+	
+	get_next_sentence.py $corpus
+done
+
+get_loglikelihood.py final_probs loglikelihoods
+
+rm $current
+rm $temp

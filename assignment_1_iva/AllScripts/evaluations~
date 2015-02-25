@@ -1,0 +1,80 @@
+
+if [ $# -eq 0 ] ; then
+	printf "\n Choose one of the following options: \n\n"
+
+	printf "likelihood grammar lexicon corpus \n"
+	printf "scores grammar lexicon corpus \n"
+	printf "top_rules grammar \n"
+	printf "all grammar lexicon corpus ((to do all above)) \n"
+		
+	printf "\n"
+	exit
+fi
+
+
+args=("$@")
+
+case ${args[0]} in
+
+loglikelihood)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+	
+	echo "COMPUTING LOGLIKELIHOOD"
+	bitpar -vp -s TOP -b 1 $grammar $lexicon $corpus parse_forest -q
+	cat parse_forest | grep 'vitprob' | sed 's/vitprob=//g' > final_probs	
+	
+	get_loglikelihood.py final_probs loglikelihoods
+
+	rm final_probs
+	rm parse_forest
+	;;
+
+
+scores)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+	
+	echo "EVALUATING PARSES"
+
+	# make a new treebank working with evalC.jar (removing "s)
+	cp treebank gold_treebank
+	initial_steps remove_lexical_rules gold_treebank
+	bitpar -b 1 -s TOP $grammar $lexicon $corpus parses -q
+	
+	eval_jarpath=`which evalC.jar`
+	java -jar $eval_jarpath gold_treebank parses output >> final_scores
+	
+	rm gold_treebank
+	;;
+
+
+top_rules)
+	grammar=${args[1]}
+	
+	echo "GETTING TOP RULES"
+	echo "ITERATION" >> all_top_rules
+	get_top_rules.py $grammar 10 >> all_top_rules
+	;;
+
+all)
+	grammar=${args[1]}
+	lexicon=${args[2]}
+	corpus=${args[3]}
+
+	evaluations loglikelihood $grammar $lexicon $corpus
+	evaluations scores $grammar $lexicon $corpus
+	evaluations top_rules $grammar
+		
+	;;
+
+*)	
+	evaluations
+	;;
+
+esac
+
+
+

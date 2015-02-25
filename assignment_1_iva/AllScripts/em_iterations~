@@ -1,0 +1,26 @@
+
+args=("$@")
+lex=.lex
+gram=.gram
+lexicon=.lexicon
+grammar=.grammar
+
+
+em=${args[0]}
+corpus=${args[1]}
+iterations=${args[2]}
+
+while [ $iterations -gt 0 ]; do
+	echo "IO ITERATION" $iterations
+	bitpar -s TOP $em$grammar $em$lexicon $corpus -em $em
+
+	echo "REMOVE ZEROS"
+	./remove_zeros $em
+
+	./compute_loglikelihood $em$grammar $em$lexicon $corpus
+
+	bitpar -b 1 -s TOP $em$grammar $em$lexicon $corpus parses
+	java -jar ../../evalC_25_5_10/evalC/evalC.jar gold_treebank parses output >> final_scores
+
+	let iterations=iterations-1
+done

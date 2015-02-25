@@ -1,0 +1,5 @@
+
+args=("$@")
+
+#grep 'vitprob' ${args[0]} | sed -e 's/vitprob=//g' | sed -e 's/[e]+*/\*10\**/' > viterbi_probs
+grep 'vitprob' ${args[0]} | sed -e 's/vitprob=//g' > viterbi_probs

@@ -1,0 +1,22 @@
+
+args=("$@")
+
+treebank=${args[0]}
+iterations=${args[1]}
+
+cp $treebank treebank
+
+initial_steps_part2 all upto10 treebank
+
+evaluations_part2 all grammar lexicon corpus
+
+iterate_em_part2 grammar lexicon corpus $iterations
+
+
+plot_measures.py Loglikelihood loglikelihoods
+plot_measures.py Accuracy accuracy
+
+
+# To see the heads
+#jarpath=`which ConstTreeViewer_13_05_10.jar`
+#java -jar $jarpath

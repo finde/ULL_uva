@@ -1,0 +1,31 @@
+
+if [ $# -eq 0 ] ; then
+	printf "\n Choose one of the following options: \n\n"
+
+	printf "extract_POS_tags treebank POS_tags_file \n"
+		
+	printf "\n"
+	exit
+fi
+
+
+args=("$@")
+
+case ${args[0]} in
+
+extract_grammar)
+	echo "EXTRACTING POS TAGS FROM TREEBANK"
+	cat ${args[1]} | sed 's/(/( /g;s/([^(]\+ (//g;s/[^ (]\+)//g;
+	s/[(]//g;s/ \+/ /g;s/^ \+//' | grep '[A-Za-z]' > ${args[2]}
+
+	;;
+
+*)
+	extract_POS_tags
+	;;
+esac
+
+
+
+
+
