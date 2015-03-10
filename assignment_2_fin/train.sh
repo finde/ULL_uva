@@ -37,4 +37,4 @@ python assignment_2a.py $combined_numbers $2
 rm -f results_assignment_2a.zip
 zip results_assignment_2a.zip ./*.png
 
-rm ./*.png
+rm -f ./*.png

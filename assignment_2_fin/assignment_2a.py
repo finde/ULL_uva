@@ -172,7 +172,7 @@ if __name__ == '__main__':
         numbers_data_file = '../data/wsj01-21-without-tags-traces-punctuation-m40.txt_numbers'
 
     if len(sys.argv) >= 3:
-        SAMPLE = sys.argv[2]
+        SAMPLE = int(sys.argv[2])
     else:
         SAMPLE = 10
 
