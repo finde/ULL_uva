@@ -70,20 +70,22 @@ cat $sentences | awk '{for (i=1;i<=NF;i++){printf("%s_l\n%s_r\n",$i,$i)}printf("
 
         $bitpar   -s S $em.gram $em.lex $sentences_double -em $em
 
-        less $em.gram | grep -v '0\.00' > $em.grammar
-        less $em.lex | grep -v '0\.000*' | awk '{print $1"\t"$2" "$3 }' > $em.lexicon
+        less $em.gram | sed 's/0\.00/0\.10/g' > $em.grammar
+        less $em.lex | sed 's/0\.000/0\.010/g' | awk '{print $1"\t"$2" "$3 }' > $em.lexicon
 
-        rm -f $em.gram && rm -f $em.lex && mv $em.grammar $em.gram && mv $em.lexicon $em.lex && $bitpar   -s S -b 1 $em.gram $em.lex $sentences_double | sed 's/\\//g' > $f/_forest.txt
+        rm -f $em.gram && rm -f $em.lex && mv $em.grammar $em.gram && mv $em.lexicon $em.lex
 
-        #echo "evaluation"
-        $bitpar -vp  -s S $em.gram $em.lex $sentences_double | grep -E -o '^[{]*\(S=\#i\[P=[0-9]+\.[0-9]*[-e]*[0-9]*\]' | grep -E -o '[0-9]+\.[0-9]*[-e]*[0-9]*' > $f/_output.txt
+        bitpar -vp -s S -b 1 $em.gram $em.lex $sentences_double $f/_forest.txt
+        cat $f/_forest.txt | grep 'vitprob' | sed 's/logvitprob=//g' > $f/_output.txt
 
         #sum to get log-likelihood from file $output
-        likelihood=$(python $DIR/sum_log_probabilities.py $f/_output.txt | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
+        likelihood=$(python $DIR/get_loglikelihood.py $f/_output.txt | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
 
         # annotate parses
-        cat $f/_forest.txt | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\([^ _]_L\) /\1-H /g' | sed 's/\((R[^_]_[^ ]*\) /\1-H /g' | sed 's/^(S (\([^ ]*\) /(S (\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
 #        cat $f/_forest.txt | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\((R[^ ]*\) /\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
+#    	cat $f/_forest.txt | sed 's/\(([LR]_[^ ]*\) /\1-H /g' | sed 's/\((L0_[^ ]*\) /\1-H /g' |  sed 's/\((L1_[^ ]*\) /\1-H /g' | sed 's/\((L2_[^ ]*\) /\1-H /g' | sed 's/\((Lp_[^ ]*\) /\1-H /g' | sed 's/\((R0_[^ ]*\) /\1-H /g' | sed 's/\((R1_[^ ]*\) /\1-H /g' | sed 's/\((R2_[^ ]*\) /\1-H /g' | sed 's/\((Rp_[^ ]*\) /\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' | sed 's/^(S (\([^ ]*\) /(S (\1-H /g' > $f/parses_head.txt
+        cat $f/_forest.txt | grep -v 'vitprob' | sed 's/\((L[^ ]*\) /\1-H /g' | sed 's/\([^ _]_L\) /\1-H /g' | sed 's/\((R[^_]_[^ ]*\) /\1-H /g' | sed 's/^(S (\([^ ]*\) /(S (\1-H /g' | sed 's/\(_[lr]\)/\1-H/g' > $f/parses_head.txt
+
 
         python $DIR/transform_parses.py $f/parses_head.txt > $f/dep_parses.txt
         accuracy=$(python $DIR/evaluateD.py $f/dep_parses.txt ././wsj10.txt.gold | sed 's/.*\[\(.*\)\].*/\1/' | tr -d ' ')
