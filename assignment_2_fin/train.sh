@@ -34,6 +34,7 @@ fi
 
 python plot_hist.py $combined_numbers $2
 
+rm results_assignment_2a.zip
 zip results_assignment_2a.zip ./*.png
 
 rm ./*.png
