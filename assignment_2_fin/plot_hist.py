@@ -221,4 +221,4 @@ if __name__ == '__main__':
         for __alpha in _alpha:
             numbers = generate_number(prior_dist='pitmanYor', sample=SAMPLE,
                                       pitmanYorParam={'d': __d, 'alpha': __alpha})
-            plot_hist(numbers, '_'.join([LIMIT_X, SAMPLE, __d, __alpha]) + '_pitman_yor.png')
+            plot_hist(numbers, '_'.join([str(LIMIT_X), str(SAMPLE), str(__d), str(__alpha)]) + '_pitman_yor.png')
