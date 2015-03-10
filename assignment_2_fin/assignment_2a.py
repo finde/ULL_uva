@@ -8,7 +8,6 @@ from scipy.stats import rv_discrete
 import numpy as np
 
 LIMIT_X = 3500
-SAMPLE = 50000
 Y_LIM = 0.1
 
 
@@ -78,8 +77,6 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
             'D': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
 
-        n = 0
-
     # start
     output = []
     for iSam in xrange(sample):
@@ -100,37 +97,44 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
                         # alpha = ?
                         # n = number of generated rules
 
+
                         K = sum([1 for i in freq[key] if i > 0])
+                        n = sum(freq[key])
                         prob_of_choose_new_table = (alpha + d * K) / (n - 1 + alpha)
                         flip_coin = random.random()
+
+                        # new table here can be duplication of the existing table ( so it is equal to the rules )
+                        _new_table = available_replacement
+                        _occupied_table = [available_replacement[_id] for _id, a in enumerate(freq[key]) if a > 0]
+
                         if flip_coin < prob_of_choose_new_table:
                             # choose new table
-
                             if prior_proba is None:
-                                proba = [1.0 / len(rules[key])] * len(rules[key])
+                                proba = [1.0 / len(_new_table)] * len(_new_table)
                             else:
                                 proba = prior_proba[key]
 
+                            index = rv_discrete(values=(np.arange(len(_new_table)), proba)).rvs()
                         else:
-                            proba = np.zeros(len(rules[key]))
-                            for rule_index, _ in enumerate(rules[key]):
+                            proba = np.zeros(len(_occupied_table))
+                            for rule_index, _ in enumerate(_occupied_table):
                                 proba[rule_index] = (freq[key][rule_index] - d) * 1.0 / (n - 1 + alpha)
 
-                            # normalizing
-                            proba -= min(proba)
-                            if sum(proba) == 0:
-                                proba = [1.0 / len(proba)] * len(proba)
-                            else:
-                                proba = proba / sum(proba)
+                            index = rv_discrete(values=(np.arange(len(_occupied_table)), proba)).rvs()
 
-                        index = rv_discrete(values=(np.arange(len(rules[key])), proba)).rvs()
+                            # # normalizing
+                            # proba -= min(proba)
+                            # if sum(proba) == 0:
+                            # proba = [1.0 / len(proba)] * len(proba)
+                            # else:
+                            # proba = proba / sum(proba)
+
 
                         # update freq
                         if freq[key][index] == 0:
                             K += 1
 
                         freq[key][index] += 1
-                        n += 1
                         choice = rules[key][index]
 
                     else:
@@ -148,7 +152,6 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
 
             if RepresentsInt(''.join(string)):
                 output.append(int(''.join(string)))
-                print iSam, int(''.join(string))
                 break
 
     return output
@@ -156,11 +159,12 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
 
 def plot_hist(data, filename):
     data = reject_outlier(data)
-    binwidth = 1
-    bins = range(min(data), max(data) + binwidth, binwidth)
+    bins = np.linspace(-5, LIMIT_X, LIMIT_X + 5)
+
     pyplot.hist(data, bins=bins, histtype='step', normed=True, color='b')
     pyplot.ylim([0, Y_LIM])
     pyplot.xlim([-5, LIMIT_X])
+
     pyplot.savefig(filename)
     pyplot.clf()
 
@@ -174,6 +178,11 @@ if __name__ == '__main__':
         numbers_data_file = sys.argv[1]
     else:
         numbers_data_file = '../data/wsj01-21-without-tags-traces-punctuation-m40.txt_numbers'
+
+    if len(sys.argv) >= 3:
+        SAMPLE = sys.argv[2]
+    else:
+        SAMPLE = 10
 
     numbers = []
     with open(numbers_data_file) as f:
@@ -214,11 +223,23 @@ if __name__ == '__main__':
     plot_hist(numbers, str(LIMIT_X) + '_' + str(SAMPLE) + '_custom_dist2.png')
     print 'custom distribution 2'
 
-    _d = [0.1, 0.5, 0.9]
-    _alpha = [10, 100, 1000]
+    _d = [0.1, 0.3, 0.5, 0.7, 0.9]
+
+    # _alpha should not be 1
+    _alpha = [10, 100, 500, 1000, 5000, 10000]
 
     for __d in _d:
         for __alpha in _alpha:
             numbers = generate_number(prior_dist='pitmanYor', sample=SAMPLE,
                                       pitmanYorParam={'d': __d, 'alpha': __alpha})
-            plot_hist(numbers, '_'.join([str(LIMIT_X), str(SAMPLE), str(__d), str(__alpha)]) + '_pitman_yor.png')
+
+            filename = '_'.join([
+                'limit_x', str(LIMIT_X),
+                'n_sample', str(SAMPLE),
+                'd', str(__d),
+                'alpha', str(__alpha)
+            ]) + '_pitman_yor.png'
+
+            plot_hist(numbers, filename)
+
+            print filename
