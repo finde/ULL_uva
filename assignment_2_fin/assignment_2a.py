@@ -122,14 +122,6 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
 
                             index = rv_discrete(values=(np.arange(len(_occupied_table)), proba)).rvs()
 
-                            # # normalizing
-                            # proba -= min(proba)
-                            # if sum(proba) == 0:
-                            # proba = [1.0 / len(proba)] * len(proba)
-                            # else:
-                            # proba = proba / sum(proba)
-
-
                         # update freq
                         if freq[key][index] == 0:
                             K += 1
