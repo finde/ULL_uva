@@ -241,7 +241,8 @@ class MetropolisHastings:
 
         # compute MLE of the old candidate
         (_, tree, _) = candidate
-        likelihood_old = self.elementary_table.get_likelihood(tree)
+        # likelihood_old = self.elementary_table.get_likelihood(tree)
+        likelihood_old = self.get_likelihood()
 
         # remove the trees from the old_derivations_tree
         self.elementary_table.remove(candidate)
@@ -249,7 +250,8 @@ class MetropolisHastings:
 
         # compute MLE of the new candidate
         (_, tree, _) = new_candidate
-        likelihood_new = self.elementary_table.get_likelihood(tree)
+        # likelihood_new = self.elementary_table.get_likelihood(tree)
+        likelihood_new = self.get_likelihood()
 
         self.elementary_table.revert_to_pristine()
 
@@ -258,6 +260,7 @@ class MetropolisHastings:
     def train(self, iteration=10):
 
         accepted = 0
+        # candidate = self.generate_candidate()
         for it in xrange(iteration):
 
             # create random candidate
@@ -273,14 +276,14 @@ class MetropolisHastings:
             if likelihood_new > likelihood_old:
                 accepted += 1.0
                 self.elementary_table.insert(new_candidate)
-                self.likelihood_history.append(np.max([likelihood_old, likelihood_new]))
 
             elif likelihood_old > 0:
                 u = uniform(0.0, 1.0)
-                if u < (likelihood_new / likelihood_old):
+                if u < np.exp(likelihood_new - likelihood_old):
                     accepted += 1.0
                     self.elementary_table.insert(new_candidate)
-                    self.likelihood_history.append(np.max([likelihood_old, likelihood_new]))
+
+            self.likelihood_history_set.append(np.max([likelihood_old, likelihood_new]))
 
             if it % 1000 == 0:
                 print '(%s, %s)' % (it, iteration)
@@ -289,20 +292,16 @@ class MetropolisHastings:
         # self.candidates = self.candidates[burn:len(self.candidates)]
         return accepted / iteration
 
-    def get_loglikelihood(self):
+    def get_likelihood(self):
         e = self.elementary_table
 
-        loglikelihood = np.sum([
-            np.sum(
-                [np.log10(val * 1.0 / e.root_table['S']) for x, val in e.tree_table.iteritems() if x.startswith('(S')]),
-            np.sum(
-                [np.log10(val * 1.0 / e.root_table['NZ']) for x, val in e.tree_table.iteritems() if
-                 x.startswith('(NZ')]),
-            np.sum(
-                [np.log10(val * 1.0 / e.root_table['D']) for x, val in e.tree_table.iteritems() if x.startswith('(D')])
-        ])
+        likelihood = 0
+        for ii in ['S', 'NZ', 'D']:
+            likelihood += np.sum(np.log10(
+                [(val) * 1.0 / ( e.root_table[ii]) for x, val in e.tree_table.iteritems() if
+                 x.startswith('(' + ii) and val > 0]))
 
-        return loglikelihood
+        return likelihood
 
     def generate_sample(self, n_sample):
         e = self.elementary_table
@@ -364,37 +363,27 @@ if __name__ == '__main__':
         e_tables.from_json(cache_file)
 
     mHas = MetropolisHastings(elementary_table=e_tables, method='addRule')
-    ar = mHas.train(iteration=200000)
-    plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_add_sample.png')
-
-    pyplot.clf()
-    pyplot.plot(mHas.likelihood_history_tree)
-    pyplot.ylim([0, 1.2])
-    pyplot.title('Tree candidate likelihood overtime [addRule]')
-    pyplot.savefig('mhasting_add_likelihood_tree.png')
+    ar = mHas.train(iteration=10000)
 
     pyplot.clf()
     pyplot.plot(mHas.likelihood_history_set)
-    pyplot.ylim([0, 1.2])
     pyplot.title('TSG loglikelihood overtime [addRule]')
-    pyplot.savefig('mhasting_add_loglikelihood_tree.png')
+    pyplot.savefig('mhasting_add_loglikelihood_set.png')
 
-    mHas = MetropolisHastings(elementary_table=e_tables, method='removeRule')
-    mHas.train(iteration=200000)
-
-    pyplot.clf()
-    pyplot.plot(mHas.likelihood_history_tree)
-    pyplot.ylim([0, 1.2])
-    pyplot.title('Tree candidate likelihood overtime [removeRule]')
-    pyplot.savefig('mhasting_remove_likelihood_tree.png')
-
-    pyplot.clf()
-    pyplot.plot(mHas.likelihood_history_set)
-    pyplot.ylim([0, 1.2])
-    pyplot.title('TSG loglikelihood overtime [removeRule]')
-    pyplot.savefig('mhasting_remove_loglikelihood_tree.png')
-
-    pyplot.clf()
-    pyplot.plot(mHas.likelihood_history)
-    pyplot.ylim([0, 1.2])
-    pyplot.savefig('mhasting_remove_loglikelihood.png')
+    # plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_add_sample.png')
+    #
+    # mHas = MetropolisHastings(elementary_table=e_tables, method='removeRule')
+    # ar = mHas.train(iteration=200000)
+    #
+    # pyplot.clf()
+    # pyplot.plot(mHas.likelihood_history_set)
+    # pyplot.ylim([0, 1.2])
+    # pyplot.title('TSG loglikelihood overtime [removeRule]')
+    # pyplot.savefig('mhasting_remove_loglikelihood_set.png')
+    #
+    # pyplot.clf()
+    # pyplot.plot(mHas.likelihood_history)
+    # pyplot.ylim([0, 1.2])
+    # pyplot.savefig('mhasting_remove_loglikelihood.png')
+    #
+    # plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_remove_sample.png')
