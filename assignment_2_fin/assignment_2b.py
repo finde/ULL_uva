@@ -10,6 +10,7 @@ from random import uniform, choice
 from assignment_2a import represents_int, reject_outlier, plot_hist
 import numpy as np
 from matplotlib import pyplot
+import pickle
 
 SAMPLE = 50000
 
@@ -363,27 +364,31 @@ if __name__ == '__main__':
         e_tables.from_json(cache_file)
 
     mHas = MetropolisHastings(elementary_table=e_tables, method='addRule')
-    ar = mHas.train(iteration=10000)
+    ar = mHas.train(iteration=200000)
 
     pyplot.clf()
     pyplot.plot(mHas.likelihood_history_set)
     pyplot.title('TSG loglikelihood overtime [addRule]')
+    pyplot.xlabel('Iteration')
+    pyplot.ylabel('Loglikelihood')
     pyplot.savefig('mhasting_add_loglikelihood_set.png')
 
-    # plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_add_sample.png')
-    #
-    # mHas = MetropolisHastings(elementary_table=e_tables, method='removeRule')
-    # ar = mHas.train(iteration=200000)
-    #
-    # pyplot.clf()
-    # pyplot.plot(mHas.likelihood_history_set)
-    # pyplot.ylim([0, 1.2])
-    # pyplot.title('TSG loglikelihood overtime [removeRule]')
-    # pyplot.savefig('mhasting_remove_loglikelihood_set.png')
-    #
-    # pyplot.clf()
-    # pyplot.plot(mHas.likelihood_history)
-    # pyplot.ylim([0, 1.2])
-    # pyplot.savefig('mhasting_remove_loglikelihood.png')
-    #
-    # plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_remove_sample.png')
+    sample = mHas.generate_sample(SAMPLE)
+    pickle.dump((mHas.likelihood_history_set, ar, sample), 'll_add.p')
+
+    plot_hist(sample, 'mhasting_add_sample.png')
+
+    mHas = MetropolisHastings(elementary_table=e_tables, method='removeRule')
+    ar = mHas.train(iteration=200000)
+
+    pyplot.clf()
+    pyplot.plot(mHas.likelihood_history_set)
+    pyplot.title('TSG loglikelihood overtime [removeRule]')
+    pyplot.xlabel('Iteration')
+    pyplot.ylabel('Loglikelihood')
+    pyplot.savefig('mhasting_remove_loglikelihood_set.png')
+
+    sample = mHas.generate_sample(SAMPLE)
+    pickle.dump((mHas.likelihood_history_set, ar, sample), 'll_remove.p')
+
+    plot_hist(sample, 'mhasting_remove_sample.png')
