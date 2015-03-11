@@ -350,8 +350,8 @@ if __name__ == '__main__':
         e_tables.from_json(cache_file)
 
     mHas = MetropolisHastings(elementary_table=e_tables, method='addRule')
-    print mHas.train(iteration=200)
-    plot_hist(mHas.generate_sample(10), 'mhasting_add_sample.png')
+    print mHas.train(iteration=200000)
+    plot_hist(mHas.generate_sample(SAMPLE), 'mhasting_add_sample.png')
 
     pyplot.plot(mHas.likelihood_history)
     pyplot.ylim([0, 1.2])

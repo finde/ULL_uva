@@ -153,15 +153,15 @@ def plot_hist(data, filename):
     data = reject_outlier(data)
     bins = np.linspace(-5, LIMIT_X, LIMIT_X + 5)
 
+    pyplot.clf()
     pyplot.hist(data, bins=bins, histtype='step', color='b')
     pyplot.savefig(filename)
-    pyplot.clf()
 
+    pyplot.clf()
     pyplot.hist(data, bins=bins, histtype='step', normed=True, color='b')
     pyplot.ylim([0, Y_LIM])
     pyplot.xlim([-5, LIMIT_X])
     pyplot.savefig('[NORM]_' + filename)
-    pyplot.clf()
 
 
 def reject_outlier(data):
