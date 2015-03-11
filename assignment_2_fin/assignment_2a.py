@@ -11,7 +11,7 @@ LIMIT_X = 3500
 Y_LIM = 0.1
 
 
-def RepresentsInt(s):
+def represents_int(s):
     try:
         int(s)
         return True
@@ -142,7 +142,7 @@ def generate_number(prior_dist='uniform', sample=100, prior_proba=None, pitmanYo
                 output.append(100000000)
                 break
 
-            if RepresentsInt(''.join(string)):
+            if represents_int(''.join(string)):
                 output.append(int(''.join(string)))
                 break
 
@@ -153,11 +153,14 @@ def plot_hist(data, filename):
     data = reject_outlier(data)
     bins = np.linspace(-5, LIMIT_X, LIMIT_X + 5)
 
+    pyplot.hist(data, bins=bins, histtype='step', color='b')
+    pyplot.savefig(filename)
+    pyplot.clf()
+
     pyplot.hist(data, bins=bins, histtype='step', normed=True, color='b')
     pyplot.ylim([0, Y_LIM])
     pyplot.xlim([-5, LIMIT_X])
-
-    pyplot.savefig(filename)
+    pyplot.savefig('[NORM]_' + filename)
     pyplot.clf()
 
 
@@ -179,7 +182,7 @@ if __name__ == '__main__':
     numbers = []
     with open(numbers_data_file) as f:
         for line in f:
-            if RepresentsInt(line):
+            if represents_int(line):
                 numbers.append(int(line))
 
     plot_hist(numbers, str(LIMIT_X) + '_' + 'original.png')
