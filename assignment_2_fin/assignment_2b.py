@@ -6,7 +6,7 @@ from scipy.stats import rv_discrete
 import sys
 import json
 import os.path
-from random import uniform, choice
+from random import uniform, choice, shuffle
 from assignment_2a import represents_int, reject_outlier, plot_hist
 import numpy as np
 from matplotlib import pyplot
@@ -94,15 +94,15 @@ def tsg2num(string):
 class ElementaryTrees:
     def __init__(self):
         self.tree_table = {}
-        self.root_table = {}
+        self.root_table = {
+            'S': 0,
+            'NZ': 0,
+            'D': 0
+        }
         self.derivation_banks = []
 
-        self._temp_tree_table = {}
-        self._temp_root_table = {}
-        self._derivation_banks = []
-
-    def insert(self, _derivation_bank):
-        (_, e_trees, _) = _derivation_bank
+    def tree_insert(self, _derivation_bank):
+        (aa, e_trees, cc) = _derivation_bank
 
         self.derivation_banks.append(_derivation_bank)
 
@@ -111,21 +111,28 @@ class ElementaryTrees:
             if st in self.tree_table:
                 self.tree_table[st] += 1
             else:
-                self.tree_table.update({st: 1})
+                self.tree_table[st] = 1
 
             root = self.get_root(st)
-            if root in self.root_table:
-                self.root_table[root] += 1
-            else:
-                self.root_table.update({root: 1})
+            self.root_table[root] += 1
 
-    def remove(self, __derivation_bank):
-        (_, e_trees, _) = __derivation_bank
+    def tree_remove(self, derivation_bank__):
+        (_id, e_trees, _) = derivation_bank__
 
         for st in e_trees:
-            if st in self.tree_table:
-                self.tree_table[st] -= 1
-                self.root_table[self.get_root(st)] -= 1
+            self.tree_table[st] -= 1
+            self.root_table[self.get_root(st)] -= 1
+
+        is_found = False
+        _temp = []
+        for (_i2, _e2, _m2) in self.derivation_banks:
+            if _i2 == _id and is_found == False:
+                is_found = True
+            else:
+                _temp.append((_i2, _e2, _m2))
+
+        self.derivation_banks = _temp
+
 
     @staticmethod
     def get_root(tree):
@@ -137,29 +144,12 @@ class ElementaryTrees:
         else:
             return 0
 
+    def count_total(self):
+        return self.count_root('S') + self.count_root('NZ') + self.count_root('D')
+
     def count_root(self, tree):
         root = self.get_root(tree)
         return self.root_table[root]
-
-    def preserve_the_state(self):
-        self._temp_tree_table = self.tree_table
-        self._temp_root_table = self.root_table
-        self._derivation_banks = self.derivation_banks
-        pass
-
-    def revert_to_pristine(self):
-        self.tree_table = self._temp_tree_table
-        self.root_table = self._temp_root_table
-        self.derivation_banks = self._derivation_banks
-        pass
-
-    def get_likelihood(self, derivations_tree):
-        likelihood = 1
-
-        for d_tree in derivations_tree:
-            likelihood *= self.count_tree(d_tree) * 1.0 / self.count_root(d_tree)
-
-        return likelihood
 
     def to_json(self, filename):
         with open(filename, 'w') as outfile:
@@ -179,16 +169,14 @@ class ElementaryTrees:
 
 
 class MetropolisHastings:
-    def __init__(self, elementary_table, method='addRule'):
+    def __init__(self, elementary_table):
         """
 
         :param method: addRule or removeRule
         :return:
         """
-        self.method = method
         self.elementary_table = elementary_table
         self.candidates = []
-        self.likelihood_history_tree = []
         self.likelihood_history_set = []
 
     def generate_candidate(self, candidate=None, marker=None):
@@ -202,13 +190,14 @@ class MetropolisHastings:
 
         if candidate is None:
             candidate = choice(self.elementary_table.derivation_banks)
-
-        (tsg, _, _) = candidate
+            (tsg, _, marker) = candidate
+        else:
+            (tsg, _, _) = candidate
 
         return parse_numeric(tsg2num(tsg), marker)
 
     @staticmethod
-    def change_marker(marker, method='addRule'):
+    def change_marker(marker):
 
         m_length = len(marker)
         # pick index
@@ -217,50 +206,37 @@ class MetropolisHastings:
 
         flat = np.array(marker).reshape((1, 2 * m_length))
 
-        if method == 'addRule':
-            available = [_index for _index, f in enumerate(flat[0]) if
-                         f == '' and _index is not 0 and _index is not len(flat[0]) - 1]
+        available = [_index for _index, f in enumerate(flat[0]) if _index is not 0 and _index is not len(flat[0]) - 1]
+        chosen = choice(available)
 
-            if len(available) == 0:
-                return marker
-
-            flat[0][choice(available)] = '*'
-
+        if flat[0][chosen] == '*':
+            flat[0][chosen] = ''
         else:
-            available = [_index for _index, f in enumerate(flat[0]) if
-                         f == '*' and _index is not 0 and _index is not len(flat[0]) - 1]
-            if len(available) == 0:
-                return marker
-
-            flat[0][choice(available)] = ''
+            flat[0][chosen] = '*'
 
         return flat.reshape(m_length, 2)
 
-    def compute_likelihood(self, candidate, new_candidate):
-
-        self.elementary_table.preserve_the_state()
+    def compute_likelihood(self, _candidate, _new_candidate):
 
         # compute MLE of the old candidate
-        (_, tree, _) = candidate
-        # likelihood_old = self.elementary_table.get_likelihood(tree)
-        likelihood_old = self.get_likelihood()
+        (_, tree, _) = _candidate
+        likelihood_old = self.get_loglikelihood()
 
         # remove the trees from the old_derivations_tree
-        self.elementary_table.remove(candidate)
-        self.elementary_table.insert(new_candidate)
+        self.elementary_table.tree_remove(_candidate)
+        self.elementary_table.tree_insert(_new_candidate)
 
         # compute MLE of the new candidate
-        (_, tree, _) = new_candidate
-        # likelihood_new = self.elementary_table.get_likelihood(tree)
-        likelihood_new = self.get_likelihood()
-
-        self.elementary_table.revert_to_pristine()
+        (_, tree, _) = _new_candidate
+        likelihood_new = self.get_loglikelihood()
 
         return likelihood_old, likelihood_new
 
     def train(self, iteration=10):
 
         accepted = 0
+        accepted_bad = 0
+
         # candidate = self.generate_candidate()
         for it in xrange(iteration):
 
@@ -268,41 +244,48 @@ class MetropolisHastings:
             candidate = self.generate_candidate()
 
             # apply changes
-            (_, _, marker) = candidate
-            new_marker = self.change_marker(marker, self.method)
+            (t, _, marker) = candidate
+            new_marker = self.change_marker(marker)
             new_candidate = self.generate_candidate(candidate, new_marker)
 
             likelihood_old, likelihood_new = self.compute_likelihood(candidate, new_candidate)
+            delta = likelihood_new - likelihood_old
+            best = np.max([likelihood_old, likelihood_new])
 
-            if likelihood_new > likelihood_old:
+            if likelihood_new >= likelihood_old:
                 accepted += 1.0
-                self.elementary_table.insert(new_candidate)
-
-            elif likelihood_old > 0:
-                u = uniform(0.0, 1.0)
-                if u < np.exp(likelihood_new - likelihood_old):
+            else:
+                u = uniform(0.1, 1.0)
+                if u < np.exp(delta):
                     accepted += 1.0
-                    self.elementary_table.insert(new_candidate)
+                    accepted_bad += 1.0
+                else:
+                    self.elementary_table.tree_remove(new_candidate)
+                    self.elementary_table.tree_insert(candidate)
 
-            self.likelihood_history_set.append(np.max([likelihood_old, likelihood_new]))
+            self.likelihood_history_set.append(best)
 
-            if it % 1000 == 0:
-                print '(%s, %s)' % (it, iteration)
+            if it % 10 == 0:
+                print '(%s, %s) = %s [%s] %s' % (
+                    it, iteration, best, tsg2num(t), self.elementary_table.count_total())
 
         # burn = int(np.ceil(burn_in * len(self.candidates)))
         # self.candidates = self.candidates[burn:len(self.candidates)]
         return accepted / iteration
 
-    def get_likelihood(self):
+    def get_loglikelihood(self):
         e = self.elementary_table
 
-        likelihood = 0
+        likelihood = []
         for ii in ['S', 'NZ', 'D']:
-            likelihood += np.sum(np.log10(
-                [(val) * 1.0 / ( e.root_table[ii]) for x, val in e.tree_table.iteritems() if
-                 x.startswith('(' + ii) and val > 0]))
+            if e.count_root(ii) > 0:
+                prob = [(val) * 1.0 / ( e.count_root(ii)) for x, val in e.tree_table.iteritems() if
+                        x.startswith('(' + ii) and val > 0]
 
-        return likelihood
+                _likelihood = np.sum(np.log(prob))
+                likelihood.append(_likelihood)
+
+        return sum(likelihood)
 
     def generate_sample(self, n_sample):
         e = self.elementary_table
@@ -342,6 +325,8 @@ if __name__ == '__main__':
 
     cache_file = 'cache.json'
     if not os.path.isfile(cache_file):
+        n_data = 5000
+        print "fetch data from treebank [up to %s data]" % n_data
         if len(sys.argv) >= 2:
             numbers_data_file = sys.argv[1]
         else:
@@ -353,42 +338,33 @@ if __name__ == '__main__':
                 if represents_int(line):
                     numbers.append(int(line))
 
-        numbers = reject_outlier(numbers)
+        shuffle(numbers)
+        numbers = numbers[:n_data]
+        plot_hist(numbers, 'mhasting_init_1M_dist.png')
 
         trees = []
-        for n in numbers:
-            e_tables.insert(parse_numeric(n))
+        for n_index, n in enumerate(numbers):
+            if n_index % 10 == 0:
+                print '(%s, %s)' % (n_index, n_data)
+
+            e_tables.tree_insert(parse_numeric(n))
 
         e_tables.to_json(cache_file)
     else:
+        print "fetch data from json"
         e_tables.from_json(cache_file)
 
-    mHas = MetropolisHastings(elementary_table=e_tables, method='addRule')
+    mHas = MetropolisHastings(elementary_table=e_tables)
     ar = mHas.train(iteration=200000)
 
     pyplot.clf()
     pyplot.plot(mHas.likelihood_history_set)
-    pyplot.title('TSG loglikelihood overtime [addRule]')
+    pyplot.title('TSG loglikelihood overtime [flip]')
     pyplot.xlabel('Iteration')
     pyplot.ylabel('Loglikelihood')
     pyplot.savefig('mhasting_add_loglikelihood_set.png')
 
-    sample = mHas.generate_sample(SAMPLE)
+    sample = mHas.generate_sample(200000)
     pickle.dump((mHas.likelihood_history_set, ar, sample), 'll_add.p')
 
     plot_hist(sample, 'mhasting_add_sample.png')
-
-    mHas = MetropolisHastings(elementary_table=e_tables, method='removeRule')
-    ar = mHas.train(iteration=200000)
-
-    pyplot.clf()
-    pyplot.plot(mHas.likelihood_history_set)
-    pyplot.title('TSG loglikelihood overtime [removeRule]')
-    pyplot.xlabel('Iteration')
-    pyplot.ylabel('Loglikelihood')
-    pyplot.savefig('mhasting_remove_loglikelihood_set.png')
-
-    sample = mHas.generate_sample(SAMPLE)
-    pickle.dump((mHas.likelihood_history_set, ar, sample), 'll_remove.p')
-
-    plot_hist(sample, 'mhasting_remove_sample.png')
