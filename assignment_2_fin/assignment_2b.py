@@ -355,7 +355,7 @@ if __name__ == '__main__':
         e_tables.from_json(cache_file)
 
     mHas = MetropolisHastings(elementary_table=e_tables)
-    ar = mHas.train(iteration=200000)
+    ar = mHas.train(iteration=15000)
 
     pyplot.clf()
     pyplot.plot(mHas.likelihood_history_set)
@@ -364,7 +364,7 @@ if __name__ == '__main__':
     pyplot.ylabel('Loglikelihood')
     pyplot.savefig('mhasting_add_loglikelihood_set.png')
 
-    sample = mHas.generate_sample(200000)
+    sample = mHas.generate_sample(20000)
     pickle.dump((mHas.likelihood_history_set, ar, sample), 'll_add.p')
 
     plot_hist(sample, 'mhasting_add_sample.png')
