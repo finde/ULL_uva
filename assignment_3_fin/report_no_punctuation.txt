@@ -1,0 +1,295 @@
+approx using 30 singular value
+Error from actual value: 0.355016816345
+approx using 60 singular value
+Error from actual value: 0.24725513493
+
+========
+  svd_60
+========
+
+
+==================
+ ++ Similarity
+==================
+
+P-value:  0.894147947936
+RMSE:  3.32590685872
+
+=== top 10 closest relation [gold & svd_60] ===
+         word_1      word_2  d_svd_60
+10      student   professor  0.002346
+199        noon      string  0.018064
+171   precedent  collection  0.116219
+72         type        kind  0.118679
+130      profit     warning  0.194357
+140  atmosphere   landscape  0.242032
+105       space   chemistry  0.287354
+162       media        gain  0.409950
+101         cup        food  0.426645
+97         rock        jazz  0.474576
+
+=== gold top 10 ===
+     word_1      word_2  gold
+33   midday        noon  9.29
+28  journey      voyage  9.29
+13    money        cash  9.15
+40    money    currency  9.04
+72     type        kind  8.97
+26      car  automobile  8.94
+62     mile   kilometer  8.66
+14     king       queen  8.58
+51   planet        star  8.45
+39    money      dollar  8.42
+
+=== svd_60 top 10 ===
+          word_1  word_2    svd_60
+90           man   woman  9.442300
+153      century  nation  9.080146
+70          life   death  9.071525
+145       school  center  9.016741
+193        stock    life  8.967185
+72          type    kind  8.851321
+127  development   issue  8.822348
+125        start    year  8.725628
+75        street   block  8.714218
+184        month   hotel  8.578431
+
+==================
+ ++ Relatedness
+==================
+
+P-value:  0.128581870327
+RMSE:  6.11909186714
+
+=== top 10 closest relation [gold & svd_60] ===
+         word_1       word_2  d_svd_60
+197    morality   importance  0.880000
+195        five        month  0.920000
+193  experience        music  0.920000
+191       music      project  1.308409
+59          cup        drink  1.478700
+189  atmosphere    landscape  1.620000
+188    minority        peace  1.620000
+186       peace   atmosphere  1.770000
+185       stock         live  1.810000
+184  population  development  1.810000
+
+=== gold top 10 ===
+         word_1         word_2  gold
+9   environment        ecology  8.81
+10     Maradona       football  8.62
+11         OPEC            oil  8.59
+12        money           bank  8.50
+13     computer       software  8.50
+14          law         lawyer  8.38
+2        planet         galaxy  8.11
+25        stock         market  8.08
+26       planet  constellation  8.06
+28        hotel    reservation  8.03
+
+=== svd_60 top 10 ===
+            word_1      word_2    svd_60
+199          delay        news  9.841408
+161  investigation      effort  5.625116
+33           movie     theater  2.933596
+63         company       stock  1.264953
+50         seafood         sea  0.826336
+59             cup       drink  0.671300
+133           Mars   scientist  0.428662
+62        investor     earning  0.337010
+171      benchmark       index  0.003384
+139           size  prominence  0.002307
+
+========
+  svd_30
+========
+
+
+==================
+ ++ Similarity
+==================
+
+P-value:  0.981343766027
+RMSE:  3.45480990165
+
+=== top 10 closest relation [gold & svd_30] ===
+        word_1       word_2  d_svd_30
+59         cup       entity  0.036549
+171  precedent   collection  0.097127
+72        type         kind  0.112925
+76        cell        phone  0.160202
+199       noon       string  0.252834
+10     student    professor  0.342467
+93       opera  performance  0.366780
+67      doctor    personnel  0.382211
+82       phone    equipment  0.436211
+11       smart       stupid  0.448059
+
+=== gold top 10 ===
+     word_1      word_2  gold
+33   midday        noon  9.29
+28  journey      voyage  9.29
+13    money        cash  9.15
+40    money    currency  9.04
+72     type        kind  8.97
+26      car  automobile  8.94
+62     mile   kilometer  8.66
+14     king       queen  8.58
+51   planet        star  8.45
+39    money      dollar  8.42
+
+=== svd_30 top 10 ===
+          word_1  word_2    svd_30
+90           man   woman  9.568757
+70          life   death  9.239220
+184        month   hotel  9.226840
+153      century  nation  9.154209
+145       school  center  9.138888
+193        stock    life  9.136816
+75        street   block  9.085256
+72          type    kind  9.082925
+127  development   issue  8.995629
+125        start    year  8.931856
+
+==================
+ ++ Relatedness
+==================
+
+P-value:  0.856891896532
+RMSE:  6.07135282715
+
+=== top 10 closest relation [gold & svd_30] ===
+            word_1      word_2  d_svd_30
+161  investigation      effort  0.128729
+33           movie     theater  0.775153
+197       morality  importance  0.880000
+195           five       month  0.920000
+193     experience       music  0.920000
+191          music     project  1.309999
+189     atmosphere   landscape  1.620000
+188       minority       peace  1.620000
+186          peace  atmosphere  1.770000
+185          stock        live  1.810000
+
+=== gold top 10 ===
+         word_1         word_2  gold
+9   environment        ecology  8.81
+10     Maradona       football  8.62
+11         OPEC            oil  8.59
+12        money           bank  8.50
+13     computer       software  8.50
+14          law         lawyer  8.38
+2        planet         galaxy  8.11
+25        stock         market  8.08
+26       planet  constellation  8.06
+28        hotel    reservation  8.03
+
+=== svd_30 top 10 ===
+            word_1     word_2    svd_30
+33           movie    theater  8.514847
+199          delay       news  4.895891
+161  investigation     effort  3.068729
+63         company      stock  2.884578
+50         seafood        sea  0.548801
+133           Mars  scientist  0.176795
+62        investor    earning  0.164223
+59             cup      drink  0.015879
+171      benchmark      index  0.001585
+6              day       dawn  0.000052
+
+========
+  no_svd
+========
+
+
+==================
+ ++ Similarity
+==================
+
+P-value:  0.741805808439
+RMSE:  3.07476274515
+
+=== top 10 closest relation [gold & no_svd] ===
+            word_1      word_2  d_no_svd
+137          peace  atmosphere  0.003887
+105          space   chemistry  0.074628
+64        Japanese    American  0.136415
+3            train         car  0.141440
+171      precedent  collection  0.142977
+112  investigation      effort  0.154642
+97            rock        jazz  0.172748
+9        professor      doctor  0.191537
+95           glass       metal  0.242436
+65         century        year  0.303538
+
+=== gold top 10 ===
+     word_1      word_2  gold
+28  journey      voyage  9.29
+13    money        cash  9.15
+40    money    currency  9.04
+72     type        kind  8.97
+26      car  automobile  8.94
+62     mile   kilometer  8.66
+14     king       queen  8.58
+51   planet        star  8.45
+39    money      dollar  8.42
+90      man       woman  8.30
+
+=== no_svd top 10 ===
+          word_1  word_2    no_svd
+90           man   woman  9.097554
+153      century  nation  8.793829
+145       school  center  8.696446
+70          life   death  8.662800
+193        stock    life  8.573311
+127  development   issue  8.569409
+72          type    kind  8.449303
+141       report    gain  8.123296
+2          plane     car  8.099817
+125        start    year  8.003669
+
+==================
+ ++ Relatedness
+==================
+
+P-value:  0.22589782033
+RMSE:  6.09108887476
+
+=== top 10 closest relation [gold & no_svd] ===
+            word_1      word_2  d_no_svd
+59             cup       drink  0.246010
+197       morality  importance  0.880000
+195           five       month  0.919998
+193     experience       music  0.920000
+191          music     project  1.051251
+161  investigation      effort  1.484145
+189     atmosphere   landscape  1.620000
+188       minority       peace  1.620000
+186          peace  atmosphere  1.769976
+199          delay        news  1.796734
+
+=== gold top 10 ===
+         word_1         word_2  gold
+9   environment        ecology  8.81
+10     Maradona       football  8.62
+11         OPEC            oil  8.59
+13     computer       software  8.50
+12        money           bank  8.50
+14          law         lawyer  8.38
+2        planet         galaxy  8.11
+25        stock         market  8.08
+26       planet  constellation  8.06
+28        hotel    reservation  8.03
+
+=== no_svd top 10 ===
+            word_1      word_2    no_svd
+161  investigation      effort  4.424145
+199          delay        news  2.336734
+59             cup       drink  1.903990
+133           Mars   scientist  0.602558
+63         company       stock  0.584554
+62        investor     earning  0.403186
+50         seafood         sea  0.381698
+191          music     project  0.258749
+139           size  prominence  0.056943
+52            book     library  0.013098
