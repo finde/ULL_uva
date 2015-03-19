@@ -1,3 +1,5 @@
+import subprocess
+
 __author__ = 'finde'
 
 import pandas as pd
@@ -44,37 +46,51 @@ if __name__ == '__main__':
         categories = pickle.load(corpus)
 
     df = pd.DataFrame()
-    d = 10.
+    d = 10
 
-    # create column
-    for (doc, cats) in categories:
-        # for cat in cats:
-        # if cat not in df.columns:
-        # df[cat] = ""
-        # v = every word that appear more than 10 times in the corups,
-        # w = top 300 frequent words and
+    temp_file = 'brown_cleaned'
+    subprocess.check_output(['./clean_brown.sh', str('brown/c???'), temp_file, str(d / 2)])
+    frequent_words = subprocess.check_output(['./get_freq_words.sh', temp_file, str(d)]).split('\n')
+    n_lines = subprocess.check_output(['wc -l', temp_file])
 
-        #open the doc
-        with open('brown/' + doc) as cfile:
-            for lines in cfile:
-                if lines == '\n':
+    # v = every word that appear more than 10 times in the corups,
+    # w = top 300 frequent words and
+
+    # open the doc
+    # get clean lines
+    with open('brown_cleaned') as file:
+
+        for n, lines in enumerate(file):
+
+            sentences = lines.split(' ')
+            if len(sentences) < d / 2:
+                continue
+
+            for index, tagged_word in enumerate(sentences):
+                end = int(np.min([len(sentences), index + int(d / 2) + 1]))
+                start = int(np.max([0, index - int(d / 2) - 1]))
+
+                if not tagged_word in frequent_words:
                     continue
 
-                sentences = lines.split(' ')
+                # append at the last
+                window = sentences[start:index - 1] + sentences[index + 1:end]
 
-                for index, tagged_word in enumerate(sentences):
-                    end = index + int(d / 2)
-                    start = int(np.max([0, index - d / 2]))
+                for w_idx, word in enumerate(window):
+                    if not word in df.columns:
+                        df.ix[tagged_word, word] = 1
+                    elif not tagged_word in df.index:
+                        df.ix[tagged_word, :] = 0
+                        df.ix[tagged_word, word] += 1
+                    else:
+                        df.ix[tagged_word, word] += 1
 
-                    window = sentences[start:end]
-                    for w_idx, w in enumerate(sentences[start:end]):
-                        if not w in df.columns:
-                            df.ix[tagged_word.strip(), w.strip()] = 1
-                        else:
-                            df.ix[tagged_word.strip(), w.strip()] += 1
+        if n % 1000 == 0:
+            print "%s/%s [%s%%]" % (n, n_lines, n / n_lines)
 
-                    print window, start, end
-
+    # store df to csv
+    df.fillna(0)
+    df.to_csv('data/brown_all_no_punctuation.csv')
 
     # add word
 
